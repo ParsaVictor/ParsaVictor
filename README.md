@@ -116,7 +116,13 @@ class ParsaKarkooti:
 
 ### 🧰 Open source
 
-[![ai-project-template](https://github-readme-stats.vercel.app/api/pin/?username=ParsaVictor&repo=ai-project-template&theme=tokyonight&hide_border=true)](https://github.com/ParsaVictor/ai-project-template)
+**[ai-project-template](https://github.com/ParsaVictor/ai-project-template)** — a clean, reproducible starting point for CV/ML projects.
+Config-driven training, seeded runs, framework-free metrics, pytest suite and CI out of the box.
+
+[![CI](https://github.com/ParsaVictor/ai-project-template/actions/workflows/ci.yml/badge.svg)](https://github.com/ParsaVictor/ai-project-template/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ParsaVictor/ai-project-template/blob/main/LICENSE)
+[![Template](https://img.shields.io/badge/use%20this-template-2EA043?logo=github)](https://github.com/ParsaVictor/ai-project-template/generate)
+[![Stars](https://img.shields.io/github/stars/ParsaVictor/ai-project-template?style=social)](https://github.com/ParsaVictor/ai-project-template/stargazers)
 
 ---
 
@@ -154,8 +160,17 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ParsaVictor&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight&icon_color=00B4D8" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParsaVictor&layout=compact&hide_border=true&langs_count=8&theme=tokyonight" alt="Top languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ParsaVictor&theme=tokyonight" alt="Profile summary" width="100%" />
+
+<br>
+
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ParsaVictor&theme=tokyonight" alt="Repos per language" />
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ParsaVictor&theme=tokyonight" alt="Most commit language" />
+
+<br>
+
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ParsaVictor&theme=tokyonight" alt="Stats" />
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ParsaVictor&theme=tokyonight&utcOffset=3.5" alt="Productive time" />
 
 <br><br>
 
@@ -164,10 +179,6 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 <br><br>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=ParsaVictor&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Activity graph" width="100%" />
-
-<br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=ParsaVictor&theme=nord&no-frame=true&no-bg=true&margin-w=8&column=7" alt="Trophies" />
 
 </div>
 
