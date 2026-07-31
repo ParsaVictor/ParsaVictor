@@ -8,10 +8,12 @@
 
 <table>
 <tr>
-<td width="34%" align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/portrait.svg" alt="Portrait rendered as a dot matrix" width="230" />
+<td width="36%" align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/morph.svg" alt="Dot matrix morphing between a portrait, the Python logo, a camera and a neural network" width="250" />
+<br>
+<sub>900 dots · me → Python → vision → neural net</sub>
 </td>
-<td width="66%" valign="middle">
+<td width="64%" valign="middle">
 
 I design and ship end-to-end AI solutions — from problem definition and research
 to a working, optimized system running under real-world constraints.
@@ -44,6 +46,22 @@ to a working, optimized system running under real-world constraints.
 
 ---
 
+## 🐍 Watch the snake eat my contributions
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/snake.svg" />
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/snake.svg" width="100%" />
+</picture>
+
+<sub>Regenerated automatically twice a day by <a href="https://github.com/ParsaVictor/ParsaVictor/actions">GitHub Actions</a>.</sub>
+
+</div>
+
+---
+
 ## 🚀 About Me
 
 ```python
@@ -60,6 +78,20 @@ class ParsaKarkooti:
 - 🏭 Built real systems for **industrial visual inspection**, **real-time multi-stream video intelligence**, **recommendation**, and **multimodal search**.
 - ⚡ Strong on the unglamorous parts — modular pipelines, VRAM-safe inference, hardware-aware deployment, real evaluation metrics.
 - 🎯 Currently publishing my project portfolio here, one carefully documented repository at a time.
+
+---
+
+## 🧊 The same year, in isometric 3D
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/profile-night-view.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/profile-season-animate.svg" />
+  <img alt="3D contribution calendar" src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/profile-night-view.svg" width="100%" />
+</picture>
+
+</div>
 
 ---
 
@@ -192,36 +224,6 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 <br><br>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=ParsaVictor&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Activity graph" width="100%" />
-
-</div>
-
----
-
-## 🐍 Watch the snake eat my contributions
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/snake.svg" />
-  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/snake.svg" width="100%" />
-</picture>
-
-<sub>Regenerated automatically twice a day by <a href="https://github.com/ParsaVictor/ParsaVictor/actions">GitHub Actions</a>.</sub>
-
-</div>
-
----
-
-## 🧊 The same year, in isometric 3D
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/profile-night-view.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/profile-season-animate.svg" />
-  <img alt="3D contribution calendar" src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/profile-night-view.svg" width="100%" />
-</picture>
 
 </div>
 
