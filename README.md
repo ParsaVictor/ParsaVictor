@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00B4D8&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Mohammad+Parsa+Karkooti;AI+Engineer+%7C+Computer+Vision+%7C+Deep+Learning;I+turn+research+into+systems+that+run+in+production" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Mohammad%20Parsa%20Karkooti&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=AI%20Engineer%20%C2%B7%20Computer%20Vision%20%C2%B7%20Deep%20Learning&descAlignY=54&descSize=18" alt="banner" width="100%" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00B4D8&center=true&vCenter=true&width=650&lines=I+build+intelligent+systems+that+run+in+production;Computer+Vision+%7C+Deep+Learning+%7C+Video+Intelligence;From+problem+definition+to+deployment" alt="Typing SVG" />
 
 <br>
-
-**AI Engineer · Computer Vision & Deep Learning · Intelligent Systems**
 
 I design and ship end-to-end AI solutions — from problem definition and research
 to a working, optimized system running under real-world constraints.
@@ -22,6 +22,10 @@ to a working, optimized system running under real-world constraints.
 <a href="https://t.me/Parsa_Karkooti"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
 <a href="mailto:1.parsa.karkooti@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 <img src="https://img.shields.io/badge/Open%20to-AI%20Engineering%20Roles-2EA043?style=for-the-badge" alt="Open to work">
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=ParsaVictor&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 
 </div>
 
@@ -110,6 +114,10 @@ class ParsaKarkooti:
 | **3D Point Cloud Processing** | Curve reconstruction and feature-preserving denoising — benchmark of 5 academic algorithms | PCA · Clustering · Least-squares | ![](https://img.shields.io/badge/research-blue) |
 | **Medical Image Analysis** | Retinal disease detection: classification and feature extraction | CNN · Transfer learning | ![](https://img.shields.io/badge/research-blue) |
 
+### 🧰 Open source
+
+[![ai-project-template](https://github-readme-stats.vercel.app/api/pin/?username=ParsaVictor&repo=ai-project-template&theme=tokyonight&hide_border=true)](https://github.com/ParsaVictor/ai-project-template)
+
 ---
 
 ## 🧭 What I'm Good At
@@ -151,7 +159,31 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 
 <br><br>
 
+<img src="https://streak-stats.demolab.com?user=ParsaVictor&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="Contribution streak" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ParsaVictor&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Activity graph" width="100%" />
+
+<br>
+
 <img src="https://github-profile-trophy.vercel.app/?username=ParsaVictor&theme=nord&no-frame=true&no-bg=true&margin-w=8&column=7" alt="Trophies" />
+
+</div>
+
+---
+
+## 🐍 Watch the snake eat my contributions
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/snake.svg" />
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/snake.svg" width="100%" />
+</picture>
+
+<sub>Regenerated automatically twice a day by <a href="https://github.com/ParsaVictor/ParsaVictor/actions">GitHub Actions</a>.</sub>
 
 </div>
 
@@ -168,5 +200,7 @@ I'm open to **AI Engineering roles**, research collaboration, and interesting co
 <br><br>
 
 *"Turning technical knowledge into results that work in the real world."*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer" alt="footer" width="100%" />
 
 </div>
