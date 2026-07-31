@@ -1,7 +1,7 @@
-name: Generate contribution snake
+name: Generate profile graphics
 
 on:
-  # Refresh the animation twice a day so it reflects recent contributions.
+  # Refresh twice a day so the graphics reflect recent contributions.
   schedule:
     - cron: "0 2,14 * * *"
   # Allow a manual run from the Actions tab.
@@ -12,20 +12,33 @@ on:
 
 jobs:
   generate:
-    name: Build and publish the snake SVG
+    name: Build snake + 3D calendar, publish to output branch
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
+      - uses: actions/checkout@v4
+
       - name: Render the contribution grid as a snake
         uses: Platane/snk@v3
-        id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
+
+      - name: Render the contribution grid as an isometric 3D calendar
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Collect the 3D output alongside the snake
+        run: |
+          ls -la profile-3d-contrib/
+          cp profile-3d-contrib/*.svg dist/
+          ls -la dist/
 
       - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v4

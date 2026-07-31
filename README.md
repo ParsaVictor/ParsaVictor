@@ -2,9 +2,16 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Mohammad%20Parsa%20Karkooti&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=AI%20Engineer%20%C2%B7%20Computer%20Vision%20%C2%B7%20Deep%20Learning&descAlignY=54&descSize=18" alt="banner" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00B4D8&center=true&vCenter=true&width=650&lines=I+build+intelligent+systems+that+run+in+production;Computer+Vision+%7C+Deep+Learning+%7C+Video+Intelligence;From+problem+definition+to+deployment" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00B4D8&center=true&vCenter=true&width=720&height=45&lines=AI+Engineer+%7C+Computer+Vision+%7C+Deep+Learning;I+build+systems+that+run+in+production;From+research+paper+to+deployed+code" alt="Typing SVG" />
 
-<br>
+</div>
+
+<table>
+<tr>
+<td width="34%" align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/portrait.svg" alt="Portrait rendered as a dot matrix" width="230" />
+</td>
+<td width="66%" valign="middle">
 
 I design and ship end-to-end AI solutions — from problem definition and research
 to a working, optimized system running under real-world constraints.
@@ -15,6 +22,12 @@ to a working, optimized system running under real-world constraints.
 سیستم‌های هوشمند کاربردی را از تعریف مسئله تا استقرار نهایی طراحی و پیاده‌سازی می‌کنم.
 
 </div>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
 
 <br>
 
@@ -195,6 +208,20 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 </picture>
 
 <sub>Regenerated automatically twice a day by <a href="https://github.com/ParsaVictor/ParsaVictor/actions">GitHub Actions</a>.</sub>
+
+</div>
+
+---
+
+## 🧊 The same year, in isometric 3D
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/profile-night-view.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/profile-season-animate.svg" />
+  <img alt="3D contribution calendar" src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/profile-night-view.svg" width="100%" />
+</picture>
 
 </div>
 
