@@ -35,8 +35,10 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
 
       - name: Collect the 3D output alongside the snake
+        # snk runs in a container as root, so dist/ is root-owned and the
+        # runner user cannot write into it without taking ownership first.
         run: |
-          ls -la profile-3d-contrib/
+          sudo chown -R "$(id -u):$(id -g)" dist
           cp profile-3d-contrib/*.svg dist/
           ls -la dist/
 
