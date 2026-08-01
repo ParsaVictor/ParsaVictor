@@ -2,7 +2,7 @@ param(
   [string]$Sp,
   [string]$OutSvg,
   [string]$OutPngDir,
-  [int]$N = 1200,
+  [int]$N = 750,     # ~750 keeps the shapes legible while staying smooth to animate
   [int]$View = 460
 )
 

@@ -11,7 +11,7 @@
 <td width="36%" align="center">
 <img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/morph.svg" alt="Dot matrix morphing between a portrait, the Python logo, a camera, the OpenCV logo and a neural network" width="260" />
 <br>
-<sub>1100 dots in full colour<br>me → Python → camera → OpenCV → neural net</sub>
+<sub>750 dots in full colour<br>me → Python → camera → OpenCV → neural net</sub>
 </td>
 <td width="64%" valign="middle">
 
