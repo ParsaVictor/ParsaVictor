@@ -2,7 +2,7 @@ param(
   [string]$Sp,
   [string]$OutSvg,
   [string]$OutPngDir,
-  [int]$N = 750,     # ~750 keeps the shapes legible while staying smooth to animate
+  [int]$N = 640,     # enough for legible shapes, few enough to animate smoothly
   [int]$View = 460
 )
 
@@ -181,24 +181,7 @@ $fg.Dispose(); $oval.Dispose(); $crop.Dispose()
 Fix-Photo $face
 $face.Save("$Sp\face_corrected.png", [System.Drawing.Imaging.ImageFormat]::Png)
 
-# 3. camera, drawn in colour — computer vision
-$cam = New-Object System.Drawing.Bitmap(220, 220)
-$cg = [System.Drawing.Graphics]::FromImage($cam)
-$cg.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
-$bBody  = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(255, 45, 105, 160))
-$bTop   = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(255, 32, 74, 118))
-$bRing  = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(255, 0, 200, 232))
-$bGlass = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(255, 124, 58, 237))
-$bFlash = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(255, 255, 209, 102))
-$cg.FillRectangle($bTop, 72, 42, 52, 20)
-$cg.FillRectangle($bBody, 20, 60, 180, 118)
-$cg.FillEllipse($bRing, 68, 70, 84, 84)
-$cg.FillEllipse($bGlass, 82, 84, 56, 56)
-$cg.FillEllipse($bRing, 98, 100, 24, 24)
-$cg.FillEllipse($bFlash, 164, 72, 18, 18)
-$cg.Dispose()
-
-# 5. neural network, drawn in colour — deep learning
+# 3. neural network, drawn in colour — deep learning
 $net = New-Object System.Drawing.Bitmap(220, 220)
 $ng = [System.Drawing.Graphics]::FromImage($net)
 $ng.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
@@ -222,8 +205,7 @@ $sources = @(
   # Fix-Photo already balanced and stretched the photo, so no extra boost here.
   @{ name = 'portrait'; bmp = $face;                                              thresh = 0.0;  mode = 'mask'; sat = 1.00; lift = 0.00 },
   @{ name = 'python';   bmp = [System.Drawing.Bitmap]::FromFile("$Sp\python.png"); thresh = 0.10; mode = 'ink';  sat = 1.15; lift = 0.05 },
-  @{ name = 'camera';   bmp = $cam;                                                thresh = 0.20; mode = 'ink';  sat = 1.10; lift = 0.02 },
-  @{ name = 'opencv';   bmp = [System.Drawing.Bitmap]::FromFile("$Sp\opencv.png"); thresh = 0.10; mode = 'ink';  sat = 1.20; lift = 0.05 },
+  @{ name = 'opencv';   bmp = [System.Drawing.Bitmap]::FromFile("$Sp\opencv.png"); thresh = 0.10; mode = 'ink';  sat = 1.20; lift = 0.10 },
   @{ name = 'network';  bmp = $net;                                                thresh = 0.20; mode = 'ink';  sat = 1.10; lift = 0.02 }
 )
 
@@ -237,10 +219,16 @@ foreach ($s in $sources) {
 
 # ---------------- emit ----------------
 
-$keyTimes = "0;0.14;0.20;0.34;0.40;0.54;0.60;0.74;0.80;0.94;1"
-$order = @(0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 0)
-$dur = "30s"
+# Four shapes on a 32s loop: 4.8s resting on each, 3.2s easing between.
+# calcMode/keySplines give an ease-in-out on every segment — linear timing is
+# what made the motion feel mechanical, with dots snapping into and out of
+# movement instead of drifting.
+$keyTimes   = "0;.15;.25;.4;.5;.65;.75;.9;1"
+$keySplines = (".5 0 .5 1;" * 8).TrimEnd(';')
+$order = @(0, 0, 1, 1, 2, 2, 3, 3, 0)
+$dur = "32s"
 
+$script:rAnim = 0
 $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine("<svg xmlns=`"http://www.w3.org/2000/svg`" width=`"$View`" height=`"$View`" viewBox=`"0 0 $View $View`" role=`"img`" aria-label=`"Dot matrix morphing between a portrait, the Python logo, a camera, the OpenCV logo and a neural network`">")
 
@@ -254,12 +242,23 @@ for ($d = 0; $d -lt $N; $d++) {
     $rs += [Math]::Round($k * 0.42 * $p.i, 1)
     $cs += $p.c
   }
-  $b = [Math]::Round(-1.6 * $rng.NextDouble(), 2)
-  [void]$sb.Append("<circle r=`"$($rs[0])`" fill=`"$($cs[0])`">")
-  [void]$sb.Append("<animate attributeName=`"cx`" values=`"$($xs -join ';')`" keyTimes=`"$keyTimes`" dur=`"$dur`" begin=`"${b}s`" repeatCount=`"indefinite`"/>")
-  [void]$sb.Append("<animate attributeName=`"cy`" values=`"$($ys -join ';')`" keyTimes=`"$keyTimes`" dur=`"$dur`" begin=`"${b}s`" repeatCount=`"indefinite`"/>")
-  [void]$sb.Append("<animate attributeName=`"r`" values=`"$($rs -join ';')`" keyTimes=`"$keyTimes`" dur=`"$dur`" begin=`"${b}s`" repeatCount=`"indefinite`"/>")
-  [void]$sb.Append("<animate attributeName=`"fill`" values=`"$($cs -join ';')`" keyTimes=`"$keyTimes`" dur=`"$dur`" begin=`"${b}s`" repeatCount=`"indefinite`"/>")
+  # A small per-dot phase offset makes the change ripple across the shape
+  # rather than snapping in lockstep. Kept under a second so it still reads
+  # as one calm movement.
+  $b = [Math]::Round(-0.9 * $rng.NextDouble(), 2)
+  $tail = "keyTimes=`"$keyTimes`" calcMode=`"spline`" keySplines=`"$keySplines`" dur=`"$dur`" begin=`"${b}s`" repeatCount=`"indefinite`"/>"
+  # Only animate the radius when it actually changes; for dots that stay the
+  # same size across every shape a static r is one less channel to tick.
+  $rMin = ($rs | Measure-Object -Minimum).Minimum
+  $rMax = ($rs | Measure-Object -Maximum).Maximum
+  $rVaries = ($rMax - $rMin) -ge 0.4
+  if ($rVaries) { $r0 = $rs[0] } else { $r0 = [Math]::Round(($rMin + $rMax) / 2, 1) }
+
+  [void]$sb.Append("<circle r=`"$r0`" fill=`"$($cs[0])`">")
+  [void]$sb.Append("<animate attributeName=`"cx`" values=`"$($xs -join ';')`" $tail")
+  [void]$sb.Append("<animate attributeName=`"cy`" values=`"$($ys -join ';')`" $tail")
+  if ($rVaries) { [void]$sb.Append("<animate attributeName=`"r`" values=`"$($rs -join ';')`" $tail") ; $script:rAnim++ }
+  [void]$sb.Append("<animate attributeName=`"fill`" values=`"$($cs -join ';')`" $tail")
   [void]$sb.AppendLine("</circle>")
 }
 [void]$sb.AppendLine("</svg>")
@@ -284,4 +283,5 @@ for ($s = 0; $s -lt $shapes.Count; $s++) {
   $pg.Dispose(); $pv.Dispose()
 }
 
-Write-Output "dots=$N  svgBytes=$((Get-Item $OutSvg).Length)"
+$animates = $N * 3 + $script:rAnim
+Write-Output "dots=$N  rAnimated=$($script:rAnim)  totalAnimates=$animates  svgBytes=$((Get-Item $OutSvg).Length)"
