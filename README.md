@@ -489,7 +489,7 @@ _No releases published yet — this section will fill in automatically the day I
 | Repo | Description | Language | |
 |:--|:--|:--|:--|
 | [`ai-project-template`](https://github.com/ParsaVictor/ai-project-template) | Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded runs, tests and CI out of the box. | <img src="https://img.shields.io/badge/-Python-F90001?style=flat-square" alt="Python" /> | ⭐ 0 · 🍴 0 |
-| [`ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor) | My GitHub profile README - AI Engineer \| Computer Vision & Deep Learning | <img src="https://img.shields.io/badge/-PowerShell-F90001?style=flat-square" alt="PowerShell" /> | ⭐ 2 · 🍴 0 |
+| [`ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor) | My GitHub profile README - AI Engineer \| Computer Vision & Deep Learning | <img src="https://img.shields.io/badge/-JavaScript-F90001?style=flat-square" alt="JavaScript" /> | ⭐ 2 · 🍴 0 |
 <!-- PINNED_REPOS:END -->
 
 </details>
