@@ -280,16 +280,96 @@ _City snapshot: refreshing…_
 > I'm publishing my portfolio here one repository at a time — each with architecture,
 > reproducible setup, real metrics and a demo. Status badges below are honest and live.
 
-| Project | What it does | Core stack | Status |
-|:--|:--|:--|:--|
-| **VisionGuard** — Industrial Visual Inspection | Deep-learning AOI system detecting surface defects and missing components on the production line | YOLO · PyTorch · OpenCV | ![](https://img.shields.io/badge/in%20preparation-yellow) |
-| **Intelligent Video Surveillance Platform** | Modular real-time AI over **32+ CCTV streams** — face recognition, tracking, anomaly detection (14 event classes), fire/smoke and intrusion alerts, per-camera web panel | VideoMAE · InsightFace/ArcFace · SQLite | ![](https://img.shields.io/badge/in%20preparation-yellow) |
-| **Shoplifting Behavior Detection** | Temporal video understanding combining pose estimation and object tracking to flag suspicious in-store behavior | Pose estimation · Tracking · Video Transformers | ![](https://img.shields.io/badge/planned-lightgrey) |
-| **Hybrid Freelancer Recommender** | Content + collaborative hybrid solving the cold-start problem, evaluated with Precision@K, Hit Rate and NDCG | Deep Autoencoder · TF-IDF · Truncated SVD | ![](https://img.shields.io/badge/planned-lightgrey) |
-| **PCB Component Detection** | Automated optical inspection of PCBs, robust to variable lighting and camera angle | YOLO · CNN · Image processing | ![](https://img.shields.io/badge/planned-lightgrey) |
-| **Open-Vocabulary Media Search** | Natural-language search across a media library with incremental embeddings and biometric indexing, on a VRAM-safe pipeline | CLIP ViT-L/14 (FP16) · InsightFace · SQLite | ![](https://img.shields.io/badge/planned-lightgrey) |
-| **3D Point Cloud Processing** | Curve reconstruction and feature-preserving denoising — benchmark of 5 academic algorithms | PCA · Clustering · Least-squares | ![](https://img.shields.io/badge/research-blue) |
-| **Medical Image Analysis** | Retinal disease detection: classification and feature extraction | CNN · Transfer learning | ![](https://img.shields.io/badge/research-blue) |
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+#### VisionGuard
+**Industrial Visual Inspection** · ![](https://img.shields.io/badge/in%20preparation-yellow)
+
+Deep-learning AOI system detecting surface defects and missing components on the production line.
+
+`YOLO` `PyTorch` `OpenCV`
+
+</td>
+<td width="50%" valign="top">
+
+#### Intelligent Video Surveillance Platform
+![](https://img.shields.io/badge/in%20preparation-yellow)
+
+Modular real-time AI over **32+ CCTV streams** — face recognition, tracking, anomaly detection (14 event classes), fire/smoke and intrusion alerts, per-camera web panel.
+
+`VideoMAE` `InsightFace/ArcFace` `SQLite`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### Shoplifting Behavior Detection
+![](https://img.shields.io/badge/planned-lightgrey)
+
+Temporal video understanding combining pose estimation and object tracking to flag suspicious in-store behavior.
+
+`Pose estimation` `Tracking` `Video Transformers`
+
+</td>
+<td width="50%" valign="top">
+
+#### Hybrid Freelancer Recommender
+![](https://img.shields.io/badge/planned-lightgrey)
+
+Content + collaborative hybrid solving the cold-start problem, evaluated with Precision@K, Hit Rate and NDCG.
+
+`Deep Autoencoder` `TF-IDF` `Truncated SVD`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### PCB Component Detection
+![](https://img.shields.io/badge/planned-lightgrey)
+
+Automated optical inspection of PCBs, robust to variable lighting and camera angle.
+
+`YOLO` `CNN` `Image processing`
+
+</td>
+<td width="50%" valign="top">
+
+#### Open-Vocabulary Media Search
+![](https://img.shields.io/badge/planned-lightgrey)
+
+Natural-language search across a media library with incremental embeddings and biometric indexing, on a VRAM-safe pipeline.
+
+`CLIP ViT-L/14 (FP16)` `InsightFace` `SQLite`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 3D Point Cloud Processing
+![](https://img.shields.io/badge/research-blue)
+
+Curve reconstruction and feature-preserving denoising — benchmark of 5 academic algorithms.
+
+`PCA` `Clustering` `Least-squares`
+
+</td>
+<td width="50%" valign="top">
+
+#### Medical Image Analysis
+![](https://img.shields.io/badge/research-blue)
+
+Retinal disease detection: classification and feature extraction.
+
+`CNN` `Transfer learning`
+
+</td>
+</tr>
+</table>
 
 ### 🧰 Open source
 
@@ -396,6 +476,11 @@ _No releases published yet — this section will fill in automatically the day I
 
 ## 📌 Pinned Repositories
 
+<details open>
+<summary align="center"><b>📌 Whatever's actually pinned on the profile</b></summary>
+
+<br/>
+
 <!-- PINNED_REPOS:START -->
 <p align="center"><sub>🔄 Auto-refreshed daily · <b>2</b> pinned repos.</sub></p>
 
@@ -404,6 +489,8 @@ _No releases published yet — this section will fill in automatically the day I
 | [`ai-project-template`](https://github.com/ParsaVictor/ai-project-template) | Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded runs, tests and CI out of the box. | <img src="https://img.shields.io/badge/-Python-F90001?style=flat-square" alt="Python" /> | ⭐ 0 · 🍴 0 |
 | [`ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor) | My GitHub profile README - AI Engineer \| Computer Vision & Deep Learning | <img src="https://img.shields.io/badge/-PowerShell-F90001?style=flat-square" alt="PowerShell" /> | ⭐ 2 · 🍴 0 |
 <!-- PINNED_REPOS:END -->
+
+</details>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
