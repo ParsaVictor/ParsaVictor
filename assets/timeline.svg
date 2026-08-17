@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#1a0505" />
+    </linearGradient>
+    <style>
+      .date { fill: #FF9C8C; font: 700 12px "JetBrains Mono", ui-monospace, monospace; }
+      .title { fill: #FFF5F0; font: 700 14px "JetBrains Mono", ui-monospace, monospace; }
+      .sub { fill: #C98A80; font: 400 11px "JetBrains Mono", ui-monospace, monospace; }
+      .caption { fill: #7a3b34; font: 400 11px "JetBrains Mono", ui-monospace, monospace; letter-spacing: 2px; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="960" height="220" rx="14" fill="url(#bg)" />
+  <text x="480" y="28" text-anchor="middle" class="caption">REAL MILESTONES ONLY — NO FABRICATED HISTORY</text>
+  <line x1="60" y1="130" x2="900" y2="130" stroke="#F90001" stroke-opacity="0.4" stroke-width="2" />
+  
+  <g>
+    <circle cx="140" cy="130" r="9" fill="#0D1117" stroke="#F90001" stroke-width="2.5">
+      <animate attributeName="r" values="8;10;8" dur="2.4s" begin="0s" repeatCount="indefinite" />
+    </circle>
+    <text x="140" y="108" text-anchor="middle" class="date">31 Jul 2026</text>
+    <text x="140" y="164" text-anchor="middle" class="title">ai-project-template</text>
+    <text x="140" y="182" text-anchor="middle" class="sub">Reproducible CV/ML starter published</text>
+  </g>
+  <g>
+    <circle cx="480" cy="130" r="9" fill="#0D1117" stroke="#F90001" stroke-width="2.5">
+      <animate attributeName="r" values="8;10;8" dur="2.4s" begin="0.3s" repeatCount="indefinite" />
+    </circle>
+    <text x="480" y="108" text-anchor="middle" class="date">31 Jul 2026</text>
+    <text x="480" y="164" text-anchor="middle" class="title">ParsaVictor/ParsaVictor</text>
+    <text x="480" y="182" text-anchor="middle" class="sub">Profile repo created</text>
+  </g>
+  <g>
+    <circle cx="820" cy="130" r="9" fill="#0D1117" stroke="#F90001" stroke-width="2.5">
+      <animate attributeName="r" values="8;10;8" dur="2.4s" begin="0.6s" repeatCount="indefinite" />
+    </circle>
+    <text x="820" y="108" text-anchor="middle" class="date">17 Aug 2026</text>
+    <text x="820" y="164" text-anchor="middle" class="title">Live automation shipped</text>
+    <text x="820" y="182" text-anchor="middle" class="sub">Highlights · Activity · Releases · Pins</text>
+  </g>
+</svg>
+

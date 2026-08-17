@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#1a0505" />
+      <stop offset="100%" stop-color="#0D1117" />
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <style>
+      .node-label { fill: #FFDDD6; font: 700 13px "JetBrains Mono", ui-monospace, monospace; }
+      .center-label { fill: #FFF5F0; font: 700 16px "JetBrains Mono", ui-monospace, monospace; }
+      .sub-label { fill: #FF9C8C; font: 400 11px "JetBrains Mono", ui-monospace, monospace; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="420" fill="url(#bg)" />
+
+  
+  <circle cx="480" cy="210" r="80" fill="none" stroke="#F90001" stroke-opacity="0.18" stroke-width="1" />
+  <g transform="translate(480 210)">
+    <g>
+      <g transform="translate(80.0 0.0)">
+      <circle r="22" fill="#0D1117" stroke="#F90001" stroke-width="1.6" />
+      <text text-anchor="middle" dy="5" class="node-label">Py</text>
+      <title>Python</title>
+    </g><g transform="translate(-40.0 69.3)">
+      <circle r="22" fill="#0D1117" stroke="#F90001" stroke-width="1.6" />
+      <text text-anchor="middle" dy="5" class="node-label">C++</text>
+      <title>C++</title>
+    </g><g transform="translate(-40.0 -69.3)">
+      <circle r="22" fill="#0D1117" stroke="#F90001" stroke-width="1.6" />
+      <text text-anchor="middle" dy="5" class="node-label">SQL</text>
+      <title>SQL</title>
+    </g>
+      <animateTransform attributeName="transform" type="rotate"
+        from="0 0 0" to="360 0 0" dur="22s" repeatCount="indefinite" />
+    </g>
+  </g>
+  <circle cx="480" cy="210" r="150" fill="none" stroke="#F90001" stroke-opacity="0.18" stroke-width="1" />
+  <g transform="translate(480 210)">
+    <g>
+      <g transform="translate(150.0 0.0)">
+      <circle r="22" fill="#0D1117" stroke="#F90001" stroke-width="1.6" />
+      <text text-anchor="middle" dy="5" class="node-label">PT</text>
+      <title>PyTorch</title>
+    </g><g transform="translate(0.0 150.0)">
+      <circle r="22" fill="#0D1117" stroke="#F90001" stroke-width="1.6" />
+      <text text-anchor="middle" dy="5" class="node-label">TF</text>
+      <title>TensorFlow</title>
+    </g><g transform="translate(-150.0 0.0)">
+      <circle r="22" fill="#0D1117" stroke="#F90001" stroke-width="1.6" />
+      <text text-anchor="middle" dy="5" class="node-label">CV</text>
+      <title>OpenCV</title>
+    </g><g transform="translate(-0.0 -150.0)">
+      <circle r="22" fill="#0D1117" stroke="#F90001" stroke-width="1.6" />
+      <text text-anchor="middle" dy="5" class="node-label">YO</text>
+      <title>YOLO</title>
+    </g>
+      <animateTransform attributeName="transform" type="rotate"
+        from="0 0 0" to="-360 0 0" dur="34s" repeatCount="indefinite" />
+    </g>
+  </g>
+  <circle cx="480" cy="210" r="215" fill="none" stroke="#F90001" stroke-opacity="0.18" stroke-width="1" />
+  <g transform="translate(480 210)">
+    <g>
+      <g transform="translate(215.0 0.0)">
+      <circle r="22" fill="#0D1117" stroke="#F90001" stroke-width="1.6" />
+      <text text-anchor="middle" dy="5" class="node-label">Dk</text>
+      <title>Docker</title>
+    </g><g transform="translate(66.4 204.5)">
+      <circle r="22" fill="#0D1117" stroke="#F90001" stroke-width="1.6" />
+      <text text-anchor="middle" dy="5" class="node-label">Git</text>
+      <title>Git</title>
+    </g><g transform="translate(-173.9 126.4)">
+      <circle r="22" fill="#0D1117" stroke="#F90001" stroke-width="1.6" />
+      <text text-anchor="middle" dy="5" class="node-label">FA</text>
+      <title>FastAPI</title>
+    </g><g transform="translate(-173.9 -126.4)">
+      <circle r="22" fill="#0D1117" stroke="#F90001" stroke-width="1.6" />
+      <text text-anchor="middle" dy="5" class="node-label">SQ</text>
+      <title>SQLite</title>
+    </g><g transform="translate(66.4 -204.5)">
+      <circle r="22" fill="#0D1117" stroke="#F90001" stroke-width="1.6" />
+      <text text-anchor="middle" dy="5" class="node-label">Lx</text>
+      <title>Linux</title>
+    </g>
+      <animateTransform attributeName="transform" type="rotate"
+        from="0 0 0" to="360 0 0" dur="48s" repeatCount="indefinite" />
+    </g>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="480" cy="210" r="46" fill="#0D1117" stroke="#F90001" stroke-width="2.5">
+      <animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  <text x="480" y="206" text-anchor="middle" class="center-label">PARSA</text>
+  <text x="480" y="224" text-anchor="middle" class="sub-label">AI Engineer</text>
+</svg>
+

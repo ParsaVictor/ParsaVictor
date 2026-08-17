@@ -112,10 +112,22 @@ class ParsaKarkooti:
 - 🎯 Currently publishing my project portfolio here, one carefully documented repository at a time.
 
 <div align="center">
+
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/orbit.svg" width="100%" alt="Real stack items orbiting a center mark, three rings rotating at different speeds" />
+
+</div>
+
+<div align="center">
 <img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
 </div>
 
 ## 🚀 Yearly Highlights
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/timeline.svg" width="100%" alt="Real, dated milestones — no fabricated career history" />
+
+</div>
 
 <!-- HIGHLIGHTS_STATS:START -->
 <p align="center"><b>📊 2026, live from GitHub</b></p>
@@ -416,6 +428,12 @@ Passing through? Leave a note — I read every one.
 ### 🤝 Let's build something
 
 I'm open to **AI Engineering roles**, research collaboration, and interesting computer-vision problems.
+
+<a href="https://www.linkedin.com/in/parsa-karkooti" aria-label="LinkedIn"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/social-linkedin.svg" width="70" alt="LinkedIn" /></a>
+<a href="https://t.me/Parsa_Karkooti" aria-label="Telegram"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/social-telegram.svg" width="70" alt="Telegram" /></a>
+<a href="mailto:1.parsa.karkooti@gmail.com" aria-label="Email"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/social-email.svg" width="70" alt="Email" /></a>
+
+<br>
 
 <a href="mailto:1.parsa.karkooti@gmail.com"><img src="https://img.shields.io/badge/Get%20in%20touch-1.parsa.karkooti@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 
