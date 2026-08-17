@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:F90001&height=200&section=header&text=Mohammad%20Parsa%20Karkooti&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=AI%20Engineer%20%C2%B7%20Computer%20Vision%20%C2%B7%20Deep%20Learning&descAlignY=54&descSize=18" alt="banner" width="100%" />
 
 <a href="https://github.com/ParsaVictor">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/identity-mark.svg" width="140" height="140" alt="Pulsing aperture mark — an original identity glyph, not a GitHub logo redraw" />
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/identity-mark.svg" width="160" height="160" alt="Octocat identity mark with a pulsing red halo" />
 </a>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=F90001&center=true&vCenter=true&width=720&height=45&lines=AI+Engineer+%7C+Computer+Vision+%7C+Deep+Learning;I+build+systems+that+run+in+production;From+research+paper+to+deployed+code" alt="Typing SVG" />
