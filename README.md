@@ -52,12 +52,16 @@ to a working, optimized system running under real-world constraints.
 
 [🐍 Snake](#-watch-the-snake-eat-my-contributions) ·
 [🚀 About](#-about-me) ·
+[🚀 Highlights](#-yearly-highlights) ·
 [🧠 Skill Atlas](#-neural-skill-atlas) ·
 [🛠️ Tech Stack](#️-tech-stack) ·
 [🧊 3D View](#-the-same-year-in-isometric-3d) ·
 [🌆 Skylines & Cities](#-github-skylines--github-cities) ·
 [📌 Featured Work](#-featured-work) ·
 [📊 Activity](#-github-activity) ·
+[⚡ Recent](#-recent-activity) ·
+[📦 Releases](#-latest-releases) ·
+[📌 Pinned](#-pinned-repositories) ·
 [📝 Say Hi](#-say-hi)
 
 </div>
@@ -96,6 +100,20 @@ class ParsaKarkooti:
 - 🏭 Built real systems for **industrial visual inspection**, **real-time multi-stream video intelligence**, **recommendation**, and **multimodal search**.
 - ⚡ Strong on the unglamorous parts — modular pipelines, VRAM-safe inference, hardware-aware deployment, real evaluation metrics.
 - 🎯 Currently publishing my project portfolio here, one carefully documented repository at a time.
+
+---
+
+## 🚀 Yearly Highlights
+
+<!-- HIGHLIGHTS_STATS:START -->
+<p align="center"><b>📊 2026, live from GitHub</b></p>
+<p align="center">
+<img src="https://img.shields.io/badge/Commits-19-F90001?style=for-the-badge&logo=git&logoColor=white" alt="Commits" />
+<img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white" alt="PRs" />
+<img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white" alt="Issues" />
+<img src="https://img.shields.io/badge/Active_in-2_of_2_repos-F90001?style=for-the-badge&logo=github&logoColor=white" alt="Active repos" />
+</p>
+<!-- HIGHLIGHTS_STATS:END -->
 
 ---
 
@@ -296,6 +314,42 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 <img src="https://github-trophy.vercel.app/?username=ParsaVictor&theme=radical&no-frame=true&column=4&margin-w=8" alt="GitHub trophies" width="100%" />
 
 </div>
+
+---
+
+## ⚡ Recent Activity
+
+<!-- ACTIVITY:START -->
+- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
+- ⭐ Starred [`AbdullahBakir97/AbdullahBakir97`](https://github.com/AbdullahBakir97/AbdullahBakir97)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
+- ⭐ Starred [`Mehrusa/python-mega-course-ardit`](https://github.com/Mehrusa/python-mega-course-ardit)
+<!-- ACTIVITY:END -->
+
+---
+
+## 📦 Latest Releases
+
+<!-- LATEST_RELEASES:START -->
+_No releases published yet — this section will fill in automatically the day I ship one._
+<!-- LATEST_RELEASES:END -->
+
+---
+
+## 📌 Pinned Repositories
+
+<!-- PINNED_REPOS:START -->
+<p align="center"><sub>🔄 Auto-refreshed daily · <b>2</b> pinned repos.</sub></p>
+
+| Repo | Description | Language | |
+|:--|:--|:--|:--|
+| [`ai-project-template`](https://github.com/ParsaVictor/ai-project-template) | Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded runs, tests and CI out of the box. | <img src="https://img.shields.io/badge/-Python-F90001?style=flat-square" alt="Python" /> | ⭐ 0 · 🍴 0 |
+| [`ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor) | My GitHub profile README - AI Engineer \| Computer Vision & Deep Learning | <img src="https://img.shields.io/badge/-PowerShell-F90001?style=flat-square" alt="PowerShell" /> | ⭐ 2 · 🍴 0 |
+<!-- PINNED_REPOS:END -->
 
 ---
 
