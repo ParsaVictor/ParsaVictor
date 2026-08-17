@@ -262,7 +262,7 @@ Outputs a real `.stl` file — open it in any 3D viewer, or send it to a printer
 **Drive it** — the same graph as a drivable 3D city, courtesy of [GithubCity](https://honzaap.github.io/GithubCity/) by honzaap. Every commit grows a building.
 
 <!-- CITY_SNAPSHOT:START -->
-_City snapshot: refreshing…_
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/city-snapshot.png" width="100%" alt="Real screenshot of my GithubCity — buildings grown from actual contributions" />
 <!-- CITY_SNAPSHOT:END -->
 
 [![Drive through it live](https://img.shields.io/badge/Drive%20through-live%203D-F90001?style=for-the-badge&logo=github)](https://honzaap.github.io/GithubCity?name=ParsaVictor)
