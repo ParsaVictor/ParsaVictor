@@ -44,7 +44,9 @@ to a working, optimized system running under real-world constraints.
 
 </div>
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## 📚 Quick Links
 
@@ -66,7 +68,9 @@ to a working, optimized system running under real-world constraints.
 
 </div>
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## 🐍 Watch the snake eat my contributions
 
@@ -82,7 +86,9 @@ to a working, optimized system running under real-world constraints.
 
 </div>
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## 🚀 About Me
 
@@ -101,7 +107,9 @@ class ParsaKarkooti:
 - ⚡ Strong on the unglamorous parts — modular pipelines, VRAM-safe inference, hardware-aware deployment, real evaluation metrics.
 - 🎯 Currently publishing my project portfolio here, one carefully documented repository at a time.
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## 🚀 Yearly Highlights
 
@@ -115,7 +123,9 @@ class ParsaKarkooti:
 </p>
 <!-- HIGHLIGHTS_STATS:END -->
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## 🧠 Neural Skill Atlas
 
@@ -127,7 +137,9 @@ class ParsaKarkooti:
 
 </div>
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## 🛠️ Tech Stack
 
@@ -189,7 +201,9 @@ class ParsaKarkooti:
 
 </div>
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## 🧊 The same year, in isometric 3D
 
@@ -199,15 +213,25 @@ class ParsaKarkooti:
 
 </div>
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## 🌆 GitHub Skylines & GitHub Cities
+
+<div align="center">
+
+<img alt="Contribution skyline — isometric city block of the last 365 days" src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/profile-gitblock.svg" width="100%" />
+
+<sub>Regenerated automatically alongside the snake and 3D views above.</sub>
+
+</div>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**Skyline** — my contribution graph as a 3D-printable model, built with GitHub's official [`gh-skyline`](https://github.com/github/gh-skyline) CLI extension:
+**Print it** — the same graph as a real 3D-printable model, built with GitHub's official [`gh-skyline`](https://github.com/github/gh-skyline) CLI extension:
 
 ```bash
 gh extension install github/gh-skyline
@@ -219,17 +243,21 @@ Outputs a real `.stl` file — open it in any 3D viewer, or send it to a printer
 </td>
 <td width="50%" valign="top">
 
-**City** — the same graph as a drivable 3D city, courtesy of [GithubCity](https://honzaap.github.io/GithubCity/) by honzaap. Every commit grows a building; six themes to explore in.
+**Drive it** — the same graph as a drivable 3D city, courtesy of [GithubCity](https://honzaap.github.io/GithubCity/) by honzaap. Every commit grows a building.
 
-[![Explore my GitHub City](https://img.shields.io/badge/Explore-GitHub%20City-F90001?style=for-the-badge&logo=github)](https://honzaap.github.io/GithubCity/)
+<!-- CITY_SNAPSHOT:START -->
+_City snapshot: refreshing…_
+<!-- CITY_SNAPSHOT:END -->
 
-<sub>Open the link, type <code>ParsaVictor</code>, watch the skyline grow.</sub>
+[![Drive through it live](https://img.shields.io/badge/Drive%20through-live%203D-F90001?style=for-the-badge&logo=github)](https://honzaap.github.io/GithubCity?name=ParsaVictor)
 
 </td>
 </tr>
 </table>
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## 📌 Featured Work
 
@@ -257,7 +285,9 @@ Config-driven training, seeded runs, framework-free metrics, pytest suite and CI
 [![Template](https://img.shields.io/badge/use%20this-template-2EA043?logo=github)](https://github.com/ParsaVictor/ai-project-template/generate)
 [![Stars](https://img.shields.io/github/stars/ParsaVictor/ai-project-template?style=social)](https://github.com/ParsaVictor/ai-project-template/stargazers)
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## 🧭 What I'm Good At
 
@@ -287,7 +317,9 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 </tr>
 </table>
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## 📊 GitHub Activity
 
@@ -315,7 +347,9 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 
 </div>
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## ⚡ Recent Activity
 
@@ -330,7 +364,9 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 - ⭐ Starred [`Mehrusa/python-mega-course-ardit`](https://github.com/Mehrusa/python-mega-course-ardit)
 <!-- ACTIVITY:END -->
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## 📦 Latest Releases
 
@@ -338,7 +374,9 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 _No releases published yet — this section will fill in automatically the day I ship one._
 <!-- LATEST_RELEASES:END -->
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## 📌 Pinned Repositories
 
@@ -351,7 +389,9 @@ _No releases published yet — this section will fill in automatically the day I
 | [`ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor) | My GitHub profile README - AI Engineer \| Computer Vision & Deep Learning | <img src="https://img.shields.io/badge/-PowerShell-F90001?style=flat-square" alt="PowerShell" /> | ⭐ 2 · 🍴 0 |
 <!-- PINNED_REPOS:END -->
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 ## 📝 Say Hi
 
@@ -363,7 +403,9 @@ Passing through? Leave a note — I read every one.
 
 </div>
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
+</div>
 
 <div align="center">
 

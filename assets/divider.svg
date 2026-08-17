@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 6" width="100%" height="6">
+  <defs>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0D1117" stop-opacity="0" />
+      <stop offset="45%" stop-color="#F90001" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#FF6B57" stop-opacity="1" />
+      <stop offset="55%" stop-color="#F90001" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0" />
+      <animateTransform attributeName="gradientTransform" type="translate"
+        from="-1 0" to="1 0" dur="3.2s" repeatCount="indefinite" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="6" fill="#2b0605" opacity="0.35" />
+  <rect x="0" y="0" width="1200" height="6" fill="url(#sweep)" />
+</svg>
+
