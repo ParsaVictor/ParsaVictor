@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6B57" />
+      <stop offset="100%" stop-color="#F90001" stop-opacity="0" />
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="100" cy="100" r="94" fill="#0D1117" />
+
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#F90001" stroke-width="3" filter="url(#glow)">
+    <animate attributeName="stroke" values="#F90001;#FF6B57;#F90001" dur="2.6s" repeatCount="indefinite" />
+    <animate attributeName="r" values="88;92;88" dur="2.6s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" values="0.65;1;0.65" dur="2.6s" repeatCount="indefinite" />
+  </circle>
+
+  <g filter="url(#glow)">
+    <g>
+      <path d="M 100 100 L 100 54 A 46 46 0 0 1 136.0 71.3 Z" fill="#0D1117" stroke="#F90001" stroke-width="1.4" stroke-opacity="0.85" transform="rotate(0.0 100 100)" /><path d="M 100 100 L 100 54 A 46 46 0 0 1 136.0 71.3 Z" fill="#0D1117" stroke="#F90001" stroke-width="1.4" stroke-opacity="0.85" transform="rotate(51.4 100 100)" /><path d="M 100 100 L 100 54 A 46 46 0 0 1 136.0 71.3 Z" fill="#0D1117" stroke="#F90001" stroke-width="1.4" stroke-opacity="0.85" transform="rotate(102.9 100 100)" /><path d="M 100 100 L 100 54 A 46 46 0 0 1 136.0 71.3 Z" fill="#0D1117" stroke="#F90001" stroke-width="1.4" stroke-opacity="0.85" transform="rotate(154.3 100 100)" /><path d="M 100 100 L 100 54 A 46 46 0 0 1 136.0 71.3 Z" fill="#0D1117" stroke="#F90001" stroke-width="1.4" stroke-opacity="0.85" transform="rotate(205.7 100 100)" /><path d="M 100 100 L 100 54 A 46 46 0 0 1 136.0 71.3 Z" fill="#0D1117" stroke="#F90001" stroke-width="1.4" stroke-opacity="0.85" transform="rotate(257.1 100 100)" /><path d="M 100 100 L 100 54 A 46 46 0 0 1 136.0 71.3 Z" fill="#0D1117" stroke="#F90001" stroke-width="1.4" stroke-opacity="0.85" transform="rotate(308.6 100 100)" />
+      <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="18s" repeatCount="indefinite" />
+    </g>
+  </g>
+
+  <circle cx="100" cy="100" r="20" fill="url(#core)">
+    <animate attributeName="r" values="17;22;17" dur="2.6s" repeatCount="indefinite" />
+  </circle>
+</svg>
+
