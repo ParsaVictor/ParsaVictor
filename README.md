@@ -53,7 +53,7 @@ to a working, optimized system running under real-world constraints.
 [🐍 Snake](#-watch-the-snake-eat-my-contributions) ·
 [🚀 About](#-about-me) ·
 [🧠 Skill Atlas](#-neural-skill-atlas) ·
-[🛠️ Tech Stack](#-tech-stack) ·
+[🛠️ Tech Stack](#️-tech-stack) ·
 [🧊 3D View](#-the-same-year-in-isometric-3d) ·
 [🌆 Skylines & Cities](#-github-skylines--github-cities) ·
 [📌 Featured Work](#-featured-work) ·
@@ -305,7 +305,7 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 
 <br><br>
 
-<img src="https://github-profile-trophy.vercel.app/?username=ParsaVictor&theme=tokyonight&no-frame=true&column=4&margin-w=8" alt="GitHub trophies" width="100%" />
+<img src="https://github-trophy.vercel.app/?username=ParsaVictor&theme=tokyonight&no-frame=true&column=4&margin-w=8" alt="GitHub trophies" width="100%" />
 
 </div>
 
