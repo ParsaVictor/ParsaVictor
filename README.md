@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Mohammad%20Parsa%20Karkooti&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=AI%20Engineer%20%C2%B7%20Computer%20Vision%20%C2%B7%20Deep%20Learning&descAlignY=54&descSize=18" alt="banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:F90001&height=200&section=header&text=Mohammad%20Parsa%20Karkooti&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=AI%20Engineer%20%C2%B7%20Computer%20Vision%20%C2%B7%20Deep%20Learning&descAlignY=54&descSize=18" alt="banner" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00B4D8&center=true&vCenter=true&width=720&height=45&lines=AI+Engineer+%7C+Computer+Vision+%7C+Deep+Learning;I+build+systems+that+run+in+production;From+research+paper+to+deployed+code" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=F90001&center=true&vCenter=true&width=720&height=45&lines=AI+Engineer+%7C+Computer+Vision+%7C+Deep+Learning;I+build+systems+that+run+in+production;From+research+paper+to+deployed+code" alt="Typing SVG" />
 
 </div>
 
@@ -36,11 +36,11 @@ to a working, optimized system running under real-world constraints.
 <a href="https://www.linkedin.com/in/parsa-karkooti"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://t.me/Parsa_Karkooti"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
 <a href="mailto:1.parsa.karkooti@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<img src="https://img.shields.io/badge/Open%20to-AI%20Engineering%20Roles-2EA043?style=for-the-badge" alt="Open to work">
+<img src="https://img.shields.io/badge/Open%20to-AI%20Engineering%20Roles-00C853?style=for-the-badge" alt="Open to work">
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=ParsaVictor&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=ParsaVictor&label=Profile%20views&color=F90001&style=for-the-badge" alt="Profile views" />
 
 </div>
 
@@ -163,11 +163,11 @@ class ParsaKarkooti:
 
 **Practices**
 
-![Modular Pipelines](https://img.shields.io/badge/Modular%20Pipelines-2EA043?style=for-the-badge)
-![Config--driven Training](https://img.shields.io/badge/Config--driven%20Training-2EA043?style=for-the-badge)
-![Reproducible Research](https://img.shields.io/badge/Reproducible%20Research-2EA043?style=for-the-badge)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2EA043?style=for-the-badge&logo=githubactions&logoColor=white)
-![VRAM--safe Inference](https://img.shields.io/badge/VRAM--safe%20Inference-2EA043?style=for-the-badge)
+![Modular Pipelines](https://img.shields.io/badge/Modular%20Pipelines-F90001?style=for-the-badge)
+![Config--driven Training](https://img.shields.io/badge/Config--driven%20Training-F90001?style=for-the-badge)
+![Reproducible Research](https://img.shields.io/badge/Reproducible%20Research-F90001?style=for-the-badge)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-F90001?style=for-the-badge&logo=githubactions&logoColor=white)
+![VRAM--safe Inference](https://img.shields.io/badge/VRAM--safe%20Inference-F90001?style=for-the-badge)
 
 </div>
 
@@ -203,7 +203,7 @@ Outputs a real `.stl` file — open it in any 3D viewer, or send it to a printer
 
 **City** — the same graph as a drivable 3D city, courtesy of [GithubCity](https://honzaap.github.io/GithubCity/) by honzaap. Every commit grows a building; six themes to explore in.
 
-[![Explore my GitHub City](https://img.shields.io/badge/Explore-GitHub%20City-2EA043?style=for-the-badge&logo=github)](https://honzaap.github.io/GithubCity/)
+[![Explore my GitHub City](https://img.shields.io/badge/Explore-GitHub%20City-F90001?style=for-the-badge&logo=github)](https://honzaap.github.io/GithubCity/)
 
 <sub>Open the link, type <code>ParsaVictor</code>, watch the skyline grow.</sub>
 
@@ -275,29 +275,29 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ParsaVictor&theme=tokyonight" alt="Profile summary" width="100%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ParsaVictor&theme=codeSTACKr" alt="Profile summary" width="100%" />
 
 <br>
 
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ParsaVictor&theme=tokyonight" alt="Repos per language" />
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ParsaVictor&theme=tokyonight" alt="Most commit language" />
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ParsaVictor&theme=codeSTACKr" alt="Repos per language" />
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ParsaVictor&theme=codeSTACKr" alt="Most commit language" />
 
 <br>
 
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ParsaVictor&theme=tokyonight" alt="Stats" />
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ParsaVictor&theme=tokyonight&utcOffset=3.5" alt="Productive time" />
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ParsaVictor&theme=codeSTACKr" alt="Stats" />
+<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ParsaVictor&theme=codeSTACKr&utcOffset=3.5" alt="Productive time" />
 
 <br><br>
 
-<img src="https://streak-stats.demolab.com?user=ParsaVictor&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="Contribution streak" />
+<img src="https://streak-stats.demolab.com?user=ParsaVictor&theme=codeSTACKr&hide_border=true&stroke=ffD700&color=d60606&date_format=j%20M%5B%20Y%5D" alt="Contribution streak" />
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ParsaVictor&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Activity graph" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ParsaVictor&custom_title=Contribution%20Activity&bg_color=0D1117&color=ffde01&line=830203&point=FF652F&area_color=&title_color=da644d&area=true" alt="Activity graph" width="100%" />
 
 <br><br>
 
-<img src="https://github-trophy.vercel.app/?username=ParsaVictor&theme=tokyonight&no-frame=true&column=4&margin-w=8" alt="GitHub trophies" width="100%" />
+<img src="https://github-trophy.vercel.app/?username=ParsaVictor&theme=radical&no-frame=true&column=4&margin-w=8" alt="GitHub trophies" width="100%" />
 
 </div>
 
@@ -309,7 +309,7 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 
 Passing through? Leave a note — I read every one.
 
-[![Say hi — open an issue](https://img.shields.io/badge/Say%20hi-open%20an%20issue-2EA043?style=for-the-badge&logo=github)](https://github.com/ParsaVictor/ParsaVictor/issues/new?title=%F0%9F%91%8B%20Hi%20Parsa)
+[![Say hi — open an issue](https://img.shields.io/badge/Say%20hi-open%20an%20issue-F90001?style=for-the-badge&logo=github)](https://github.com/ParsaVictor/ParsaVictor/issues/new?title=%F0%9F%91%8B%20Hi%20Parsa)
 
 </div>
 
@@ -327,6 +327,6 @@ I'm open to **AI Engineering roles**, research collaboration, and interesting co
 
 *"Turning technical knowledge into results that work in the real world."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer" alt="footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F90001,100:0D1117&height=120&section=footer&reversal=true" alt="footer" width="100%" />
 
 </div>

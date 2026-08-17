@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="100%">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0F2027" />
-      <stop offset="50%" stop-color="#203A43" />
-      <stop offset="100%" stop-color="#2C5364" />
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="55%" stop-color="#1A0C0C" />
+      <stop offset="100%" stop-color="#2B0605" />
     </linearGradient>
     <radialGradient id="nodeGlowCenter" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.55" />
-      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0" />
+      <stop offset="0%" stop-color="#F90001" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#F90001" stop-opacity="0" />
     </radialGradient>
     <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="6" result="blur" />
@@ -17,15 +17,15 @@
       </feMerge>
     </filter>
     <style>
-      .edge-main { stroke: #00E5FF; stroke-opacity: 0.55; stroke-width: 1.6; }
-      .edge-leaf { stroke: #6FE3FF; stroke-opacity: 0.32; stroke-width: 1; }
-      .branch-node { fill: #0d1b23; stroke: #00E5FF; stroke-width: 2; }
-      .leaf-node { fill: #00E5FF; fill-opacity: 0.85; }
-      .center-label { fill: #E8FBFF; font: 700 15px "Fira Code", ui-monospace, monospace; letter-spacing: 0.5px; }
-      .branch-label { fill: #B9F3FF; font: 700 15px "Fira Code", ui-monospace, monospace; }
-      .leaf-label { fill: #9FD8E8; font: 400 12px "Fira Code", ui-monospace, monospace; }
-      .title { fill: #E8FBFF; font: 700 24px "Fira Code", ui-monospace, monospace; letter-spacing: 3px; }
-      .subtitle { fill: #7FB8C9; font: 400 13px "Fira Code", ui-monospace, monospace; }
+      .edge-main { stroke: #F90001; stroke-opacity: 0.6; stroke-width: 1.6; }
+      .edge-leaf { stroke: #FF6B57; stroke-opacity: 0.32; stroke-width: 1; }
+      .branch-node { fill: #1a0c0c; stroke: #F90001; stroke-width: 2; }
+      .leaf-node { fill: #FF3B30; fill-opacity: 0.9; }
+      .center-label { fill: #FFF5F0; font: 700 15px "JetBrains Mono", ui-monospace, monospace; letter-spacing: 0.5px; }
+      .branch-label { fill: #FF9C8C; font: 700 15px "JetBrains Mono", ui-monospace, monospace; }
+      .leaf-label { fill: #FFC2B8; font: 400 12px "JetBrains Mono", ui-monospace, monospace; }
+      .title { fill: #FFF5F0; font: 700 24px "JetBrains Mono", ui-monospace, monospace; letter-spacing: 3px; }
+      .subtitle { fill: #FF8C7A; font: 400 13px "JetBrains Mono", ui-monospace, monospace; }
     </style>
   </defs>
 
