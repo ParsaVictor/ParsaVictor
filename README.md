@@ -239,9 +239,15 @@ class ParsaKarkooti:
 
 <div align="center">
 
-<img alt="Contribution skyline — isometric city block of the last 365 days" src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/profile-gitblock.svg" width="100%" />
+<img alt="Contribution skyline — my real rolling-365-day contribution calendar as an isometric city under a starfield" src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/skyline.svg" width="100%" />
 
-<sub>Regenerated automatically alongside the snake and 3D views above.</sub>
+<sub>Built from my real contribution calendar — every tower is a day, its height is that day's commit count. Rebuilt daily by <a href="https://github.com/ParsaVictor/ParsaVictor/actions">Actions</a>.</sub>
+
+<details>
+<summary><b>Another angle</b> — the same year as a solid block</summary>
+<br/>
+<img alt="Contribution block, gitblock style" src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/profile-gitblock.svg" width="100%" />
+</details>
 
 </div>
 
