@@ -1,0 +1,15 @@
+{
+  "name": "parsavictor-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automation scripts for the ParsaVictor/ParsaVictor profile README.",
+  "type": "module",
+  "scripts": {
+    "update-readme": "node scripts/update-readme.mjs",
+    "snapshot-city": "node scripts/snapshot-city.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.62.1"
+  }
+}

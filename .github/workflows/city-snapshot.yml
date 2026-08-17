@@ -1,0 +1,38 @@
+name: Snapshot GitHub City
+
+on:
+  schedule:
+    # Once a day is plenty — the city only changes as contributions land.
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  snapshot:
+    name: Screenshot the live GithubCity page
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright's Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Capture the city
+        run: node scripts/snapshot-city.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/city-snapshot.png
+          git diff --staged --quiet || git commit -m "chore: refresh city snapshot [skip ci]"
+          git push
