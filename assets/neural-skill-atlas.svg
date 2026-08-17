@@ -17,8 +17,8 @@
       </feMerge>
     </filter>
     <style>
-      .edge-main { stroke: #F90001; stroke-opacity: 0.6; stroke-width: 1.6; }
-      .edge-leaf { stroke: #FF6B57; stroke-opacity: 0.32; stroke-width: 1; }
+      .edge-main { stroke: #F90001; stroke-opacity: 0.6; stroke-width: 1.6; fill: none; stroke-dasharray: 5 3; }
+      .edge-leaf { stroke: #FF6B57; stroke-opacity: 0.32; stroke-width: 1; fill: none; stroke-dasharray: 3 2; }
       .branch-node { fill: #1a0c0c; stroke: #F90001; stroke-width: 2; }
       .leaf-node { fill: #FF3B30; fill-opacity: 0.9; }
       .center-label { fill: #FFF5F0; font: 700 15px "JetBrains Mono", ui-monospace, monospace; letter-spacing: 0.5px; }
@@ -34,7 +34,57 @@
   <text x="480" y="40" text-anchor="middle" class="title">NEURAL SKILL ATLAS</text>
   <text x="480" y="62" text-anchor="middle" class="subtitle">Mohammad Parsa Karkooti — how the skills connect</text>
 
-  <g><line x1="480" y1="300" x2="480.0" y2="152.0" class="edge-main" /><line x1="480.0" y1="152.0" x2="322.7" y2="105.7" class="edge-leaf" /><line x1="480.0" y1="152.0" x2="423.8" y2="56.4" class="edge-leaf" /><line x1="480.0" y1="152.0" x2="536.2" y2="56.4" class="edge-leaf" /><line x1="480.0" y1="152.0" x2="637.3" y2="105.7" class="edge-leaf" /><line x1="480" y1="300" x2="620.8" y2="254.3" class="edge-main" /><line x1="620.8" y1="254.3" x2="616.2" y2="90.3" class="edge-leaf" /><line x1="620.8" y1="254.3" x2="694.3" y2="171.2" class="edge-leaf" /><line x1="620.8" y1="254.3" x2="729.0" y2="278.2" class="edge-leaf" /><line x1="620.8" y1="254.3" x2="713.4" y2="389.6" class="edge-leaf" /><line x1="480" y1="300" x2="567.0" y2="419.7" class="edge-main" /><line x1="567.0" y1="419.7" x2="721.5" y2="364.7" class="edge-leaf" /><line x1="567.0" y1="419.7" x2="668.7" y2="464.0" class="edge-leaf" /><line x1="567.0" y1="419.7" x2="577.7" y2="530.1" class="edge-leaf" /><line x1="567.0" y1="419.7" x2="466.9" y2="549.7" class="edge-leaf" /><line x1="480" y1="300" x2="393.0" y2="419.7" class="edge-main" /><line x1="393.0" y1="419.7" x2="493.1" y2="549.7" class="edge-leaf" /><line x1="393.0" y1="419.7" x2="382.3" y2="530.1" class="edge-leaf" /><line x1="393.0" y1="419.7" x2="291.3" y2="464.0" class="edge-leaf" /><line x1="393.0" y1="419.7" x2="238.5" y2="364.7" class="edge-leaf" /><line x1="480" y1="300" x2="339.2" y2="254.3" class="edge-main" /><line x1="339.2" y1="254.3" x2="246.6" y2="389.6" class="edge-leaf" /><line x1="339.2" y1="254.3" x2="231.0" y2="278.2" class="edge-leaf" /><line x1="339.2" y1="254.3" x2="265.7" y2="171.2" class="edge-leaf" /><line x1="339.2" y1="254.3" x2="343.8" y2="90.3" class="edge-leaf" /></g>
+  <g><path d="M 480.0 300.0 Q 502.0 226.0 480.0 152.0" class="edge-main">
+    <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.8s" repeatCount="indefinite" />
+  </path><path d="M 480.0 152.0 Q 404.7 117.3 322.7 105.7" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1.7s" repeatCount="indefinite" />
+    </path><path d="M 480.0 152.0 Q 441.5 110.3 423.8 56.4" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="2.0s" repeatCount="indefinite" />
+    </path><path d="M 480.0 152.0 Q 518.5 110.3 536.2 56.4" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="2.3s" repeatCount="indefinite" />
+    </path><path d="M 480.0 152.0 Q 555.3 117.3 637.3 105.7" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1.4s" repeatCount="indefinite" />
+    </path><path d="M 480.0 300.0 Q 543.6 256.2 620.8 254.3" class="edge-main">
+    <animate attributeName="stroke-dashoffset" from="24" to="0" dur="2.6s" repeatCount="indefinite" />
+  </path><path d="M 620.8 254.3 Q 630.5 172.0 616.2 90.3" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="2.0s" repeatCount="indefinite" />
+    </path><path d="M 620.8 254.3 Q 648.5 204.8 694.3 171.2" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="2.3s" repeatCount="indefinite" />
+    </path><path d="M 620.8 254.3 Q 672.3 278.0 729.0 278.2" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1.4s" repeatCount="indefinite" />
+    </path><path d="M 620.8 254.3 Q 677.0 315.2 713.4 389.6" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1.7s" repeatCount="indefinite" />
+    </path><path d="M 480.0 300.0 Q 505.7 372.8 567.0 419.7" class="edge-main">
+    <animate attributeName="stroke-dashoffset" from="24" to="0" dur="2.2s" repeatCount="indefinite" />
+  </path><path d="M 567.0 419.7 Q 648.3 403.5 721.5 364.7" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="2.3s" repeatCount="indefinite" />
+    </path><path d="M 567.0 419.7 Q 622.6 430.9 668.7 464.0" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1.4s" repeatCount="indefinite" />
+    </path><path d="M 567.0 419.7 Q 560.4 476.1 577.7 530.1" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1.7s" repeatCount="indefinite" />
+    </path><path d="M 567.0 419.7 Q 526.5 492.0 466.9 549.7" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="2.0s" repeatCount="indefinite" />
+    </path><path d="M 480.0 300.0 Q 454.3 372.8 393.0 419.7" class="edge-main">
+    <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.8s" repeatCount="indefinite" />
+  </path><path d="M 393.0 419.7 Q 433.5 492.0 493.1 549.7" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1.4s" repeatCount="indefinite" />
+    </path><path d="M 393.0 419.7 Q 399.6 476.1 382.3 530.1" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1.7s" repeatCount="indefinite" />
+    </path><path d="M 393.0 419.7 Q 337.4 430.9 291.3 464.0" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="2.0s" repeatCount="indefinite" />
+    </path><path d="M 393.0 419.7 Q 311.7 403.5 238.5 364.7" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="2.3s" repeatCount="indefinite" />
+    </path><path d="M 480.0 300.0 Q 416.4 256.2 339.2 254.3" class="edge-main">
+    <animate attributeName="stroke-dashoffset" from="24" to="0" dur="2.6s" repeatCount="indefinite" />
+  </path><path d="M 339.2 254.3 Q 283.0 315.2 246.6 389.6" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1.7s" repeatCount="indefinite" />
+    </path><path d="M 339.2 254.3 Q 287.7 278.0 231.0 278.2" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="2.0s" repeatCount="indefinite" />
+    </path><path d="M 339.2 254.3 Q 311.5 204.8 265.7 171.2" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="2.3s" repeatCount="indefinite" />
+    </path><path d="M 339.2 254.3 Q 329.5 172.0 343.8 90.3" class="edge-leaf">
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1.4s" repeatCount="indefinite" />
+    </path></g>
   <g><circle cx="480" cy="300" r="38" fill="url(#nodeGlowCenter)" filter="url(#softGlow)" /><circle cx="480" cy="300" r="30" fill="#0d1b23" stroke="#00E5FF" stroke-width="2" /><circle cx="480.0" cy="152.0" r="9" class="branch-node" /><circle cx="322.7" cy="105.7" r="4.5" class="leaf-node" /><circle cx="423.8" cy="56.4" r="4.5" class="leaf-node" /><circle cx="536.2" cy="56.4" r="4.5" class="leaf-node" /><circle cx="637.3" cy="105.7" r="4.5" class="leaf-node" /><circle cx="620.8" cy="254.3" r="9" class="branch-node" /><circle cx="616.2" cy="90.3" r="4.5" class="leaf-node" /><circle cx="694.3" cy="171.2" r="4.5" class="leaf-node" /><circle cx="729.0" cy="278.2" r="4.5" class="leaf-node" /><circle cx="713.4" cy="389.6" r="4.5" class="leaf-node" /><circle cx="567.0" cy="419.7" r="9" class="branch-node" /><circle cx="721.5" cy="364.7" r="4.5" class="leaf-node" /><circle cx="668.7" cy="464.0" r="4.5" class="leaf-node" /><circle cx="577.7" cy="530.1" r="4.5" class="leaf-node" /><circle cx="466.9" cy="549.7" r="4.5" class="leaf-node" /><circle cx="393.0" cy="419.7" r="9" class="branch-node" /><circle cx="493.1" cy="549.7" r="4.5" class="leaf-node" /><circle cx="382.3" cy="530.1" r="4.5" class="leaf-node" /><circle cx="291.3" cy="464.0" r="4.5" class="leaf-node" /><circle cx="238.5" cy="364.7" r="4.5" class="leaf-node" /><circle cx="339.2" cy="254.3" r="9" class="branch-node" /><circle cx="246.6" cy="389.6" r="4.5" class="leaf-node" /><circle cx="231.0" cy="278.2" r="4.5" class="leaf-node" /><circle cx="265.7" cy="171.2" r="4.5" class="leaf-node" /><circle cx="343.8" cy="90.3" r="4.5" class="leaf-node" /></g>
   <g><text x="480" y="296" text-anchor="middle" class="center-label">AI</text><text x="480" y="314" text-anchor="middle" class="center-label">ENGINEER</text><text x="480.0" y="118.0" text-anchor="middle" class="branch-label">Computer Vision</text><text x="312.6" y="93.3" text-anchor="end" class="leaf-label">OpenCV</text><text x="420.2" y="40.8" text-anchor="end" class="leaf-label">YOLOv8 / v11</text><text x="539.8" y="40.8" text-anchor="start" class="leaf-label">CLIP</text><text x="647.4" y="93.3" text-anchor="start" class="leaf-label">InsightFace</text><text x="653.1" y="243.8" text-anchor="start" class="branch-label">Deep Learning</text><text x="624.9" y="76.9" text-anchor="start" class="leaf-label">PyTorch</text><text x="708.0" y="163.0" text-anchor="start" class="leaf-label">TensorFlow</text><text x="745.0" y="276.8" text-anchor="start" class="leaf-label">Transformers</text><text x="728.3" y="395.3" text-anchor="start" class="leaf-label">Video Transformers</text><text x="587.0" y="447.2" text-anchor="start" class="branch-label">ML &amp; Data</text><text x="736.9" y="368.8" text-anchor="start" class="leaf-label">XGBoost</text><text x="680.8" y="474.5" text-anchor="start" class="leaf-label">scikit-learn</text><text x="583.9" y="544.9" text-anchor="start" class="leaf-label">Pandas / NumPy</text><text x="466.1" y="565.6" text-anchor="middle" class="leaf-label">Recommenders</text><text x="373.0" y="447.2" text-anchor="end" class="branch-label">Systems &amp; Deployment</text><text x="493.9" y="565.6" text-anchor="middle" class="leaf-label">Docker</text><text x="376.1" y="544.9" text-anchor="end" class="leaf-label">FastAPI</text><text x="279.2" y="474.5" text-anchor="end" class="leaf-label">VRAM-safe Inference</text><text x="223.1" y="368.8" text-anchor="end" class="leaf-label">Real-time Pipelines</text><text x="306.9" y="243.8" text-anchor="end" class="branch-label">Tooling &amp; Practice</text><text x="231.7" y="395.3" text-anchor="end" class="leaf-label">Git</text><text x="215.0" y="276.8" text-anchor="end" class="leaf-label">Linux</text><text x="252.0" y="163.0" text-anchor="end" class="leaf-label">SQL</text><text x="335.1" y="76.9" text-anchor="end" class="leaf-label">Reproducible Research</text></g>
 </svg>
