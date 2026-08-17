@@ -293,10 +293,6 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ParsaVictor&custom_title=Contribution%20Activity&bg_color=0D1117&color=ffde01&line=830203&point=FF652F&area_color=&title_color=da644d&area=true" alt="Activity graph" width="100%" />
-
-<br><br>
-
 <img src="https://github-trophy.vercel.app/?username=ParsaVictor&theme=radical&no-frame=true&column=4&margin-w=8" alt="GitHub trophies" width="100%" />
 
 </div>
