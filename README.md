@@ -147,9 +147,11 @@ class ParsaKarkooti:
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/neural-skill-atlas.svg" alt="Neural Skill Atlas — a node-and-edge map connecting AI Engineer to Computer Vision, Deep Learning, ML & Data, Systems & Deployment and Tooling & Practice" width="100%" />
+<sub><i>An anatomical map of how my technical mind is organised — 200 paths of real neuroanatomy, recoloured to the profile palette and pulsing like a living brain.</i></sub>
 
-<sub>How the skills actually connect — not a list, a map.</sub>
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/neural-skill-atlas.svg" alt="Neural Skill Atlas — an anatomically-accurate human brain recoloured in neon red, with my real skill groups labelled as lobes: Computer Vision, Deep Learning, ML &amp; Data, Systems &amp; Deploy, Tooling &amp; Practice, Languages" width="100%" />
+
+<a href="https://commons.wikimedia.org/wiki/File:Human-brain.SVG"><img src="https://img.shields.io/badge/Anatomy-James.mcd.nz%20%C2%B7%20Hguiney%20%C2%B7%20CC--BY--SA%203.0-C2185B?style=for-the-badge&labelColor=0D1117" alt="Brain anatomy attribution" /></a>
 
 </div>
 
