@@ -96,6 +96,12 @@ to a working, optimized system running under real-world constraints.
 
 ## 🚀 About Me
 
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/python-banner.svg" width="100%" alt="Python mark over drifting colour bars" />
+
+</div>
+
 ```python
 class ParsaKarkooti:
     role        = "AI Engineer"
@@ -444,6 +450,10 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 <br><br>
 
 <img src="https://streak-stats.demolab.com?user=ParsaVictor&theme=codeSTACKr&hide_border=true&stroke=ffD700&color=d60606&date_format=j%20M%5B%20Y%5D" alt="Contribution streak" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ParsaVictor&custom_title=Contribution%20Activity&bg_color=0D1117&color=ffde01&line=830203&point=FF652F&area_color=&title_color=da644d&area=true&hide_border=true" alt="Activity graph" width="100%" />
 
 <br><br>
 
