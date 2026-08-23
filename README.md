@@ -138,10 +138,10 @@ class ParsaKarkooti:
 <!-- HIGHLIGHTS_STATS:START -->
 <p align="center"><b>📊 2026, live from GitHub</b></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Commits-41-F90001?style=for-the-badge&logo=git&logoColor=white" alt="Commits" />
+<img src="https://img.shields.io/badge/Commits-112-F90001?style=for-the-badge&logo=git&logoColor=white" alt="Commits" />
 <img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white" alt="PRs" />
 <img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white" alt="Issues" />
-<img src="https://img.shields.io/badge/Active_in-2_of_2_repos-F90001?style=for-the-badge&logo=github&logoColor=white" alt="Active repos" />
+<img src="https://img.shields.io/badge/Active_in-5_of_6_repos-F90001?style=for-the-badge&logo=github&logoColor=white" alt="Active repos" />
 </p>
 <!-- HIGHLIGHTS_STATS:END -->
 
@@ -468,14 +468,14 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 ## ⚡ Recent Activity
 
 <!-- ACTIVITY:START -->
-- ⭐ Starred [`pinoox/neuromesh`](https://github.com/pinoox/neuromesh)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)
+- ✨ Created branch `main` in [`ParsaVictor/point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8)
+- ⭐ Starred [`ParsaVictor/ai-project-template`](https://github.com/ParsaVictor/ai-project-template)
 <!-- ACTIVITY:END -->
 
 <div align="center">
@@ -504,8 +504,8 @@ _No releases published yet — this section will fill in automatically the day I
 
 | Repo | Description | Language | |
 |:--|:--|:--|:--|
-| [`ai-project-template`](https://github.com/ParsaVictor/ai-project-template) | Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded runs, tests and CI out of the box. | <img src="https://img.shields.io/badge/-Python-F90001?style=flat-square" alt="Python" /> | ⭐ 0 · 🍴 0 |
-| [`ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor) | My GitHub profile README - AI Engineer \| Computer Vision & Deep Learning | <img src="https://img.shields.io/badge/-JavaScript-F90001?style=flat-square" alt="JavaScript" /> | ⭐ 2 · 🍴 0 |
+| [`ai-project-template`](https://github.com/ParsaVictor/ai-project-template) | Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded runs, tests and CI out of the box. | <img src="https://img.shields.io/badge/-Python-F90001?style=flat-square" alt="Python" /> | ⭐ 1 · 🍴 0 |
+| [`ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor) | My GitHub profile README - AI Engineer \| Computer Vision & Deep Learning | <img src="https://img.shields.io/badge/-JavaScript-F90001?style=flat-square" alt="JavaScript" /> | ⭐ 3 · 🍴 0 |
 <!-- PINNED_REPOS:END -->
 
 </details>
