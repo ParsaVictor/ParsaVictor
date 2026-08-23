@@ -342,12 +342,12 @@ Content + collaborative hybrid solving the cold-start problem, evaluated with Pr
 <tr>
 <td width="50%" valign="top">
 
-#### PCB Component Detection
-![](https://img.shields.io/badge/planned-lightgrey)
+#### [PCB Component Classifier](https://github.com/ParsaVictor/pcb-component-classifier) · [YOLOv8 Detection](https://github.com/ParsaVictor/pcb-component-detection-yolov8)
+![](https://img.shields.io/badge/published-2EA043)
 
-Automated optical inspection of PCBs, robust to variable lighting and camera angle.
+Explainable CV classifier — 93.3% holdout accuracy, calibration lifts to 98.9% at 79% coverage. Plus YOLOv8 baseline with deep dataset diagnosis.
 
-`YOLO` `CNN` `Image processing`
+`scikit-learn` `YOLOv8` `OpenCV` `Roboflow`
 
 </td>
 <td width="50%" valign="top">
@@ -364,10 +364,10 @@ Natural-language search across a media library with incremental embeddings and b
 <tr>
 <td width="50%" valign="top">
 
-#### 3D Point Cloud Processing
-![](https://img.shields.io/badge/research-blue)
+#### [3D Point Cloud Curve Reconstruction](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)
+![](https://img.shields.io/badge/published-2EA043)
 
-Curve reconstruction and feature-preserving denoising — benchmark of 5 academic algorithms.
+Benchmark of 5 academic algorithms — noise reduction, curvature analysis, feature preservation. Full visual story, 43 tests, CI green.
 
 `PCA` `Clustering` `Least-squares`
 
