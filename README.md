@@ -469,13 +469,13 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 
 <!-- ACTIVITY:START -->
 - ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)
 - ✨ Created branch `main` in [`ParsaVictor/point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8)
-- ⭐ Starred [`ParsaVictor/ai-project-template`](https://github.com/ParsaVictor/ai-project-template)
 <!-- ACTIVITY:END -->
 
 <div align="center">
