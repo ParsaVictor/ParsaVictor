@@ -138,10 +138,10 @@ class ParsaKarkooti:
 <!-- HIGHLIGHTS_STATS:START -->
 <p align="center"><b>📊 2026, live from GitHub</b></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Commits-117-F90001?style=for-the-badge&logo=git&logoColor=white" alt="Commits" />
+<img src="https://img.shields.io/badge/Commits-119-F90001?style=for-the-badge&logo=git&logoColor=white" alt="Commits" />
 <img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white" alt="PRs" />
 <img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white" alt="Issues" />
-<img src="https://img.shields.io/badge/Active_in-6_of_6_repos-F90001?style=for-the-badge&logo=github&logoColor=white" alt="Active repos" />
+<img src="https://img.shields.io/badge/Active_in-7_of_7_repos-F90001?style=for-the-badge&logo=github&logoColor=white" alt="Active repos" />
 </p>
 <!-- HIGHLIGHTS_STATS:END -->
 
@@ -468,14 +468,14 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 ## ⚡ Recent Activity
 
 <!-- ACTIVITY:START -->
+- ⬆️ Pushed 1 commit to [`ParsaVictor/concealed-face-detection`](https://github.com/ParsaVictor/concealed-face-detection)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/concealed-face-detection`](https://github.com/ParsaVictor/concealed-face-detection)
+- ⭐ Starred [`ParsaVictor/concealed-face-detection`](https://github.com/ParsaVictor/concealed-face-detection)
+- ✨ Created branch `master` in [`ParsaVictor/concealed-face-detection`](https://github.com/ParsaVictor/concealed-face-detection)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)
 - ✨ Created branch `main` in [`ParsaVictor/point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8)
 <!-- ACTIVITY:END -->
 
 <div align="center">
