@@ -124,7 +124,7 @@ class ParsaKarkooti:
 <p align="center"><sub>📊 Every year since I joined — straight from GitHub, refreshed daily</sub></p>
 <p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-27" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Issues: 0" /></p>
 <p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-27" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-27" alt="2026" /><img src="https://img.shields.io/badge/Commits-120-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Commits: 120" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-27" alt="2026" /><img src="https://img.shields.io/badge/Commits-121-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Commits: 121" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Issues: 0" /></p>
 <p align="center">
 <img src="https://img.shields.io/badge/Public_Repos-7-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Public Repos: 7" />
 </p>
@@ -148,17 +148,17 @@ class ParsaKarkooti:
 ```mermaid
 gitGraph
    commit id: "quiet"
+   branch ParsaVictor
+   commit id: "08-24 · +1"
+   commit id: "08-25 · +1"
+   commit id: "08-27 · +1"
+   commit id: "ParsaVictor · 4 commits this week"
+   checkout main
    branch pcb-component-classifier
    commit id: "08-24 · +1"
    commit id: "08-25 · +1"
    commit id: "08-27 · +1"
    commit id: "pcb-component-classifier · 4 commits this week"
-   checkout main
-   branch ParsaVictor
-   commit id: "08-24 · +1"
-   commit id: "08-25 · +1"
-   commit id: "08-27 · +1"
-   commit id: "ParsaVictor · 3 commits this week"
    checkout main
    branch pcb-component-detection-yolov8
    commit id: "08-24 · +1"
