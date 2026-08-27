@@ -1,0 +1,32 @@
+name: 👋 Guestbook
+description: Say hi, leave feedback, or just sign the wall.
+title: "👋 Hi Parsa!"
+labels: [guestbook]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for stopping by! This guestbook is open to everyone —
+        recruiters, developers, students, friends. No rules except kindness.
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: What brings you here?
+      options:
+        - Just saying hi 💛
+        - Feedback on a project 🔍
+        - Job / freelance opportunity 💼
+        - Research collaboration 🎓
+        - Question about my stack or code ❓
+    validations:
+      required: true
+
+  - type: textarea
+    id: message
+    attributes:
+      label: Your message
+      description: Anything you like — it stays public as part of the guestbook.
+      placeholder: Write whatever you want here…
+    validations:
+      required: true

@@ -16,6 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    # The README updater commits to main on a nightly schedule; serialize with
+    # it so overlapping pushes can't clobber each other.
+    concurrency:
+      group: profile-main-write
+      cancel-in-progress: false
 
     steps:
       - uses: actions/checkout@v4

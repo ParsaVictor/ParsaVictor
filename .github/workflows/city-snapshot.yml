@@ -2,8 +2,9 @@ name: Snapshot GitHub City
 
 on:
   schedule:
-    # Once a day is plenty — the city only changes as contributions land.
-    - cron: "30 3 * * *"
+    # Weekly is plenty for a screenshot of a city that only grows commit by
+    # commit, and it saves a Playwright + Chromium install every single day.
+    - cron: "0 4 * * 1"
   workflow_dispatch:
 
 jobs:

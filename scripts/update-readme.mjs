@@ -14,6 +14,29 @@ if (!TOKEN) {
   process.exit(1);
 }
 
+// Cache-buster: shields.io caches aggressively, and a badge whose number only
+// changes once a day can otherwise keep showing yesterday's value for hours.
+// Appending today's date to the URL forces camo/shields to refetch daily.
+const TODAY = new Date().toISOString().slice(0, 10);
+const bust = (url) => `${url}&t=${TODAY}`;
+
+// GitHub's own language colors (from linguist) so the pinned table reads like
+// the rest of GitHub. Anything unknown falls back to the profile's red.
+const LANG_COLORS = {
+  Python: "#3572A5",
+  JavaScript: "#f1e05a",
+  TypeScript: "#3178c6",
+  "Jupyter Notebook": "#DA5B0B",
+  HTML: "#e34c26",
+  CSS: "#563d7c",
+  "C++": "#f34b7d",
+  C: "#555555",
+  Java: "#b07219",
+  Shell: "#89e051",
+  Go: "#00ADD8",
+  Rust: "#dea584",
+};
+
 async function gql(query, variables) {
   const res = await fetch("https://api.github.com/graphql", {
     method: "POST",
@@ -53,6 +76,14 @@ function replaceBlock(content, marker, body) {
   return content.replace(re, `$1\n${body}\n$3`);
 }
 
+function badge(label, value) {
+  const text = label.replaceAll("-", "--");
+  const val = String(value).replaceAll("-", "--");
+  return `<img src="${bust(
+    `https://img.shields.io/badge/${text}-${val}-F90001?style=for-the-badge&logo=github&logoColor=white`
+  )}" alt="${label.replace(/_/g, " ")}: ${value}" />`;
+}
+
 // ---------------------------------------------------------------------
 // 1. Yearly Highlights — real contributionsCollection for the current year
 // ---------------------------------------------------------------------
@@ -85,16 +116,43 @@ async function buildHighlights() {
   return [
     `<p align="center"><b>📊 ${year}, live from GitHub</b></p>`,
     `<p align="center">`,
-    `<img src="https://img.shields.io/badge/Commits-${c.totalCommitContributions}-F90001?style=for-the-badge&logo=git&logoColor=white" alt="Commits" />`,
-    `<img src="https://img.shields.io/badge/PRs-${c.totalPullRequestContributions}-F90001?style=for-the-badge&logo=github&logoColor=white" alt="PRs" />`,
-    `<img src="https://img.shields.io/badge/Issues-${c.totalIssueContributions}-F90001?style=for-the-badge&logo=github&logoColor=white" alt="Issues" />`,
-    `<img src="https://img.shields.io/badge/Active_in-${c.totalRepositoriesWithContributedCommits}_of_${totalRepos}_repos-F90001?style=for-the-badge&logo=github&logoColor=white" alt="Active repos" />`,
+    badge("Commits", c.totalCommitContributions),
+    badge("PRs", c.totalPullRequestContributions),
+    badge("Issues", c.totalIssueContributions),
+    badge(
+      "Active_in",
+      `${c.totalRepositoriesWithContributedCommits}_of_${totalRepos}_repos`
+    ),
     `</p>`,
   ].join("\n");
 }
 
 // ---------------------------------------------------------------------
-// 2. Recent Activity — real public events, last 8
+// 1b. Lifetime Totals — the whole profile as one glanceable scorecard
+// ---------------------------------------------------------------------
+async function buildTotals() {
+  const [user, repos] = await Promise.all([
+    rest(`users/${USERNAME}`),
+    rest(`users/${USERNAME}/repos?type=owner&per_page=100&sort=pushed`),
+  ]);
+
+  const stars = repos.reduce((n, r) => n + r.stargazers_count, 0);
+  const forks = repos.reduce((n, r) => n + r.forks_count, 0);
+  const since = user.created_at.slice(0, 4);
+
+  return [
+    `<p align="center"><sub>Lifetime totals since <b>${since}</b> · rebuilt daily at 03:00 UTC</sub></p>`,
+    `<p align="center">`,
+    badge("Followers", user.followers),
+    badge("Public_Repos", user.public_repos),
+    badge("Stars_Earned", stars),
+    badge("Forks", forks),
+    `</p>`,
+  ].join("\n");
+}
+
+// ---------------------------------------------------------------------
+// 2. Recent Activity — real public events, denoised, last 8
 // ---------------------------------------------------------------------
 function describeEvent(e) {
   const repo = `[\`${e.repo.name}\`](https://github.com/${e.repo.name})`;
@@ -121,20 +179,49 @@ function describeEvent(e) {
 }
 
 async function buildActivity() {
-  const events = await rest(`users/${USERNAME}/events/public?per_page=8`);
-  if (events.length === 0) {
+  // Fetch more than we show so the denoise pass below still has material.
+  const events = await rest(`users/${USERNAME}/events/public?per_page=30`);
+
+  // Noise rules:
+  //  - starring your own repo tells visitors nothing they can't already see;
+  //  - branch creations are dropped when the same batch already has a push to
+  //    that repo — the push is the event that matters;
+  //  - identical consecutive lines (session split across pushes) collapse.
+  const pushedTo = new Set(
+    events.filter((e) => e.type === "PushEvent").map((e) => e.repo.name)
+  );
+
+  const seen = new Set();
+  const kept = [];
+  for (const e of events) {
+    if (e.type === "WatchEvent" && e.repo.name.startsWith(`${USERNAME}/`)) {
+      continue;
+    }
+    if (
+      e.type === "CreateEvent" &&
+      e.payload.ref_type !== "repository" &&
+      pushedTo.has(e.repo.name)
+    ) {
+      continue;
+    }
+    const line = describeEvent(e);
+    if (seen.has(line)) continue;
+    seen.add(line);
+    kept.push(line);
+    if (kept.length >= 8) break;
+  }
+
+  if (kept.length === 0) {
     return "_No public activity yet._";
   }
-  return events.map((e) => `- ${describeEvent(e)}`).join("\n");
+  return kept.map((line) => `- ${line}`).join("\n");
 }
 
 // ---------------------------------------------------------------------
 // 3. Latest Releases — real releases across the user's own public repos
 // ---------------------------------------------------------------------
 async function buildReleases() {
-  const repos = await rest(
-    `users/${USERNAME}/repos?type=owner&per_page=100`
-  );
+  const repos = await rest(`users/${USERNAME}/repos?type=owner&per_page=100`);
   const releases = [];
   for (const repo of repos) {
     const repoReleases = await rest(
@@ -205,25 +292,31 @@ async function buildPinned() {
   const rows = items.map((r) => {
     const lang = r.primaryLanguage ? r.primaryLanguage.name : null;
     const desc = escapeCell(r.description || "No description yet.");
+    const color = (lang && LANG_COLORS[lang] ? LANG_COLORS[lang] : "#F90001").slice(1);
     const langBadge = lang
-      ? `<img src="https://img.shields.io/badge/-${encodeURIComponent(lang)}-F90001?style=flat-square" alt="${lang}" />`
+      ? `<img src="https://img.shields.io/badge/-${encodeURIComponent(lang)}-${color}?style=flat-square" alt="${lang}" />`
       : "";
     return `| [\`${r.name}\`](${r.url}) | ${desc} | ${langBadge} | ⭐ ${r.stargazerCount} · 🍴 ${r.forkCount} |`;
   });
 
   return [
-    `<p align="center"><sub>🔄 Auto-refreshed daily · <b>${items.length}</b> pinned ${items.length === 1 ? "repo" : "repos"}.</sub></p>`,
+    `<p align="center"><sub>🔄 Auto-refreshed daily · <b>${items.length}</b> pinned ${items.length === 1 ? "repo" : "repos"} · language colours match GitHub's own</sub></p>`,
     "",
     "| Repo | Description | Language | |",
     "|:--|:--|:--|:--|",
     ...rows,
+    "",
+    `<div align="center">`,
+    `[![Explore all repositories](https://img.shields.io/badge/%F0%9F%94%AD_Explore_all_repositories-github.com%2FParsaVictor%3Ftab%3Drepositories-F90001?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ParsaVictor?tab=repositories)`,
+    `</div>`,
   ].join("\n");
 }
 
 // ---------------------------------------------------------------------
 
-const [highlights, activity, releases, pinned] = await Promise.all([
+const [highlights, totals, activity, releases, pinned] = await Promise.all([
   buildHighlights(),
+  buildTotals(),
   buildActivity(),
   buildReleases(),
   buildPinned(),
@@ -231,6 +324,7 @@ const [highlights, activity, releases, pinned] = await Promise.all([
 
 let readme = readFileSync(README_PATH, "utf8");
 readme = replaceBlock(readme, "HIGHLIGHTS_STATS", highlights);
+readme = replaceBlock(readme, "TOTALS_STATS", totals);
 readme = replaceBlock(readme, "ACTIVITY", activity);
 readme = replaceBlock(readme, "LATEST_RELEASES", releases);
 readme = replaceBlock(readme, "PINNED_REPOS", pinned);

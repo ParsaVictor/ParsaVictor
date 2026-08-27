@@ -14,6 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    # Nightly refresh and manual pushes can overlap with the snake build on
+    # the same repo — serialize them so neither clobbers the other's commit.
+    concurrency:
+      group: profile-main-write
+      cancel-in-progress: false
 
     steps:
       - uses: actions/checkout@v4

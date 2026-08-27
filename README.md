@@ -13,9 +13,13 @@
 <table>
 <tr>
 <td width="36%" align="center">
+<details>
+<summary><b>🎨 My portrait, morphed<br>into what I build</b><br><sub>(heavy art loads on click —<br>this page stays fast)</summary>
+<br>
 <img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/morph.svg" alt="Dot matrix morphing between a portrait, the Python logo, the OpenCV logo and a neural network" width="260" />
 <br>
 <sub>640 dots in full colour<br>me → Python → OpenCV → neural net</sub>
+</details>
 </td>
 <td width="64%" valign="middle">
 
@@ -48,35 +52,30 @@ to a working, optimized system running under real-world constraints.
 
 </div>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
-
-## 📚 Quick Links
+## ⚡ Quick Navigation
 
 <div align="center">
 
-[🐍 Snake](#-watch-the-snake-eat-my-contributions) ·
 [🚀 About](#-about-me) ·
-[🚀 Highlights](#-yearly-highlights) ·
+[📈 Highlights](#-yearly-highlights) ·
 [🧠 Skill Atlas](#-neural-skill-atlas) ·
 [🛠️ Tech Stack](#️-tech-stack) ·
-[🧊 3D View](#-the-same-year-in-isometric-3d) ·
-[🌆 Skylines & Cities](#-github-skylines--github-cities) ·
+[🐍 Snake](#-contribution-snake) ·
+[🧊 3D View](#-isometric-3d-calendar) ·
+[🌆 Skylines](#-skylines--cities) ·
 [📌 Featured Work](#-featured-work) ·
-[📊 Activity](#-github-activity) ·
-[⚡ Recent](#-recent-activity) ·
+[🧭 Strengths](#-strengths) ·
+[📊 Stats](#-github-activity) ·
+[🕒 Recent](#-recent-activity) ·
 [📦 Releases](#-latest-releases) ·
-[📌 Pinned](#-pinned-repositories) ·
-[📝 Say Hi](#-say-hi)
+[🎯 Pinned](#-pinned-repositories) ·
+[📝 Guestbook](#-say-hi--guestbook)
 
 </div>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
+---
 
-## 🐍 Watch the snake eat my contributions
+## 🐍 Contribution Snake
 
 <div align="center">
 
@@ -90,17 +89,13 @@ to a working, optimized system running under real-world constraints.
 
 </div>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
+---
 
 ## 🚀 About Me
 
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/python-banner.svg" width="100%" alt="Python mark over drifting colour bars" />
-
-</div>
 
 ```python
 class ParsaKarkooti:
@@ -111,6 +106,8 @@ class ParsaKarkooti:
     approach    = "understand the problem → research the method → build it → make it fast"
     open_to     = ["AI Engineering roles", "Research collaboration", "Open source"]
 ```
+
+</div>
 
 - 🧠 I work at the intersection of **research and production**: reading the papers, then making the thing actually run.
 - 🏭 Built real systems for **industrial visual inspection**, **real-time multi-stream video intelligence**, **recommendation**, and **multimodal search**.
@@ -123,31 +120,27 @@ class ParsaKarkooti:
 
 </div>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
-
-## 🚀 Yearly Highlights
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/timeline.svg" width="100%" alt="Real, dated milestones — no fabricated career history" />
-
-</div>
+## 📈 Yearly Highlights
 
 <!-- HIGHLIGHTS_STATS:START -->
 <p align="center"><b>📊 2026, live from GitHub</b></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Commits-119-F90001?style=for-the-badge&logo=git&logoColor=white" alt="Commits" />
-<img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white" alt="PRs" />
-<img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white" alt="Issues" />
-<img src="https://img.shields.io/badge/Active_in-7_of_7_repos-F90001?style=for-the-badge&logo=github&logoColor=white" alt="Active repos" />
+<img src="https://img.shields.io/badge/Commits-119-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Commits: 119" />
+<img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="PRs: 0" />
+<img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Issues: 0" />
+<img src="https://img.shields.io/badge/Active_in-7_of_7_repos-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Active in: 7_of_7_repos" />
 </p>
 <!-- HIGHLIGHTS_STATS:END -->
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
+<!-- TOTALS_STATS:START -->
+<p align="center"><sub>Lifetime totals since <b>2024</b> · rebuilt daily at 03:00 UTC</sub></p>
+<p align="center">
+<img src="https://img.shields.io/badge/Followers-5-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Followers: 5" />
+<img src="https://img.shields.io/badge/Public_Repos-7-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Public Repos: 7" />
+<img src="https://img.shields.io/badge/Stars_Earned-10-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Stars Earned: 10" />
+<img src="https://img.shields.io/badge/Forks-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Forks: 0" />
+</p>
+<!-- TOTALS_STATS:END -->
 
 ## 🧠 Neural Skill Atlas
 
@@ -161,31 +154,18 @@ class ParsaKarkooti:
 
 </div>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
-
 ## 🛠️ Tech Stack
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=py,cpp,java,pytorch,tensorflow,opencv,scikitlearn,fastapi,docker,sqlite,git,linux,github,githubactions,vscode,windows,bash,powershell,anaconda,clion,pycharm,postman,html,js,nodejs,cloudflare,gmail,linkedin,idea)](https://skillicons.dev)
-
-<br>
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+[![My Skills](https://skillicons.dev/icons?i=py,cpp,java,js,pytorch,tensorflow,opencv,scikitlearn,fastapi,nodejs,docker,git,linux,bash,githubactions,vscode,sqlite,postman)](https://skillicons.dev)
 
 **Deep Learning**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Transformers](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
 **Computer Vision**
 
@@ -202,34 +182,24 @@ class ParsaKarkooti:
 ![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=for-the-badge)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**Tooling & Deployment**
+**Deployment & Practices**
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Windows Terminal](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windowsterminal&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-
-**Practices**
-
-![Modular Pipelines](https://img.shields.io/badge/Modular%20Pipelines-F90001?style=for-the-badge)
-![Config--driven Training](https://img.shields.io/badge/Config--driven%20Training-F90001?style=for-the-badge)
-![Reproducible Research](https://img.shields.io/badge/Reproducible%20Research-F90001?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-F90001?style=for-the-badge&logo=githubactions&logoColor=white)
-![VRAM--safe Inference](https://img.shields.io/badge/VRAM--safe%20Inference-F90001?style=for-the-badge)
+
+![Modular Pipelines](https://img.shields.io/badge/Modular%20Pipelines-830203?style=flat-square)
+![Config--driven Training](https://img.shields.io/badge/Config--driven%20Training-830203?style=flat-square)
+![Reproducible Research](https://img.shields.io/badge/Reproducible%20Research-830203?style=flat-square)
+![VRAM--safe Inference](https://img.shields.io/badge/VRAM--safe%20Inference-830203?style=flat-square)
+![Real Evaluation Metrics](https://img.shields.io/badge/Real%20Evaluation%20Metrics-830203?style=flat-square)
 
 </div>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
-
-## 🧊 The same year, in isometric 3D
+## 🧊 Isometric 3D Calendar
 
 <div align="center">
 
@@ -237,11 +207,7 @@ class ParsaKarkooti:
 
 </div>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
-
-## 🌆 GitHub Skylines & GitHub Cities
+## 🌆 Skylines & Cities
 
 <div align="center">
 
@@ -275,9 +241,15 @@ Outputs a real `.stl` file — open it in any 3D viewer, or send it to a printer
 
 **Drive it** — the same graph as a drivable 3D city, courtesy of [GithubCity](https://honzaap.github.io/GithubCity/) by honzaap. Every commit grows a building.
 
+<details>
+<summary><b>📸 Screenshot of my city</b> <sub>(loads on click)</summary>
+<br/>
+
 <!-- CITY_SNAPSHOT:START -->
 <img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/city-snapshot.png" width="100%" alt="Real screenshot of my GithubCity — buildings grown from actual contributions" />
 <!-- CITY_SNAPSHOT:END -->
+
+</details>
 
 [![Drive through it live](https://img.shields.io/badge/Drive%20through-live%203D-F90001?style=for-the-badge&logo=github)](https://honzaap.github.io/GithubCity?name=ParsaVictor)
 
@@ -285,16 +257,72 @@ Outputs a real `.stl` file — open it in any 3D viewer, or send it to a printer
 </tr>
 </table>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
-
 ## 📌 Featured Work
 
 > I'm publishing my portfolio here one repository at a time — each with architecture,
 > reproducible setup, real metrics and a demo. Status badges below are honest and live.
 
 <table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+#### [PCB Component Classifier](https://github.com/ParsaVictor/pcb-component-classifier)
+![](https://img.shields.io/badge/published-2EA043) ![](https://img.shields.io/badge/explainable-blue) ![Stars](https://img.shields.io/github/stars/ParsaVictor/pcb-component-classifier?style=social)
+
+**Problem** — inspection teams can't trust black-box AI on a production line.
+
+**Approach** — Random Forest over 33 hand-engineered CV features; every prediction traceable to a readable decision path.
+
+**Result** — **93.3% holdout accuracy**, calibrated confidence lifts to 98.9% precision at 79% coverage.
+
+`scikit-learn` `XGBoost` `OpenCV`
+
+</td>
+<td width="50%" valign="top">
+
+#### [PCB Component Detection — YOLOv8](https://github.com/ParsaVictor/pcb-component-detection-yolov8)
+![](https://img.shields.io/badge/published-2EA043) ![](https://img.shields.io/badge/object%20detection-blue) ![Stars](https://img.shields.io/github/stars/ParsaVictor/pcb-component-detection-yolov8?style=social)
+
+**Problem** — detecting 50 component classes on dense, populated PCBs from raw images alone.
+
+**Approach** — YOLOv8 baseline on **675k real annotations**, plus dataset tooling and an honest diagnosis of what limits the baseline.
+
+**Result** — a documented reference point for what pure detection can and cannot do on PCBs.
+
+`YOLOv8` `Ultralytics` `Roboflow`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [3D Point Cloud Curve Reconstruction](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)
+![](https://img.shields.io/badge/published-2EA043) ![](https://img.shields.io/badge/research-blue) ![Stars](https://img.shields.io/github/stars/ParsaVictor/point-cloud-curve-reconstruction?style=social)
+
+**Problem** — industrial 3D-printing scans are noisy; curve reconstruction must survive them.
+
+**Approach** — benchmark of **5 peer-reviewed algorithms** for denoising and feature-preserving reconstruction, with a full visual story.
+
+**Result** — reproducible comparison with **43 tests**, CI green, clear guidance on which method wins when.
+
+`PCA` `Clustering` `Least-squares`
+
+</td>
+<td width="50%" valign="top">
+
+#### [Concealed Face Detection](https://github.com/ParsaVictor/concealed-face-detection)
+![](https://img.shields.io/badge/published-2EA043) ![](https://img.shields.io/badge/security-blue) ![Stars](https://img.shields.io/github/stars/ParsaVictor/concealed-face-detection?style=social)
+
+**Problem** — retail security needs to tell a masked robber from a customer wearing a surgical mask, in real time.
+
+**Approach** — pre-trained models only, no custom training required, wired into a deployable pipeline.
+
+**Result** — a practical, ethical-by-design concealed-face detector anyone can reproduce.
+
+`InsightFace` `OpenCV` `Real-time`
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -342,44 +370,22 @@ Content + collaborative hybrid solving the cold-start problem, evaluated with Pr
 <tr>
 <td width="50%" valign="top">
 
-#### [PCB Component Classifier](https://github.com/ParsaVictor/pcb-component-classifier) · [YOLOv8 Detection](https://github.com/ParsaVictor/pcb-component-detection-yolov8)
-![](https://img.shields.io/badge/published-2EA043)
-
-Explainable CV classifier — 93.3% holdout accuracy, calibration lifts to 98.9% at 79% coverage. Plus YOLOv8 baseline with deep dataset diagnosis.
-
-`scikit-learn` `YOLOv8` `OpenCV` `Roboflow`
-
-</td>
-<td width="50%" valign="top">
-
-#### Open-Vocabulary Media Search
-![](https://img.shields.io/badge/planned-lightgrey)
-
-Natural-language search across a media library with incremental embeddings and biometric indexing, on a VRAM-safe pipeline.
-
-`CLIP ViT-L/14 (FP16)` `InsightFace` `SQLite`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [3D Point Cloud Curve Reconstruction](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)
-![](https://img.shields.io/badge/published-2EA043)
-
-Benchmark of 5 academic algorithms — noise reduction, curvature analysis, feature preservation. Full visual story, 43 tests, CI green.
-
-`PCA` `Clustering` `Least-squares`
-
-</td>
-<td width="50%" valign="top">
-
 #### Medical Image Analysis
 ![](https://img.shields.io/badge/research-blue)
 
 Retinal disease detection: classification and feature extraction.
 
 `CNN` `Transfer learning`
+
+</td>
+<td width="50%" valign="top">
+
+#### Open-Vocabulary Media Search
+![](https://img.shields.io/badge/private-bd5613) *(built, public repo pending)*
+
+Natural-language search across a media library with face/species/food recognition and incremental embeddings, on a VRAM-safe pipeline.
+
+`CLIP ViT-L/14 (FP16)` `InsightFace` `SQLite`
 
 </td>
 </tr>
@@ -395,11 +401,7 @@ Config-driven training, seeded runs, framework-free metrics, pytest suite and CI
 [![Template](https://img.shields.io/badge/use%20this-template-2EA043?logo=github)](https://github.com/ParsaVictor/ai-project-template/generate)
 [![Stars](https://img.shields.io/github/stars/ParsaVictor/ai-project-template?style=social)](https://github.com/ParsaVictor/ai-project-template/stargazers)
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
-
-## 🧭 What I'm Good At
+## 🧭 Strengths
 
 <table>
 <tr>
@@ -427,10 +429,6 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 </tr>
 </table>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
-
 ## 📊 GitHub Activity
 
 <div align="center">
@@ -453,7 +451,7 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ParsaVictor&custom_title=Contribution%20Activity&bg_color=0D1117&color=ffde01&line=830203&point=FF652F&area_color=&title_color=da644d&area=true&hide_border=true" alt="Activity graph" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ParsaVictor&custom_title=Contribution%20Activity&bg_color=0D1117&color=ffde01&line=F90001&point=FF652F&area_color=830203&title_color=da644d&area=true&hide_border=true" alt="Activity graph" width="100%" />
 
 <br><br>
 
@@ -461,26 +459,18 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 
 </div>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
-
-## ⚡ Recent Activity
+## 🕒 Recent Activity
 
 <!-- ACTIVITY:START -->
+- ⭐ Starred [`tubakhxn/Industrial-Computer-Vision-Systems`](https://github.com/tubakhxn/Industrial-Computer-Vision-Systems)
+- ⭐ Starred [`tubakhxn/computervision_projects`](https://github.com/tubakhxn/computervision_projects)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/concealed-face-detection`](https://github.com/ParsaVictor/concealed-face-detection)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/concealed-face-detection`](https://github.com/ParsaVictor/concealed-face-detection)
-- ⭐ Starred [`ParsaVictor/concealed-face-detection`](https://github.com/ParsaVictor/concealed-face-detection)
-- ✨ Created branch `master` in [`ParsaVictor/concealed-face-detection`](https://github.com/ParsaVictor/concealed-face-detection)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)
-- ✨ Created branch `main` in [`ParsaVictor/point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8)
+- 🔹 Public on [`ParsaVictor/b2b-marketplace`](https://github.com/ParsaVictor/b2b-marketplace)
 <!-- ACTIVITY:END -->
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
 
 ## 📦 Latest Releases
 
@@ -488,11 +478,7 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 _No releases published yet — this section will fill in automatically the day I ship one._
 <!-- LATEST_RELEASES:END -->
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
-
-## 📌 Pinned Repositories
+## 🎯 Pinned Repositories
 
 <details open>
 <summary align="center"><b>📌 Whatever's actually pinned on the profile</b></summary>
@@ -500,32 +486,29 @@ _No releases published yet — this section will fill in automatically the day I
 <br/>
 
 <!-- PINNED_REPOS:START -->
-<p align="center"><sub>🔄 Auto-refreshed daily · <b>2</b> pinned repos.</sub></p>
+<p align="center"><sub>🔄 Auto-refreshed daily · <b>2</b> pinned repos · language colours match GitHub's own</sub></p>
 
 | Repo | Description | Language | |
 |:--|:--|:--|:--|
-| [`ai-project-template`](https://github.com/ParsaVictor/ai-project-template) | Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded runs, tests and CI out of the box. | <img src="https://img.shields.io/badge/-Python-F90001?style=flat-square" alt="Python" /> | ⭐ 1 · 🍴 0 |
-| [`ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor) | My GitHub profile README - AI Engineer \| Computer Vision & Deep Learning | <img src="https://img.shields.io/badge/-JavaScript-F90001?style=flat-square" alt="JavaScript" /> | ⭐ 3 · 🍴 0 |
+| [`ai-project-template`](https://github.com/ParsaVictor/ai-project-template) | Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded runs, tests and CI out of the box. | <img src="https://img.shields.io/badge/-Python-3572A5?style=flat-square" alt="Python" /> | ⭐ 1 · 🍴 0 |
+| [`ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor) | My GitHub profile README - AI Engineer \| Computer Vision & Deep Learning | <img src="https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square" alt="JavaScript" /> | ⭐ 3 · 🍴 0 |
+
+<div align="center">
+[![Explore all repositories](https://img.shields.io/badge/%F0%9F%94%AD_Explore_all_repositories-github.com%2FParsaVictor%3Ftab%3Drepositories-F90001?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ParsaVictor?tab=repositories)
+</div>
 <!-- PINNED_REPOS:END -->
 
 </details>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
-</div>
-
-## 📝 Say Hi
+## 📝 Say Hi & Guestbook
 
 <div align="center">
 
 Passing through? Leave a note — I read every one.
+The guestbook lives in issues; it doubles as my feedback wall.
 
-[![Say hi — open an issue](https://img.shields.io/badge/Say%20hi-open%20an%20issue-F90001?style=for-the-badge&logo=github)](https://github.com/ParsaVictor/ParsaVictor/issues/new?title=%F0%9F%91%8B%20Hi%20Parsa)
+[![Say hi — sign the guestbook](https://img.shields.io/badge/Say%20hi-sign%20the%20guestbook-F90001?style=for-the-badge&logo=github)](https://github.com/ParsaVictor/ParsaVictor/issues/new?template=guestbook.yml)
 
-</div>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/divider.svg" width="100%" height="6" alt="" />
 </div>
 
 <div align="center">
