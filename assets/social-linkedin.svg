@@ -1,22 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <defs>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="3" result="b" />
-      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
-    </filter>
-    <style>
-      .glyph { fill: #0D1117; font: 700 24px "JetBrains Mono", ui-monospace, monospace; }
-    </style>
-  </defs>
-
-  <circle cx="50" cy="50" r="44" fill="#0A66C2" filter="url(#glow)">
-    <animate attributeName="r" values="41;45;41" dur="2s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0.85;1;0.85" dur="2s" repeatCount="indefinite" />
+  <circle cx="50" cy="50" r="44" fill="#0A66C2" opacity="0.18">
+    <animate attributeName="r" values="44;52;44" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.35;0;0.35" dur="2.4s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="50" cy="50" r="44" fill="none" stroke="#F90001" stroke-width="2" stroke-opacity="0.5">
-    <animate attributeName="r" values="44;50;44" dur="2s" repeatCount="indefinite" />
-    <animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="2s" repeatCount="indefinite" />
+  <circle cx="50" cy="50" r="42" fill="#0A66C2"/>
+  <circle cx="50" cy="50" r="42" fill="none" stroke="#F90001" stroke-width="2.5" stroke-opacity="0.65">
+    <animate attributeName="stroke-opacity" values="0.65;0.15;0.65" dur="2.4s" repeatCount="indefinite"/>
   </circle>
-  <text x="50" y="58" text-anchor="middle" class="glyph">in</text>
+  <circle cx="37" cy="35.5" r="4.6" fill="#ffffff"/>
+  <rect x="32.8" y="44" width="8.4" height="25" rx="2.2" fill="#ffffff"/>
+  <path d="M50 69 V45.5 h7.6 v4.4 c2.2-3.3 5.4-5.1 9.6-5.1 7.2 0 11.4 4.3 11.4 12.3 V69 h-8.4 V51.3 c0-3.1-1.7-4.9-4.7-4.9-3.4 0-5.9 2.7-5.9 7.4 V69 Z" fill="#ffffff"/>
 </svg>
-

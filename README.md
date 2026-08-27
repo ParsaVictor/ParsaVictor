@@ -13,13 +13,11 @@
 <table>
 <tr>
 <td width="36%" align="center">
-<details>
-<summary><b>🎨 My portrait, morphed<br>into what I build</b><br><sub>(heavy art loads on click —<br>this page stays fast)</summary>
-<br>
+
 <img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/morph.svg" alt="Dot matrix morphing between a portrait, the Python logo, the OpenCV logo and a neural network" width="260" />
-<br>
+
 <sub>640 dots in full colour<br>me → Python → OpenCV → neural net</sub>
-</details>
+
 </td>
 <td width="64%" valign="middle">
 
@@ -123,12 +121,12 @@ class ParsaKarkooti:
 ## 📈 Yearly Highlights
 
 <!-- HIGHLIGHTS_STATS:START -->
-<p align="center"><b>📊 2026, live from GitHub</b></p>
+<p align="center"><sub>📊 Every year since I joined — straight from GitHub, refreshed daily</sub></p>
+<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-27" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-27" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-27" alt="2026" /><img src="https://img.shields.io/badge/Commits-120-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Commits: 120" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Issues: 0" /></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Commits-119-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Commits: 119" />
-<img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="PRs: 0" />
-<img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Issues: 0" />
-<img src="https://img.shields.io/badge/Active_in-7_of_7_repos-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Active in: 7_of_7_repos" />
+<img src="https://img.shields.io/badge/Public_Repos-7-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Public Repos: 7" />
 </p>
 <!-- HIGHLIGHTS_STATS:END -->
 
@@ -141,6 +139,50 @@ class ParsaKarkooti:
 <img src="https://img.shields.io/badge/Forks-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Forks: 0" />
 </p>
 <!-- TOTALS_STATS:END -->
+
+### 🔀 Branch Flow — last 7 days
+
+<div align="center">
+
+<!-- BRANCH_FLOW:START -->
+```mermaid
+gitGraph
+   commit id: "quiet"
+   branch pcb-component-classifier
+   commit id: "08-24 · +1"
+   commit id: "08-25 · +1"
+   commit id: "08-27 · +1"
+   commit id: "pcb-component-classifier · 4 commits this week"
+   checkout main
+   branch ParsaVictor
+   commit id: "08-24 · +1"
+   commit id: "08-25 · +1"
+   commit id: "08-27 · +1"
+   commit id: "ParsaVictor · 3 commits this week"
+   checkout main
+   branch pcb-component-detection-yolov8
+   commit id: "08-24 · +1"
+   commit id: "08-25 · +1"
+   commit id: "08-27 · +1"
+   commit id: "pcb-component-detection-yolov8 · 3 commits this week"
+   checkout main
+   branch concealed-face-detection
+   commit id: "08-24 · +1"
+   commit id: "08-25 · +1"
+   commit id: "08-27 · +1"
+   commit id: "concealed-face-detection · 2 commits this week"
+   checkout main
+   branch point-cloud-curve-reconstruction
+   commit id: "08-24 · +1"
+   commit id: "08-25 · +1"
+   commit id: "08-27 · +1"
+   commit id: "point-cloud-curve-reconstruction · 1 commits this week"
+   checkout main
+   commit id: "today"
+```
+<!-- BRANCH_FLOW:END -->
+
+</div>
 
 ## 🧠 Neural Skill Atlas
 
@@ -241,15 +283,9 @@ Outputs a real `.stl` file — open it in any 3D viewer, or send it to a printer
 
 **Drive it** — the same graph as a drivable 3D city, courtesy of [GithubCity](https://honzaap.github.io/GithubCity/) by honzaap. Every commit grows a building.
 
-<details>
-<summary><b>📸 Screenshot of my city</b> <sub>(loads on click)</summary>
-<br/>
-
 <!-- CITY_SNAPSHOT:START -->
 <img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/city-snapshot.png" width="100%" alt="Real screenshot of my GithubCity — buildings grown from actual contributions" />
 <!-- CITY_SNAPSHOT:END -->
-
-</details>
 
 [![Drive through it live](https://img.shields.io/badge/Drive%20through-live%203D-F90001?style=for-the-badge&logo=github)](https://honzaap.github.io/GithubCity?name=ParsaVictor)
 
@@ -401,6 +437,33 @@ Config-driven training, seeded runs, framework-free metrics, pytest suite and CI
 [![Template](https://img.shields.io/badge/use%20this-template-2EA043?logo=github)](https://github.com/ParsaVictor/ai-project-template/generate)
 [![Stars](https://img.shields.io/github/stars/ParsaVictor/ai-project-template?style=social)](https://github.com/ParsaVictor/ai-project-template/stargazers)
 
+## 🗂️ Repository Index
+
+<!-- REPO_INDEX:START -->
+<p align="center"><sub>🔄 Every public repo I own, sorted by field — this index grows automatically whenever I publish something new.</sub></p>
+
+<details open>
+<summary><b>🤖 AI & Computer Vision</b> · 5 repos</summary>
+
+| Repo | What it is | Language | Stars |
+|:--|:--|:--|:--|
+| [`concealed-face-detection`](https://github.com/ParsaVictor/concealed-face-detection) | Tells a robber in a balaclava from a customer in a surgical mask — real-time concealed-face detection for retail security. Pre-trained models only, no training required. | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 1 |
+| [`point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction) | Five peer-reviewed algorithms for 3D point cloud denoising and curve reconstruction, benchmarked on industrial 3D-printing scan data | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 1 |
+| [`pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier) | Explainable classification of electronic components from images - Random Forest over 33 hand-engineered CV features, 93.3% holdout accuracy, every prediction traceable to a readable decision path | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 1 |
+| [`pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8) | YOLOv8 detection of electronic components on populated PCBs - 50 classes, 675k annotations, with dataset tooling and a full diagnosis of what limits the baseline | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 1 |
+| [`ai-project-template`](https://github.com/ParsaVictor/ai-project-template) | Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded runs, tests and CI out of the box. | <img src="https://img.shields.io/badge/-Python-3572A5?style=flat-square" alt="Python" /> | ⭐ 1 |
+
+</details>
+<details open>
+<summary><b>🌐 Web & Full-Stack</b> · 1 repo</summary>
+
+| Repo | What it is | Language | Stars |
+|:--|:--|:--|:--|
+| [`b2b-marketplace`](https://github.com/ParsaVictor/b2b-marketplace) | B2B International Marketplace | <img src="https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square" alt="JavaScript" /> | ⭐ 2 |
+
+</details>
+<!-- REPO_INDEX:END -->
+
 ## 🧭 Strengths
 
 <table>
@@ -462,10 +525,10 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 ## 🕒 Recent Activity
 
 <!-- ACTIVITY:START -->
+- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
 - ⭐ Starred [`tubakhxn/Industrial-Computer-Vision-Systems`](https://github.com/tubakhxn/Industrial-Computer-Vision-Systems)
 - ⭐ Starred [`tubakhxn/computervision_projects`](https://github.com/tubakhxn/computervision_projects)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/concealed-face-detection`](https://github.com/ParsaVictor/concealed-face-detection)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8)
@@ -517,13 +580,16 @@ The guestbook lives in issues; it doubles as my feedback wall.
 
 I'm open to **AI Engineering roles**, research collaboration, and interesting computer-vision problems.
 
-<a href="https://www.linkedin.com/in/parsa-karkooti" aria-label="LinkedIn"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/social-linkedin.svg" width="70" alt="LinkedIn" /></a>
-<a href="https://t.me/Parsa_Karkooti" aria-label="Telegram"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/social-telegram.svg" width="70" alt="Telegram" /></a>
-<a href="mailto:1.parsa.karkooti@gmail.com" aria-label="Email"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/social-email.svg" width="70" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/parsa-karkooti" aria-label="LinkedIn"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/social-linkedin.svg" width="76" alt="LinkedIn" /></a>
+<a href="https://t.me/Parsa_Karkooti" aria-label="Telegram"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/social-telegram.svg" width="76" alt="Telegram" /></a>
+<a href="mailto:1.parsa.karkooti@gmail.com" aria-label="Email"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/social-email.svg" width="76" alt="Email" /></a>
+<a href="https://github.com/ParsaVictor" aria-label="GitHub"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/social-github.svg" width="76" alt="GitHub" /></a>
 
-<br>
+<br><br>
 
-<a href="mailto:1.parsa.karkooti@gmail.com"><img src="https://img.shields.io/badge/Get%20in%20touch-1.parsa.karkooti@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://www.linkedin.com/in/parsa-karkooti"><img src="https://img.shields.io/badge/LinkedIn-Let%27s%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn — let's connect"></a>
+<a href="https://t.me/Parsa_Karkooti"><img src="https://img.shields.io/badge/Telegram-Message%20me-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram — message me"></a>
+<a href="mailto:1.parsa.karkooti@gmail.com"><img src="https://img.shields.io/badge/Email-1.parsa.karkooti@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 
 <br><br>
 

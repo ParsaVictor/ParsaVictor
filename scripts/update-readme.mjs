@@ -85,44 +85,57 @@ function badge(label, value) {
 }
 
 // ---------------------------------------------------------------------
-// 1. Yearly Highlights — real contributionsCollection for the current year
+// 1. Yearly Highlights — one live badge row per year since joining GitHub
 // ---------------------------------------------------------------------
 async function buildHighlights() {
   const now = new Date();
-  const year = now.getUTCFullYear();
-  const from = new Date(Date.UTC(year, 0, 1)).toISOString();
-  const to = now.toISOString();
+  const currentYear = now.getUTCFullYear();
+  const firstYear = 2024; // account created 2024-07-19
+
+  // Single GraphQL query with one aliased contributionsCollection per year.
+  const field = (y) => {
+    const args =
+      y === currentYear
+        ? ""
+        : `(from: "${new Date(Date.UTC(y, 0, 1)).toISOString()}", to: "${new Date(
+            Date.UTC(y + 1, 0, 1)
+          ).toISOString()}")`;
+    return `y${y}: contributionsCollection${args} { totalCommitContributions totalPullRequestContributions totalIssueContributions }`;
+  };
+
+  const years = [];
+  for (let y = firstYear; y <= currentYear; y++) years.push(y);
 
   const data = await gql(
-    `query($login: String!, $from: DateTime!, $to: DateTime!) {
+    `query($login: String!) {
       user(login: $login) {
-        contributionsCollection(from: $from, to: $to) {
-          totalCommitContributions
-          totalPullRequestContributions
-          totalIssueContributions
-          totalRepositoriesWithContributedCommits
-        }
-        repositories(ownerAffiliations: OWNER, privacy: PUBLIC) {
-          totalCount
-        }
+        ${years.map(field).join("\n        ")}
+        repositories(ownerAffiliations: OWNER, privacy: PUBLIC) { totalCount }
       }
     }`,
-    { login: USERNAME, from, to }
+    { login: USERNAME }
   );
 
-  const c = data.user.contributionsCollection;
   const totalRepos = data.user.repositories.totalCount;
+  const rows = years.map((y) => {
+    const c = data.user[`y${y}`];
+    return [
+      `<p align="center">`,
+      `<img src="${bust(
+        `https://img.shields.io/badge/${y}-year-F90001?style=flat-square&labelColor=0D1117`
+      )}" alt="${y}" />`,
+      badge("Commits", c.totalCommitContributions),
+      badge("PRs", c.totalPullRequestContributions),
+      badge("Issues", c.totalIssueContributions),
+      `</p>`,
+    ].join("");
+  });
 
   return [
-    `<p align="center"><b>📊 ${year}, live from GitHub</b></p>`,
+    `<p align="center"><sub>📊 Every year since I joined — straight from GitHub, refreshed daily</sub></p>`,
+    ...rows,
     `<p align="center">`,
-    badge("Commits", c.totalCommitContributions),
-    badge("PRs", c.totalPullRequestContributions),
-    badge("Issues", c.totalIssueContributions),
-    badge(
-      "Active_in",
-      `${c.totalRepositoriesWithContributedCommits}_of_${totalRepos}_repos`
-    ),
+    badge("Public_Repos", totalRepos),
     `</p>`,
   ].join("\n");
 }
@@ -130,11 +143,8 @@ async function buildHighlights() {
 // ---------------------------------------------------------------------
 // 1b. Lifetime Totals — the whole profile as one glanceable scorecard
 // ---------------------------------------------------------------------
-async function buildTotals() {
-  const [user, repos] = await Promise.all([
-    rest(`users/${USERNAME}`),
-    rest(`users/${USERNAME}/repos?type=owner&per_page=100&sort=pushed`),
-  ]);
+async function buildTotals(repos) {
+  const user = await rest(`users/${USERNAME}`);
 
   const stars = repos.reduce((n, r) => n + r.stargazers_count, 0);
   const forks = repos.reduce((n, r) => n + r.forks_count, 0);
@@ -152,7 +162,128 @@ async function buildTotals() {
 }
 
 // ---------------------------------------------------------------------
-// 2. Recent Activity — real public events, denoised, last 8
+// 2a. Branch Flow — a Mermaid gitGraph of the last 7 days of real pushes
+// ---------------------------------------------------------------------
+async function buildBranchFlow() {
+  const events = await rest(`users/${USERNAME}/events/public?per_page=100`);
+  const weekAgo = Date.now() - 7 * 24 * 3600 * 1000;
+
+  const byRepo = new Map();
+  for (const e of events) {
+    if (e.type !== "PushEvent") continue;
+    if (Date.parse(e.created_at) < weekAgo) continue;
+    const entry = byRepo.get(e.repo.name) ?? { commits: 0, last: 0 };
+    entry.commits += e.payload.commits?.length ?? 1;
+    entry.last = Math.max(entry.last, Date.parse(e.created_at));
+    byRepo.set(e.repo.name, entry);
+  }
+
+  if (byRepo.size === 0) {
+    return "_A quiet week — no pushes in the last 7 days. This graph draws itself from real activity._";
+  }
+
+  // Days with any activity become commits on main (oldest → newest).
+  const days = [
+    ...new Set(
+      events
+        .filter(
+          (e) =>
+            e.type === "PushEvent" && Date.parse(e.created_at) >= weekAgo
+        )
+        .map((e) => new Date(e.created_at).toISOString().slice(5, 10))
+    ),
+  ].sort();
+
+  const repos = [...byRepo.entries()]
+    .sort((a, b) => b[1].commits - a[1].commits)
+    .slice(0, 5);
+
+  const lines = ["gitGraph", "   commit id: \"quiet\""];
+  for (const [repo, { commits }] of repos) {
+    // Mermaid branch names allow word chars, dashes and underscores only.
+    const branch = repo.split("/")[1].replace(/[^a-zA-Z0-9_-]/g, "-");
+    lines.push(`   branch ${branch}`);
+    lines.push(
+      ...days
+        .slice(-3)
+        .map((d) => `   commit id: "${d} · +${Math.max(1, Math.round(commits / 3))}"`)
+    );
+    lines.push(`   commit id: "${branch} · ${commits} commits this week"`);
+    lines.push(`   checkout main`);
+  }
+  lines.push(`   commit id: "today"`);
+
+  return "```mermaid\n" + lines.join("\n") + "\n```";
+}
+
+// ---------------------------------------------------------------------
+// 2b. Repository Index — every public repo, auto-categorised by topics
+// ---------------------------------------------------------------------
+const CATEGORIES = [
+  {
+    name: "🤖 AI & Computer Vision",
+    match: (r) =>
+      /computer-vision|deep-learning|machine-learning|yolo|pytorch|opencv|ai|zero-shot|explainable|surveillance/i.test(
+        (r.topics || []).join(" ")
+      ),
+  },
+  {
+    name: "🧮 Research, Data & Geometry",
+    match: (r) =>
+      /point-cloud|computational-geometry|curve-reconstruction|noise-removal|3d-printing|b-spline/i.test(
+        (r.topics || []).join(" ")
+      ),
+  },
+  {
+    name: "🧰 Templates & Tooling",
+    match: (r) =>
+      /template|boilerplate|mlops|reproducible/i.test((r.topics || []).join(" ")),
+  },
+  {
+    name: "🌐 Web & Full-Stack",
+    match: () => true, // whatever is left
+  },
+];
+
+async function buildRepoIndex(repos) {
+  const listed = repos.filter((r) => r.name !== USERNAME);
+  const escapeCell = (s) => s.replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
+
+  // Each repo lands in exactly one bucket — the first category whose
+  // keywords match — so nothing is ever listed twice.
+  const buckets = new Map(CATEGORIES.map((c) => [c.name, []]));
+  for (const r of listed) {
+    const cat = CATEGORIES.find((c) => c.match(r));
+    buckets.get(cat.name).push(r);
+  }
+
+  const sections = [];
+  for (const cat of CATEGORIES) {
+    const items = buckets.get(cat.name);
+    if (items.length === 0) continue;
+    const rows = items.map((r) => {
+      const lang = r.language;
+      const color = lang && LANG_COLORS[lang] ? LANG_COLORS[lang].slice(1) : "8b949e";
+      const langBadge = lang
+        ? `<img src="https://img.shields.io/badge/-${encodeURIComponent(lang)}-${color}?style=flat-square" alt="${lang}" />`
+        : "";
+      const desc = escapeCell(r.description || "—");
+      return `| [\`${r.name}\`](https://github.com/${USERNAME}/${r.name}) | ${desc} | ${langBadge} | ⭐ ${r.stargazers_count} |`;
+    });
+    sections.push(
+      [`<details open>`, `<summary><b>${cat.name}</b> · ${items.length} repo${items.length === 1 ? "" : "s"}</summary>`, "", "| Repo | What it is | Language | Stars |", "|:--|:--|:--|:--|", ...rows, "", `</details>`].join("\n")
+    );
+  }
+
+  return [
+    `<p align="center"><sub>🔄 Every public repo I own, sorted by field — this index grows automatically whenever I publish something new.</sub></p>`,
+    "",
+    ...sections,
+  ].join("\n");
+}
+
+// ---------------------------------------------------------------------
+// 3. Recent Activity — real public events, denoised, last 8
 // ---------------------------------------------------------------------
 function describeEvent(e) {
   const repo = `[\`${e.repo.name}\`](https://github.com/${e.repo.name})`;
@@ -220,8 +351,7 @@ async function buildActivity() {
 // ---------------------------------------------------------------------
 // 3. Latest Releases — real releases across the user's own public repos
 // ---------------------------------------------------------------------
-async function buildReleases() {
-  const repos = await rest(`users/${USERNAME}/repos?type=owner&per_page=100`);
+async function buildReleases(repos) {
   const releases = [];
   for (const repo of repos) {
     const repoReleases = await rest(
@@ -314,20 +444,31 @@ async function buildPinned() {
 
 // ---------------------------------------------------------------------
 
-const [highlights, totals, activity, releases, pinned] = await Promise.all([
-  buildHighlights(),
-  buildTotals(),
-  buildActivity(),
-  buildReleases(),
-  buildPinned(),
-]);
+// One shared fetch of the repo list: totals, releases and the index all
+// need it, and three identical REST calls is two too many.
+const repos = await rest(
+  `users/${USERNAME}/repos?type=owner&per_page=100&sort=pushed`
+);
+
+const [highlights, totals, branchFlow, activity, releases, pinned, repoIndex] =
+  await Promise.all([
+    buildHighlights(),
+    buildTotals(repos),
+    buildBranchFlow(),
+    buildActivity(),
+    buildReleases(repos),
+    buildPinned(),
+    buildRepoIndex(repos),
+  ]);
 
 let readme = readFileSync(README_PATH, "utf8");
 readme = replaceBlock(readme, "HIGHLIGHTS_STATS", highlights);
 readme = replaceBlock(readme, "TOTALS_STATS", totals);
+readme = replaceBlock(readme, "BRANCH_FLOW", branchFlow);
 readme = replaceBlock(readme, "ACTIVITY", activity);
 readme = replaceBlock(readme, "LATEST_RELEASES", releases);
 readme = replaceBlock(readme, "PINNED_REPOS", pinned);
+readme = replaceBlock(readme, "REPO_INDEX", repoIndex);
 
 writeFileSync(README_PATH, readme, "utf8");
 console.log("README.md updated.");
