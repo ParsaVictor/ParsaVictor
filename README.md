@@ -122,21 +122,21 @@ class ParsaKarkooti:
 
 <!-- HIGHLIGHTS_STATS:START -->
 <p align="center"><sub>📊 Every year since I joined — straight from GitHub, refreshed daily</sub></p>
-<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-27" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-27" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-27" alt="2026" /><img src="https://img.shields.io/badge/Commits-121-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Commits: 121" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-28" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-28" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-28" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-28" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-28" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-28" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-28" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-28" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-28" alt="2026" /><img src="https://img.shields.io/badge/Commits-121-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-28" alt="Commits: 121" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-28" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-28" alt="Issues: 0" /></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Public_Repos-7-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Public Repos: 7" />
+<img src="https://img.shields.io/badge/Public_Repos-7-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-28" alt="Public Repos: 7" />
 </p>
 <!-- HIGHLIGHTS_STATS:END -->
 
 <!-- TOTALS_STATS:START -->
 <p align="center"><sub>Lifetime totals since <b>2024</b> · rebuilt daily at 03:00 UTC</sub></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Followers-5-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Followers: 5" />
-<img src="https://img.shields.io/badge/Public_Repos-7-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Public Repos: 7" />
-<img src="https://img.shields.io/badge/Stars_Earned-10-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Stars Earned: 10" />
-<img src="https://img.shields.io/badge/Forks-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-27" alt="Forks: 0" />
+<img src="https://img.shields.io/badge/Followers-5-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-28" alt="Followers: 5" />
+<img src="https://img.shields.io/badge/Public_Repos-7-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-28" alt="Public Repos: 7" />
+<img src="https://img.shields.io/badge/Stars_Earned-10-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-28" alt="Stars Earned: 10" />
+<img src="https://img.shields.io/badge/Forks-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-28" alt="Forks: 0" />
 </p>
 <!-- TOTALS_STATS:END -->
 
