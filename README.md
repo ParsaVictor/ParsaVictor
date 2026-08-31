@@ -122,21 +122,21 @@ class ParsaKarkooti:
 
 <!-- HIGHLIGHTS_STATS:START -->
 <p align="center"><sub>📊 Every year since I joined — straight from GitHub, refreshed daily</sub></p>
-<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-30" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-30" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-30" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-30" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-30" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-30" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-30" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-30" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-30" alt="2026" /><img src="https://img.shields.io/badge/Commits-122-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-30" alt="Commits: 122" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-30" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-30" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-31" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-31" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-31" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-31" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-31" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-31" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-31" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-31" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-08-31" alt="2026" /><img src="https://img.shields.io/badge/Commits-123-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-31" alt="Commits: 123" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-31" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-31" alt="Issues: 0" /></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Public_Repos-8-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-30" alt="Public Repos: 8" />
+<img src="https://img.shields.io/badge/Public_Repos-9-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-31" alt="Public Repos: 9" />
 </p>
 <!-- HIGHLIGHTS_STATS:END -->
 
 <!-- TOTALS_STATS:START -->
 <p align="center"><sub>Lifetime totals since <b>2024</b> · rebuilt daily at 03:00 UTC</sub></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Followers-5-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-30" alt="Followers: 5" />
-<img src="https://img.shields.io/badge/Public_Repos-8-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-30" alt="Public Repos: 8" />
-<img src="https://img.shields.io/badge/Stars_Earned-10-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-30" alt="Stars Earned: 10" />
-<img src="https://img.shields.io/badge/Forks-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-30" alt="Forks: 0" />
+<img src="https://img.shields.io/badge/Followers-5-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-31" alt="Followers: 5" />
+<img src="https://img.shields.io/badge/Public_Repos-9-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-31" alt="Public Repos: 9" />
+<img src="https://img.shields.io/badge/Stars_Earned-10-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-31" alt="Stars Earned: 10" />
+<img src="https://img.shields.io/badge/Forks-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-08-31" alt="Forks: 0" />
 </p>
 <!-- TOTALS_STATS:END -->
 
@@ -152,31 +152,13 @@ gitGraph
    commit id: "08-24 · +1"
    commit id: "08-25 · +1"
    commit id: "08-27 · +1"
-   commit id: "ParsaVictor · 4 commits this week"
-   checkout main
-   branch pcb-component-classifier
-   commit id: "08-24 · +1"
-   commit id: "08-25 · +1"
-   commit id: "08-27 · +1"
-   commit id: "pcb-component-classifier · 4 commits this week"
-   checkout main
-   branch pcb-component-detection-yolov8
-   commit id: "08-24 · +1"
-   commit id: "08-25 · +1"
-   commit id: "08-27 · +1"
-   commit id: "pcb-component-detection-yolov8 · 3 commits this week"
+   commit id: "ParsaVictor · 3 commits this week"
    checkout main
    branch concealed-face-detection
    commit id: "08-24 · +1"
    commit id: "08-25 · +1"
    commit id: "08-27 · +1"
    commit id: "concealed-face-detection · 2 commits this week"
-   checkout main
-   branch point-cloud-curve-reconstruction
-   commit id: "08-24 · +1"
-   commit id: "08-25 · +1"
-   commit id: "08-27 · +1"
-   commit id: "point-cloud-curve-reconstruction · 1 commits this week"
    checkout main
    commit id: "today"
 ```
@@ -443,10 +425,11 @@ Config-driven training, seeded runs, framework-free metrics, pytest suite and CI
 <p align="center"><sub>🔄 Every public repo I own, sorted by field — this index grows automatically whenever I publish something new.</sub></p>
 
 <details open>
-<summary><b>🤖 AI & Computer Vision</b> · 6 repos</summary>
+<summary><b>🤖 AI & Computer Vision</b> · 7 repos</summary>
 
 | Repo | What it is | Language | Stars |
 |:--|:--|:--|:--|
+| [`melkai-realestate-platform`](https://github.com/ParsaVictor/melkai-realestate-platform) | AI-powered Persian real estate platform — Next.js 16 demo (private preview) | <img src="https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square" alt="TypeScript" /> | ⭐ 0 |
 | [`fireguard`](https://github.com/ParsaVictor/fireguard) | 🔥 Real-time fire & smoke detection with hazard-state intelligence — 3 generations of YOLO (v8/11/26), broadcast-grade overlays, zero training. One-click Colab demo. [Demo release] | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 0 |
 | [`concealed-face-detection`](https://github.com/ParsaVictor/concealed-face-detection) | Tells a robber in a balaclava from a customer in a surgical mask — real-time concealed-face detection for retail security. Pre-trained models only, no training required. | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 1 |
 | [`point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction) | Five peer-reviewed algorithms for 3D point cloud denoising and curve reconstruction, benchmarked on industrial 3D-printing scan data | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 1 |
@@ -526,6 +509,7 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 ## 🕒 Recent Activity
 
 <!-- ACTIVITY:START -->
+- 🔹 Public on [`ParsaVictor/melkai-realestate-platform`](https://github.com/ParsaVictor/melkai-realestate-platform)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor)
 - ⭐ Starred [`tubakhxn/Industrial-Computer-Vision-Systems`](https://github.com/tubakhxn/Industrial-Computer-Vision-Systems)
 - ⭐ Starred [`tubakhxn/computervision_projects`](https://github.com/tubakhxn/computervision_projects)
@@ -533,7 +517,6 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 - ⬆️ Pushed 1 commit to [`ParsaVictor/point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8)
-- 🔹 Public on [`ParsaVictor/b2b-marketplace`](https://github.com/ParsaVictor/b2b-marketplace)
 <!-- ACTIVITY:END -->
 
 ## 📦 Latest Releases
