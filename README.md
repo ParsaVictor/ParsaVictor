@@ -122,21 +122,21 @@ class ParsaKarkooti:
 
 <!-- HIGHLIGHTS_STATS:START -->
 <p align="center"><sub>📊 Every year since I joined — straight from GitHub, refreshed daily</sub></p>
-<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-07" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-07" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-07" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-07" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-07" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-07" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-07" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-07" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-07" alt="2026" /><img src="https://img.shields.io/badge/Commits-158-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-07" alt="Commits: 158" /><img src="https://img.shields.io/badge/PRs-5-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-07" alt="PRs: 5" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-07" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-08" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-08" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-08" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-08" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-08" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-08" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-08" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-08" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-08" alt="2026" /><img src="https://img.shields.io/badge/Commits-158-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-08" alt="Commits: 158" /><img src="https://img.shields.io/badge/PRs-5-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-08" alt="PRs: 5" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-08" alt="Issues: 0" /></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Public_Repos-10-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-07" alt="Public Repos: 10" />
+<img src="https://img.shields.io/badge/Public_Repos-10-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-08" alt="Public Repos: 10" />
 </p>
 <!-- HIGHLIGHTS_STATS:END -->
 
 <!-- TOTALS_STATS:START -->
 <p align="center"><sub>Lifetime totals since <b>2024</b> · rebuilt daily at 03:00 UTC</sub></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Followers-5-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-07" alt="Followers: 5" />
-<img src="https://img.shields.io/badge/Public_Repos-10-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-07" alt="Public Repos: 10" />
-<img src="https://img.shields.io/badge/Stars_Earned-15-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-07" alt="Stars Earned: 15" />
-<img src="https://img.shields.io/badge/Forks-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-07" alt="Forks: 0" />
+<img src="https://img.shields.io/badge/Followers-6-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-08" alt="Followers: 6" />
+<img src="https://img.shields.io/badge/Public_Repos-10-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-08" alt="Public Repos: 10" />
+<img src="https://img.shields.io/badge/Stars_Earned-16-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-08" alt="Stars Earned: 16" />
+<img src="https://img.shields.io/badge/Forks-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-08" alt="Forks: 0" />
 </p>
 <!-- TOTALS_STATS:END -->
 
@@ -148,17 +148,23 @@ class ParsaKarkooti:
 ```mermaid
 gitGraph
    commit id: "quiet"
+   branch pelakx-license-plate-detection
+   commit id: "09-04 · +3"
+   commit id: "09-05 · +3"
+   commit id: "09-06 · +3"
+   commit id: "pelakx-license-plate-detection · 9 commits this week"
+   checkout main
    branch thief-face-detection
    commit id: "09-04 · +3"
    commit id: "09-05 · +3"
    commit id: "09-06 · +3"
    commit id: "thief-face-detection · 8 commits this week"
    checkout main
-   branch pelakx-license-plate-detection
-   commit id: "09-04 · +2"
-   commit id: "09-05 · +2"
-   commit id: "09-06 · +2"
-   commit id: "pelakx-license-plate-detection · 6 commits this week"
+   branch fireguard
+   commit id: "09-04 · +1"
+   commit id: "09-05 · +1"
+   commit id: "09-06 · +1"
+   commit id: "fireguard · 2 commits this week"
    checkout main
    commit id: "today"
 ```
@@ -510,9 +516,10 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 ## 🕒 Recent Activity
 
 <!-- ACTIVITY:START -->
-- ⬆️ Pushed 1 commit to [`ParsaVictor/pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/thief-face-detection`](https://github.com/ParsaVictor/thief-face-detection)
 - 🔹 Delete on [`ParsaVictor/pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/fireguard`](https://github.com/ParsaVictor/fireguard)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/thief-face-detection`](https://github.com/ParsaVictor/thief-face-detection)
 - 🔀 merged PR in [`ParsaVictor/pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection)
 - 🔀 opened PR in [`ParsaVictor/pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection)
 <!-- ACTIVITY:END -->
@@ -536,7 +543,7 @@ _No releases published yet — this section will fill in automatically the day I
 | Repo | Description | Language | |
 |:--|:--|:--|:--|
 | [`ai-project-template`](https://github.com/ParsaVictor/ai-project-template) | Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded runs, tests and CI out of the box. | <img src="https://img.shields.io/badge/-Python-3572A5?style=flat-square" alt="Python" /> | ⭐ 1 · 🍴 0 |
-| [`ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor) | My GitHub profile README - AI Engineer \| Computer Vision & Deep Learning | <img src="https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square" alt="JavaScript" /> | ⭐ 3 · 🍴 0 |
+| [`ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor) | My GitHub profile README - AI Engineer \| Computer Vision & Deep Learning | <img src="https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square" alt="JavaScript" /> | ⭐ 4 · 🍴 0 |
 
 <div align="center">
 [![Explore all repositories](https://img.shields.io/badge/%F0%9F%94%AD_Explore_all_repositories-github.com%2FParsaVictor%3Ftab%3Drepositories-F90001?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ParsaVictor?tab=repositories)
