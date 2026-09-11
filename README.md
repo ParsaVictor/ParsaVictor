@@ -122,21 +122,21 @@ class ParsaKarkooti:
 
 <!-- HIGHLIGHTS_STATS:START -->
 <p align="center"><sub>📊 Every year since I joined — straight from GitHub, refreshed daily</sub></p>
-<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-10" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-10" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-10" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-10" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-10" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-10" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-10" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-10" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-10" alt="2026" /><img src="https://img.shields.io/badge/Commits-295-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-10" alt="Commits: 295" /><img src="https://img.shields.io/badge/PRs-11-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-10" alt="PRs: 11" /><img src="https://img.shields.io/badge/Issues-12-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-10" alt="Issues: 12" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-11" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-11" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-11" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-11" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-11" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-11" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-11" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-11" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-11" alt="2026" /><img src="https://img.shields.io/badge/Commits-296-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-11" alt="Commits: 296" /><img src="https://img.shields.io/badge/PRs-11-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-11" alt="PRs: 11" /><img src="https://img.shields.io/badge/Issues-12-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-11" alt="Issues: 12" /></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Public_Repos-13-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-10" alt="Public Repos: 13" />
+<img src="https://img.shields.io/badge/Public_Repos-13-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-11" alt="Public Repos: 13" />
 </p>
 <!-- HIGHLIGHTS_STATS:END -->
 
 <!-- TOTALS_STATS:START -->
 <p align="center"><sub>Lifetime totals since <b>2024</b> · rebuilt daily at 03:00 UTC</sub></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Followers-7-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-10" alt="Followers: 7" />
-<img src="https://img.shields.io/badge/Public_Repos-13-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-10" alt="Public Repos: 13" />
-<img src="https://img.shields.io/badge/Stars_Earned-39-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-10" alt="Stars Earned: 39" />
-<img src="https://img.shields.io/badge/Forks-20-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-10" alt="Forks: 20" />
+<img src="https://img.shields.io/badge/Followers-8-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-11" alt="Followers: 8" />
+<img src="https://img.shields.io/badge/Public_Repos-13-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-11" alt="Public Repos: 13" />
+<img src="https://img.shields.io/badge/Stars_Earned-42-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-11" alt="Stars Earned: 42" />
+<img src="https://img.shields.io/badge/Forks-20-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-11" alt="Forks: 20" />
 </p>
 <!-- TOTALS_STATS:END -->
 
@@ -148,23 +148,23 @@ class ParsaKarkooti:
 ```mermaid
 gitGraph
    commit id: "quiet"
+   branch portfolio
+   commit id: "09-08 · +6"
+   commit id: "09-09 · +6"
+   commit id: "09-10 · +6"
+   commit id: "portfolio · 19 commits this week"
+   checkout main
    branch code-context-engine
-   commit id: "09-08 · +4"
-   commit id: "09-09 · +4"
-   commit id: "09-10 · +4"
-   commit id: "code-context-engine · 11 commits this week"
+   commit id: "09-08 · +5"
+   commit id: "09-09 · +5"
+   commit id: "09-10 · +5"
+   commit id: "code-context-engine · 15 commits this week"
    checkout main
    branch pelakx-license-plate-detection
-   commit id: "09-08 · +3"
-   commit id: "09-09 · +3"
-   commit id: "09-10 · +3"
-   commit id: "pelakx-license-plate-detection · 9 commits this week"
-   checkout main
-   branch portfolio
    commit id: "09-08 · +2"
    commit id: "09-09 · +2"
    commit id: "09-10 · +2"
-   commit id: "portfolio · 7 commits this week"
+   commit id: "pelakx-license-plate-detection · 7 commits this week"
    checkout main
    branch fireguard
    commit id: "09-08 · +1"
@@ -172,11 +172,11 @@ gitGraph
    commit id: "09-10 · +1"
    commit id: "fireguard · 2 commits this week"
    checkout main
-   branch thief-face-detection
+   branch b2b-marketplace
    commit id: "09-08 · +1"
    commit id: "09-09 · +1"
    commit id: "09-10 · +1"
-   commit id: "thief-face-detection · 2 commits this week"
+   commit id: "b2b-marketplace · 1 commits this week"
    checkout main
    commit id: "today"
 ```
@@ -454,7 +454,7 @@ Config-driven training, seeded runs, framework-free metrics, pytest suite and CI
 | [`melkai-realestate-platform`](https://github.com/ParsaVictor/melkai-realestate-platform) | AI-powered Persian real estate platform — Next.js 16 demo (private preview) | <img src="https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square" alt="TypeScript" /> | ⭐ 3 |
 | [`point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction) | Five peer-reviewed algorithms for 3D point cloud denoising and curve reconstruction, benchmarked on industrial 3D-printing scan data | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 4 |
 | [`pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier) | Explainable classification of electronic components from images - Random Forest over 33 hand-engineered CV features, 93.3% holdout accuracy, every prediction traceable to a readable decision path | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 3 |
-| [`pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8) | YOLOv8 detection of electronic components on populated PCBs - 50 classes, 675k annotations, with dataset tooling and a full diagnosis of what limits the baseline | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 3 |
+| [`pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8) | YOLOv8 detection of electronic components on populated PCBs - 50 classes, 675k annotations, with dataset tooling and a full diagnosis of what limits the baseline | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 4 |
 | [`ai-project-template`](https://github.com/ParsaVictor/ai-project-template) | Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded runs, tests and CI out of the box. | <img src="https://img.shields.io/badge/-Python-3572A5?style=flat-square" alt="Python" /> | ⭐ 3 |
 
 </details>
@@ -463,8 +463,8 @@ Config-driven training, seeded runs, framework-free metrics, pytest suite and CI
 
 | Repo | What it is | Language | Stars |
 |:--|:--|:--|:--|
-| [`portfolio`](https://github.com/ParsaVictor/portfolio) | Motion-led personal portfolio — a WebGL particle instrument that morphs through the work as you scroll. React + Three.js + GSAP. | <img src="https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square" alt="TypeScript" /> | ⭐ 0 |
-| [`neuromesh`](https://github.com/ParsaVictor/neuromesh) | The Biomimetic Context Engine & Neural Runtime for AI Coding Assistants |  | ⭐ 0 |
+| [`portfolio`](https://github.com/ParsaVictor/portfolio) | Motion-led personal portfolio — a WebGL particle instrument that morphs through the work as you scroll. React + Three.js + GSAP. | <img src="https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square" alt="TypeScript" /> | ⭐ 1 |
+| [`neuromesh`](https://github.com/ParsaVictor/neuromesh) | The Biomimetic Context Engine & Neural Runtime for AI Coding Assistants |  | ⭐ 1 |
 | [`b2b-marketplace`](https://github.com/ParsaVictor/b2b-marketplace) | B2B International Marketplace | <img src="https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square" alt="TypeScript" /> | ⭐ 4 |
 
 </details>
@@ -531,14 +531,13 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 ## 🕒 Recent Activity
 
 <!-- ACTIVITY:START -->
-- 🔹 Delete on [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
+- 🔹 Delete on [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
 - 🔀 merged PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
 - 🔀 opened PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/b2b-marketplace`](https://github.com/ParsaVictor/b2b-marketplace)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio)
-- 🔀 merged PR in [`pinoox/neuromesh`](https://github.com/pinoox/neuromesh)
 <!-- ACTIVITY:END -->
 
 ## 📦 Latest Releases
