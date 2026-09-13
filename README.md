@@ -122,21 +122,21 @@ class ParsaKarkooti:
 
 <!-- HIGHLIGHTS_STATS:START -->
 <p align="center"><sub>📊 Every year since I joined — straight from GitHub, refreshed daily</sub></p>
-<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-12" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-12" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-12" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-12" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-12" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-12" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-12" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-12" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-12" alt="2026" /><img src="https://img.shields.io/badge/Commits-304-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-12" alt="Commits: 304" /><img src="https://img.shields.io/badge/PRs-11-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-12" alt="PRs: 11" /><img src="https://img.shields.io/badge/Issues-12-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-12" alt="Issues: 12" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-13" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-13" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-13" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-13" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-13" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-13" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-13" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-13" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-13" alt="2026" /><img src="https://img.shields.io/badge/Commits-344-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-13" alt="Commits: 344" /><img src="https://img.shields.io/badge/PRs-27-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-13" alt="PRs: 27" /><img src="https://img.shields.io/badge/Issues-12-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-13" alt="Issues: 12" /></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Public_Repos-14-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-12" alt="Public Repos: 14" />
+<img src="https://img.shields.io/badge/Public_Repos-14-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-13" alt="Public Repos: 14" />
 </p>
 <!-- HIGHLIGHTS_STATS:END -->
 
 <!-- TOTALS_STATS:START -->
 <p align="center"><sub>Lifetime totals since <b>2024</b> · rebuilt daily at 03:00 UTC</sub></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Followers-8-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-12" alt="Followers: 8" />
-<img src="https://img.shields.io/badge/Public_Repos-14-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-12" alt="Public Repos: 14" />
-<img src="https://img.shields.io/badge/Stars_Earned-42-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-12" alt="Stars Earned: 42" />
-<img src="https://img.shields.io/badge/Forks-20-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-12" alt="Forks: 20" />
+<img src="https://img.shields.io/badge/Followers-8-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-13" alt="Followers: 8" />
+<img src="https://img.shields.io/badge/Public_Repos-14-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-13" alt="Public Repos: 14" />
+<img src="https://img.shields.io/badge/Stars_Earned-42-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-13" alt="Stars Earned: 42" />
+<img src="https://img.shields.io/badge/Forks-20-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-13" alt="Forks: 20" />
 </p>
 <!-- TOTALS_STATS:END -->
 
@@ -148,29 +148,29 @@ class ParsaKarkooti:
 ```mermaid
 gitGraph
    commit id: "quiet"
-   branch portfolio
-   commit id: "09-09 · +8"
-   commit id: "09-10 · +8"
-   commit id: "09-11 · +8"
-   commit id: "portfolio · 25 commits this week"
-   checkout main
    branch code-context-engine
-   commit id: "09-09 · +7"
-   commit id: "09-10 · +7"
-   commit id: "09-11 · +7"
-   commit id: "code-context-engine · 22 commits this week"
+   commit id: "09-11 · +8"
+   commit id: "09-12 · +8"
+   commit id: "09-13 · +8"
+   commit id: "code-context-engine · 23 commits this week"
+   checkout main
+   branch portfolio
+   commit id: "09-11 · +5"
+   commit id: "09-12 · +5"
+   commit id: "09-13 · +5"
+   commit id: "portfolio · 15 commits this week"
    checkout main
    branch pelakx-license-plate-detection
-   commit id: "09-09 · +1"
-   commit id: "09-10 · +1"
    commit id: "09-11 · +1"
+   commit id: "09-12 · +1"
+   commit id: "09-13 · +1"
    commit id: "pelakx-license-plate-detection · 3 commits this week"
    checkout main
-   branch b2b-marketplace
-   commit id: "09-09 · +1"
-   commit id: "09-10 · +1"
+   branch ParsaVictor-github-io
    commit id: "09-11 · +1"
-   commit id: "b2b-marketplace · 1 commits this week"
+   commit id: "09-12 · +1"
+   commit id: "09-13 · +1"
+   commit id: "ParsaVictor-github-io · 1 commits this week"
    checkout main
    commit id: "today"
 ```
@@ -441,8 +441,8 @@ Config-driven training, seeded runs, framework-free metrics, pytest suite and CI
 
 | Repo | What it is | Language | Stars |
 |:--|:--|:--|:--|
-| [`pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection) | 🚗 PelakX — Multi-country License Plate Intelligence (ALPR): real-time vehicle detection, tracking, script-aware OCR, plate-category & region recognition for any country's grammar — deepest support for Iran 🇮🇷 today (taxi/government/police/diplomatic/free-zone plates, province lookup), extensible to yours. YOLO + OCR + country grammar. | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 3 |
 | [`code-context-engine`](https://github.com/ParsaVictor/code-context-engine) | Local-first MCP context engine for AI coding agents — cuts token cost ~90% via a per-project code graph + code folding. Works with Cursor, Claude Code, Codex & any MCP client. Web + ML/PyTorch codebases. Rust. (independent derivative of NeuroMesh) | <img src="https://img.shields.io/badge/-Rust-dea584?style=flat-square" alt="Rust" /> | ⭐ 4 |
+| [`pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection) | 🚗 PelakX — Multi-country License Plate Intelligence (ALPR): real-time vehicle detection, tracking, script-aware OCR, plate-category & region recognition for any country's grammar — deepest support for Iran 🇮🇷 today (taxi/government/police/diplomatic/free-zone plates, province lookup), extensible to yours. YOLO + OCR + country grammar. | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 3 |
 | [`fireguard`](https://github.com/ParsaVictor/fireguard) | 🔥 Real-time fire & smoke detection with hazard-state intelligence — 3 generations of YOLO (v8/11/26), broadcast-grade overlays, zero training. One-click Colab demo. [Demo release] | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 3 |
 | [`thief-face-detection`](https://github.com/ParsaVictor/thief-face-detection) | Tells a robber in a balaclava from a customer in a surgical mask — real-time concealed-face detection for retail CCTV. Pose-based orientation, occlusion-hardened tracking, zero training. | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 4 |
 | [`melkai-realestate-platform`](https://github.com/ParsaVictor/melkai-realestate-platform) | AI-powered Persian real estate platform — Next.js 16 demo (private preview) | <img src="https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square" alt="TypeScript" /> | ⭐ 3 |
@@ -457,8 +457,8 @@ Config-driven training, seeded runs, framework-free metrics, pytest suite and CI
 
 | Repo | What it is | Language | Stars |
 |:--|:--|:--|:--|
-| [`ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io) | Mohammad Parsa Karkooti — AI Engineer portfolio (GitHub Pages mirror) | <img src="https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square" alt="JavaScript" /> | ⭐ 0 |
 | [`portfolio`](https://github.com/ParsaVictor/portfolio) | Motion-led personal portfolio — a WebGL particle instrument that morphs through the work as you scroll. React + Three.js + GSAP. | <img src="https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square" alt="TypeScript" /> | ⭐ 1 |
+| [`ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io) | Mohammad Parsa Karkooti — AI Engineer portfolio (GitHub Pages mirror) | <img src="https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square" alt="JavaScript" /> | ⭐ 0 |
 | [`neuromesh`](https://github.com/ParsaVictor/neuromesh) | The Biomimetic Context Engine & Neural Runtime for AI Coding Assistants |  | ⭐ 1 |
 | [`b2b-marketplace`](https://github.com/ParsaVictor/b2b-marketplace) | B2B International Marketplace | <img src="https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square" alt="TypeScript" /> | ⭐ 4 |
 
@@ -526,10 +526,11 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 ## 🕒 Recent Activity
 
 <!-- ACTIVITY:START -->
-- ⬆️ Pushed 1 commit to [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
-- ✨ Created branch `p0-project-isolation` in [`ParsaVictor/neuromesh`](https://github.com/ParsaVictor/neuromesh)
+- 🔀 merged PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
+- 🔀 opened PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
+- 🔀 reopened PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
+- 🔀 closed PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
 <!-- ACTIVITY:END -->
 
 ## 📦 Latest Releases
