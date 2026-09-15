@@ -122,21 +122,21 @@ class ParsaKarkooti:
 
 <!-- HIGHLIGHTS_STATS:START -->
 <p align="center"><sub>📊 Every year since I joined — straight from GitHub, refreshed daily</sub></p>
-<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-14" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-14" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-14" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-14" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-14" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-14" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-14" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-14" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-14" alt="2026" /><img src="https://img.shields.io/badge/Commits-417-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-14" alt="Commits: 417" /><img src="https://img.shields.io/badge/PRs-65-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-14" alt="PRs: 65" /><img src="https://img.shields.io/badge/Issues-12-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-14" alt="Issues: 12" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-15" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-15" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-15" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-15" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-15" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-15" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-15" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-15" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-15" alt="2026" /><img src="https://img.shields.io/badge/Commits-432-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-15" alt="Commits: 432" /><img src="https://img.shields.io/badge/PRs-78-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-15" alt="PRs: 78" /><img src="https://img.shields.io/badge/Issues-12-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-15" alt="Issues: 12" /></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Public_Repos-14-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-14" alt="Public Repos: 14" />
+<img src="https://img.shields.io/badge/Public_Repos-14-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-15" alt="Public Repos: 14" />
 </p>
 <!-- HIGHLIGHTS_STATS:END -->
 
 <!-- TOTALS_STATS:START -->
 <p align="center"><sub>Lifetime totals since <b>2024</b> · rebuilt daily at 03:00 UTC</sub></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Followers-8-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-14" alt="Followers: 8" />
-<img src="https://img.shields.io/badge/Public_Repos-14-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-14" alt="Public Repos: 14" />
-<img src="https://img.shields.io/badge/Stars_Earned-42-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-14" alt="Stars Earned: 42" />
-<img src="https://img.shields.io/badge/Forks-20-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-14" alt="Forks: 20" />
+<img src="https://img.shields.io/badge/Followers-8-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-15" alt="Followers: 8" />
+<img src="https://img.shields.io/badge/Public_Repos-14-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-15" alt="Public Repos: 14" />
+<img src="https://img.shields.io/badge/Stars_Earned-42-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-15" alt="Stars Earned: 42" />
+<img src="https://img.shields.io/badge/Forks-20-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-15" alt="Forks: 20" />
 </p>
 <!-- TOTALS_STATS:END -->
 
@@ -151,17 +151,26 @@ gitGraph
    branch code-context-engine
    commit id: "09-13 · +8"
    commit id: "09-14 · +8"
+   commit id: "09-15 · +8"
    commit id: "code-context-engine · 24 commits this week"
    checkout main
-   branch ParsaVictor-github-io
+   branch pelakx-license-plate-detection
    commit id: "09-13 · +1"
    commit id: "09-14 · +1"
-   commit id: "ParsaVictor-github-io · 2 commits this week"
+   commit id: "09-15 · +1"
+   commit id: "pelakx-license-plate-detection · 3 commits this week"
    checkout main
    branch portfolio
    commit id: "09-13 · +1"
    commit id: "09-14 · +1"
+   commit id: "09-15 · +1"
    commit id: "portfolio · 2 commits this week"
+   checkout main
+   branch ParsaVictor-github-io
+   commit id: "09-13 · +1"
+   commit id: "09-14 · +1"
+   commit id: "09-15 · +1"
+   commit id: "ParsaVictor-github-io · 1 commits this week"
    checkout main
    commit id: "today"
 ```
@@ -517,10 +526,13 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 ## 🕒 Recent Activity
 
 <!-- ACTIVITY:START -->
-- 🔀 merged PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
-- 🔹 Delete on [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
-- 🔀 opened PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
+- 🔹 Delete on [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
+- 🔀 merged PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
+- 🔀 opened PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection)
 <!-- ACTIVITY:END -->
 
 ## 📦 Latest Releases
