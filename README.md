@@ -122,21 +122,21 @@ class ParsaKarkooti:
 
 <!-- HIGHLIGHTS_STATS:START -->
 <p align="center"><sub>📊 Every year since I joined — straight from GitHub, refreshed daily</sub></p>
-<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-24" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-24" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-24" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-24" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-24" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-24" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-24" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-24" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-24" alt="2026" /><img src="https://img.shields.io/badge/Commits-498-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-24" alt="Commits: 498" /><img src="https://img.shields.io/badge/PRs-125-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-24" alt="PRs: 125" /><img src="https://img.shields.io/badge/Issues-51-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-24" alt="Issues: 51" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-25" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-25" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-25" alt="2026" /><img src="https://img.shields.io/badge/Commits-501-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Commits: 501" /><img src="https://img.shields.io/badge/PRs-125-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="PRs: 125" /><img src="https://img.shields.io/badge/Issues-51-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Issues: 51" /></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Public_Repos-16-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-24" alt="Public Repos: 16" />
+<img src="https://img.shields.io/badge/Public_Repos-17-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Public Repos: 17" />
 </p>
 <!-- HIGHLIGHTS_STATS:END -->
 
 <!-- TOTALS_STATS:START -->
 <p align="center"><sub>Lifetime totals since <b>2024</b> · rebuilt daily at 03:00 UTC</sub></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Followers-10-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-24" alt="Followers: 10" />
-<img src="https://img.shields.io/badge/Public_Repos-16-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-24" alt="Public Repos: 16" />
-<img src="https://img.shields.io/badge/Stars_Earned-62-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-24" alt="Stars Earned: 62" />
-<img src="https://img.shields.io/badge/Forks-21-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-24" alt="Forks: 21" />
+<img src="https://img.shields.io/badge/Followers-10-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Followers: 10" />
+<img src="https://img.shields.io/badge/Public_Repos-17-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Public Repos: 17" />
+<img src="https://img.shields.io/badge/Stars_Earned-66-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Stars Earned: 66" />
+<img src="https://img.shields.io/badge/Forks-23-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Forks: 23" />
 </p>
 <!-- TOTALS_STATS:END -->
 
@@ -149,10 +149,10 @@ class ParsaKarkooti:
 gitGraph
    commit id: "quiet"
    branch code-context-engine
-   commit id: "09-21 · +9"
-   commit id: "09-22 · +9"
-   commit id: "09-23 · +9"
-   commit id: "code-context-engine · 26 commits this week"
+   commit id: "09-21 · +8"
+   commit id: "09-22 · +8"
+   commit id: "09-23 · +8"
+   commit id: "code-context-engine · 25 commits this week"
    checkout main
    branch neuromesh
    commit id: "09-21 · +1"
@@ -425,19 +425,20 @@ Config-driven training, seeded runs, framework-free metrics, pytest suite and CI
 <p align="center"><sub>🔄 Every public repo I own, sorted by field — this index grows automatically whenever I publish something new.</sub></p>
 
 <details open>
-<summary><b>🤖 AI & Computer Vision</b> · 10 repos</summary>
+<summary><b>🤖 AI & Computer Vision</b> · 11 repos</summary>
 
 | Repo | What it is | Language | Stars |
 |:--|:--|:--|:--|
+| [`PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel) | ⛑️ Real-time PPE compliance monitoring for construction CCTV — person-grounded two-stage pipeline (COCO person + ByteTrack → head/torso geometric association → temporal hysteresis). TensorRT FP16, all weights included, Colab-ready. | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 0 |
 | [`code-context-engine`](https://github.com/ParsaVictor/code-context-engine) | MCP context engine for AI coding agents: a local code graph answers "which files does this task need?" — folded evidence packets instead of whole files. Recall 1.000 on repos it was never tuned on, 45% fewer context tokens in a real Claude Code session. Rust, local-first, MIT. | <img src="https://img.shields.io/badge/-Rust-dea584?style=flat-square" alt="Rust" /> | ⭐ 5 |
-| [`FireGuuard_Fire_detection_smoke`](https://github.com/ParsaVictor/FireGuuard_Fire_detection_smoke) | 🔥 Real-time fire & smoke detection for indoor CCTV — YOLO26 detector, hazard-state alerting, and instant email alarms. Full pipeline: dataset audit → training → TensorRT export → live inference. | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 4 |
+| [`FireGuuard_Fire_detection_smoke`](https://github.com/ParsaVictor/FireGuuard_Fire_detection_smoke) | 🔥 Real-time fire & smoke detection for indoor CCTV — YOLO26 detector, hazard-state alerting, and instant email alarms. Full pipeline: dataset audit → training → TensorRT export → live inference. | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 5 |
 | [`pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection) | 🪧📪Open-source multilingual ALPR / car license plate recognition: YOLO vehicle (car, bus, truck, motorcycle) + plate detection, Persian & Latin OCR, per-country plate grammar validation, temporal fusion, and a config-driven demo notebook. Iran plate support out of the box. | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 4 |
 | [`thief-face-detection`](https://github.com/ParsaVictor/thief-face-detection) | 🏴‍☠️🏴‍☠️Tells a robber in a balaclava from a customer in a surgical mask — real-time concealed-face detection for retail CCTV. Pose-based orientation, occlusion-hardened tracking, zero training.🏴‍☠️ | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 5 |
 | [`melkai-realestate-platform`](https://github.com/ParsaVictor/melkai-realestate-platform) | 🌐🌐AI-powered Persian real estate platform — Next.js 16 demo (private preview)🌐🌐 | <img src="https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square" alt="TypeScript" /> | ⭐ 4 |
 | [`point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction) | 📈📈Five peer-reviewed algorithms for 3D point cloud denoising and curve reconstruction, benchmarked on industrial 3D-printing scan data | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 5 |
 | [`pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier) | Explainable classification of electronic components from images - Random Forest over 33 hand-engineered CV features, 93.3% holdout accuracy, every prediction traceable to a readable decision path | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 4 |
 | [`pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8) | YOLOv8 detection of electronic components on populated PCBs - 50 classes, 675k annotations, with dataset tooling and a full diagnosis of what limits the baseline | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 5 |
-| [`visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) | 🧠🧠Multimodal search over an image archive - face recognition, species detection, food recognition and open-vocabulary text search on one unified index.🧠🧠 | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 2 |
+| [`visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) | 🧠🧠Multimodal search over an image archive - face recognition, species detection, food recognition and open-vocabulary text search on one unified index.🧠🧠 | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 4 |
 | [`ai-project-template`](https://github.com/ParsaVictor/ai-project-template) | 🤖Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded runs, tests and CI out of the box.🤖 | <img src="https://img.shields.io/badge/-Python-3572A5?style=flat-square" alt="Python" /> | ⭐ 4 |
 
 </details>
@@ -450,7 +451,7 @@ Config-driven training, seeded runs, framework-free metrics, pytest suite and CI
 | [`ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io) | 🌐Mohammad Parsa Karkooti — AI Engineer portfolio (GitHub Pages mirror) | <img src="https://img.shields.io/badge/-HTML-e34c26?style=flat-square" alt="HTML" /> | ⭐ 2 |
 | [`portfolio`](https://github.com/ParsaVictor/portfolio) | 🌐🌐Motion-led personal portfolio — a WebGL particle instrument that morphs through the work as you scroll. React + Three.js + GSAP.🌐🌐 | <img src="https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square" alt="TypeScript" /> | ⭐ 4 |
 | [`b2b-marketplace`](https://github.com/ParsaVictor/b2b-marketplace) | 🌐🌐 B2B International Marketplace 🌐🌐 | <img src="https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square" alt="TypeScript" /> | ⭐ 5 |
-| [`Construction-Site-Safety-PPE-Detection`](https://github.com/ParsaVictor/Construction-Site-Safety-PPE-Detection) | ⛑️⚒️ Custom object detection for PPE Detection of Construction Site Workers. This repo contains notebook for PPE Detection using YoloV8. |  | ⭐ 0 |
+| [`Construction-Site-Safety-PPE-Detection`](https://github.com/ParsaVictor/Construction-Site-Safety-PPE-Detection) | ⛑️⚒️ Custom object detection for PPE Detection of Construction Site Workers. This repo contains notebook for PPE Detection using YoloV8. |  | ⭐ 1 |
 
 </details>
 <!-- REPO_INDEX:END -->
@@ -516,14 +517,14 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 ## 🕒 Recent Activity
 
 <!-- ACTIVITY:START -->
+- ✨ Created branch `main` in [`ParsaVictor/PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel)
+- 🔀 merged PR in [`pinoox/neuromesh`](https://github.com/pinoox/neuromesh)
 - ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
 - 🔹 Delete on [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
 - 🔀 merged PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
 - 🔀 opened PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
 - 🍴 Forked [`snehilsanyal/Construction-Site-Safety-PPE-Detection`](https://github.com/snehilsanyal/Construction-Site-Safety-PPE-Detection)
 - ⭐ Starred [`snehilsanyal/Construction-Site-Safety-PPE-Detection`](https://github.com/snehilsanyal/Construction-Site-Safety-PPE-Detection)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/neuromesh`](https://github.com/ParsaVictor/neuromesh)
-- 🔀 opened PR in [`pinoox/neuromesh`](https://github.com/pinoox/neuromesh)
 <!-- ACTIVITY:END -->
 
 ## 📦 Latest Releases
@@ -540,13 +541,16 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 <br/>
 
 <!-- PINNED_REPOS:START -->
-<p align="center"><sub>🔄 Auto-refreshed daily · <b>3</b> pinned repos · language colours match GitHub's own</sub></p>
+<p align="center"><sub>🔄 Auto-refreshed daily · <b>6</b> pinned repos · language colours match GitHub's own</sub></p>
 
 | Repo | Description | Language | |
 |:--|:--|:--|:--|
 | [`ai-project-template`](https://github.com/ParsaVictor/ai-project-template) | 🤖Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded runs, tests and CI out of the box.🤖 | <img src="https://img.shields.io/badge/-Python-3572A5?style=flat-square" alt="Python" /> | ⭐ 4 · 🍴 0 |
 | [`ParsaVictor`](https://github.com/ParsaVictor/ParsaVictor) | My GitHub profile README - AI Engineer \| Computer Vision & Deep Learning | <img src="https://img.shields.io/badge/-JavaScript-f1e05a?style=flat-square" alt="JavaScript" /> | ⭐ 6 · 🍴 2 |
 | [`code-context-engine`](https://github.com/ParsaVictor/code-context-engine) | MCP context engine for AI coding agents: a local code graph answers "which files does this task need?" — folded evidence packets instead of whole files. Recall 1.000 on repos it was never tuned on, 45% fewer context tokens in a real Claude Code session. Rust, local-first, MIT. | <img src="https://img.shields.io/badge/-Rust-dea584?style=flat-square" alt="Rust" /> | ⭐ 5 · 🍴 4 |
+| [`visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) | 🧠🧠Multimodal search over an image archive - face recognition, species detection, food recognition and open-vocabulary text search on one unified index.🧠🧠 | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 4 · 🍴 2 |
+| [`FireGuuard_Fire_detection_smoke`](https://github.com/ParsaVictor/FireGuuard_Fire_detection_smoke) | 🔥 Real-time fire & smoke detection for indoor CCTV — YOLO26 detector, hazard-state alerting, and instant email alarms. Full pipeline: dataset audit → training → TensorRT export → live inference. | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 5 · 🍴 3 |
+| [`thief-face-detection`](https://github.com/ParsaVictor/thief-face-detection) | 🏴‍☠️🏴‍☠️Tells a robber in a balaclava from a customer in a surgical mask — real-time concealed-face detection for retail CCTV. Pose-based orientation, occlusion-hardened tracking, zero training.🏴‍☠️ | <img src="https://img.shields.io/badge/-Jupyter%20Notebook-DA5B0B?style=flat-square" alt="Jupyter Notebook" /> | ⭐ 5 · 🍴 3 |
 
 <div align="center">
 [![Explore all repositories](https://img.shields.io/badge/%F0%9F%94%AD_Explore_all_repositories-github.com%2FParsaVictor%3Ftab%3Drepositories-F90001?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ParsaVictor?tab=repositories)
