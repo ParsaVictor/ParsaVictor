@@ -122,21 +122,21 @@ class ParsaKarkooti:
 
 <!-- HIGHLIGHTS_STATS:START -->
 <p align="center"><sub>📊 Every year since I joined — straight from GitHub, refreshed daily</sub></p>
-<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-25" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-25" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-25" alt="2026" /><img src="https://img.shields.io/badge/Commits-501-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Commits: 501" /><img src="https://img.shields.io/badge/PRs-125-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="PRs: 125" /><img src="https://img.shields.io/badge/Issues-51-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Issues: 51" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-26" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-26" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-26" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-26" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-26" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-26" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-26" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-26" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-09-26" alt="2026" /><img src="https://img.shields.io/badge/Commits-524-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-26" alt="Commits: 524" /><img src="https://img.shields.io/badge/PRs-125-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-26" alt="PRs: 125" /><img src="https://img.shields.io/badge/Issues-51-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-26" alt="Issues: 51" /></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Public_Repos-17-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Public Repos: 17" />
+<img src="https://img.shields.io/badge/Public_Repos-17-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-26" alt="Public Repos: 17" />
 </p>
 <!-- HIGHLIGHTS_STATS:END -->
 
 <!-- TOTALS_STATS:START -->
 <p align="center"><sub>Lifetime totals since <b>2024</b> · rebuilt daily at 03:00 UTC</sub></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Followers-10-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Followers: 10" />
-<img src="https://img.shields.io/badge/Public_Repos-17-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Public Repos: 17" />
-<img src="https://img.shields.io/badge/Stars_Earned-66-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Stars Earned: 66" />
-<img src="https://img.shields.io/badge/Forks-23-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-25" alt="Forks: 23" />
+<img src="https://img.shields.io/badge/Followers-11-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-26" alt="Followers: 11" />
+<img src="https://img.shields.io/badge/Public_Repos-17-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-26" alt="Public Repos: 17" />
+<img src="https://img.shields.io/badge/Stars_Earned-67-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-26" alt="Stars Earned: 67" />
+<img src="https://img.shields.io/badge/Forks-23-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-09-26" alt="Forks: 23" />
 </p>
 <!-- TOTALS_STATS:END -->
 
@@ -149,15 +149,27 @@ class ParsaKarkooti:
 gitGraph
    commit id: "quiet"
    branch code-context-engine
-   commit id: "09-21 · +8"
-   commit id: "09-22 · +8"
-   commit id: "09-23 · +8"
-   commit id: "code-context-engine · 25 commits this week"
+   commit id: "09-22 · +6"
+   commit id: "09-23 · +6"
+   commit id: "09-25 · +6"
+   commit id: "code-context-engine · 19 commits this week"
+   checkout main
+   branch portfolio
+   commit id: "09-22 · +4"
+   commit id: "09-23 · +4"
+   commit id: "09-25 · +4"
+   commit id: "portfolio · 12 commits this week"
+   checkout main
+   branch ParsaVictor-github-io
+   commit id: "09-22 · +4"
+   commit id: "09-23 · +4"
+   commit id: "09-25 · +4"
+   commit id: "ParsaVictor-github-io · 11 commits this week"
    checkout main
    branch neuromesh
-   commit id: "09-21 · +1"
    commit id: "09-22 · +1"
    commit id: "09-23 · +1"
+   commit id: "09-25 · +1"
    commit id: "neuromesh · 2 commits this week"
    checkout main
    commit id: "today"
@@ -447,9 +459,9 @@ Config-driven training, seeded runs, framework-free metrics, pytest suite and CI
 
 | Repo | What it is | Language | Stars |
 |:--|:--|:--|:--|
-| [`neuromesh`](https://github.com/ParsaVictor/neuromesh) | 🧠The Biomimetic Context Engine & Neural Runtime for AI Coding Assistants |  | ⭐ 3 |
-| [`ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io) | 🌐Mohammad Parsa Karkooti — AI Engineer portfolio (GitHub Pages mirror) | <img src="https://img.shields.io/badge/-HTML-e34c26?style=flat-square" alt="HTML" /> | ⭐ 2 |
+| [`ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io) | 🌐Mohammad Parsa Karkooti — AI Engineer portfolio (GitHub Pages mirror) | <img src="https://img.shields.io/badge/-HTML-e34c26?style=flat-square" alt="HTML" /> | ⭐ 3 |
 | [`portfolio`](https://github.com/ParsaVictor/portfolio) | 🌐🌐Motion-led personal portfolio — a WebGL particle instrument that morphs through the work as you scroll. React + Three.js + GSAP.🌐🌐 | <img src="https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square" alt="TypeScript" /> | ⭐ 4 |
+| [`neuromesh`](https://github.com/ParsaVictor/neuromesh) | 🧠The Biomimetic Context Engine & Neural Runtime for AI Coding Assistants |  | ⭐ 3 |
 | [`b2b-marketplace`](https://github.com/ParsaVictor/b2b-marketplace) | 🌐🌐 B2B International Marketplace 🌐🌐 | <img src="https://img.shields.io/badge/-TypeScript-3178c6?style=flat-square" alt="TypeScript" /> | ⭐ 5 |
 | [`Construction-Site-Safety-PPE-Detection`](https://github.com/ParsaVictor/Construction-Site-Safety-PPE-Detection) | ⛑️⚒️ Custom object detection for PPE Detection of Construction Site Workers. This repo contains notebook for PPE Detection using YoloV8. |  | ⭐ 1 |
 
@@ -517,14 +529,10 @@ Feature engineering, EDA, classical ML (XGBoost/LightGBM/SVM), recommender syste
 ## 🕒 Recent Activity
 
 <!-- ACTIVITY:START -->
+- ⬆️ Pushed 1 commit to [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio)
+- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io)
 - ✨ Created branch `main` in [`ParsaVictor/PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel)
 - 🔀 merged PR in [`pinoox/neuromesh`](https://github.com/pinoox/neuromesh)
-- ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
-- 🔹 Delete on [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
-- 🔀 merged PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
-- 🔀 opened PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine)
-- 🍴 Forked [`snehilsanyal/Construction-Site-Safety-PPE-Detection`](https://github.com/snehilsanyal/Construction-Site-Safety-PPE-Detection)
-- ⭐ Starred [`snehilsanyal/Construction-Site-Safety-PPE-Detection`](https://github.com/snehilsanyal/Construction-Site-Safety-PPE-Detection)
 <!-- ACTIVITY:END -->
 
 ## 📦 Latest Releases
