@@ -122,21 +122,21 @@ class ParsaKarkooti:
 
 <!-- HIGHLIGHTS_STATS:START -->
 <p align="center"><sub>📊 Every year since I joined — straight from GitHub, refreshed daily</sub></p>
-<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-10-03" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-03" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-03" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-03" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-10-03" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-03" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-03" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-03" alt="Issues: 0" /></p>
-<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-10-03" alt="2026" /><img src="https://img.shields.io/badge/Commits-532-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-03" alt="Commits: 532" /><img src="https://img.shields.io/badge/PRs-131-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-03" alt="PRs: 131" /><img src="https://img.shields.io/badge/Issues-51-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-03" alt="Issues: 51" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2024-year-F90001?style=flat-square&labelColor=0D1117&t=2026-10-04" alt="2024" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-04" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-04" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-04" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2025-year-F90001?style=flat-square&labelColor=0D1117&t=2026-10-04" alt="2025" /><img src="https://img.shields.io/badge/Commits-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-04" alt="Commits: 0" /><img src="https://img.shields.io/badge/PRs-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-04" alt="PRs: 0" /><img src="https://img.shields.io/badge/Issues-0-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-04" alt="Issues: 0" /></p>
+<p align="center"><img src="https://img.shields.io/badge/2026-year-F90001?style=flat-square&labelColor=0D1117&t=2026-10-04" alt="2026" /><img src="https://img.shields.io/badge/Commits-532-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-04" alt="Commits: 532" /><img src="https://img.shields.io/badge/PRs-131-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-04" alt="PRs: 131" /><img src="https://img.shields.io/badge/Issues-51-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-04" alt="Issues: 51" /></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Public_Repos-17-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-03" alt="Public Repos: 17" />
+<img src="https://img.shields.io/badge/Public_Repos-17-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-04" alt="Public Repos: 17" />
 </p>
 <!-- HIGHLIGHTS_STATS:END -->
 
 <!-- TOTALS_STATS:START -->
 <p align="center"><sub>Lifetime totals since <b>2024</b> · rebuilt daily at 03:00 UTC</sub></p>
 <p align="center">
-<img src="https://img.shields.io/badge/Followers-14-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-03" alt="Followers: 14" />
-<img src="https://img.shields.io/badge/Public_Repos-17-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-03" alt="Public Repos: 17" />
-<img src="https://img.shields.io/badge/Stars_Earned-68-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-03" alt="Stars Earned: 68" />
-<img src="https://img.shields.io/badge/Forks-24-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-03" alt="Forks: 24" />
+<img src="https://img.shields.io/badge/Followers-14-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-04" alt="Followers: 14" />
+<img src="https://img.shields.io/badge/Public_Repos-17-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-04" alt="Public Repos: 17" />
+<img src="https://img.shields.io/badge/Stars_Earned-68-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-04" alt="Stars Earned: 68" />
+<img src="https://img.shields.io/badge/Forks-24-F90001?style=for-the-badge&logo=github&logoColor=white&t=2026-10-04" alt="Forks: 24" />
 </p>
 <!-- TOTALS_STATS:END -->
 
@@ -149,16 +149,9 @@ class ParsaKarkooti:
 gitGraph
    commit id: "quiet"
    branch code-context-engine
-   commit id: "09-27 · +6"
    commit id: "09-30 · +6"
    commit id: "10-01 · +6"
    commit id: "code-context-engine · 17 commits this week"
-   checkout main
-   branch PPE_detection-Sentinel
-   commit id: "09-27 · +1"
-   commit id: "09-30 · +1"
-   commit id: "10-01 · +1"
-   commit id: "PPE_detection-Sentinel · 3 commits this week"
    checkout main
    commit id: "today"
 ```
