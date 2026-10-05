@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="100%">
+  
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="60%" stop-color="#140709" />
+      <stop offset="100%" stop-color="#22070C" />
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F90001" />
+      <stop offset="100%" stop-color="#FFB000" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#F90001" stroke-opacity="0.05" />
+    </pattern>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F90001" stop-opacity="0" />
+      <stop offset="50%" stop-color="#F90001" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#F90001" stop-opacity="0" />
+    </linearGradient><linearGradient id="m0" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE08A" /><stop offset="45%" stop-color="#FF6B57" /><stop offset="100%" stop-color="#B3000A" /></linearGradient><linearGradient id="m1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE08A" /><stop offset="45%" stop-color="#FF6B57" /><stop offset="100%" stop-color="#B3000A" /></linearGradient><linearGradient id="m2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF1B8" /><stop offset="45%" stop-color="#FFC233" /><stop offset="100%" stop-color="#9A6400" /></linearGradient><linearGradient id="m3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF1B8" /><stop offset="45%" stop-color="#FFC233" /><stop offset="100%" stop-color="#9A6400" /></linearGradient><linearGradient id="m4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF1B8" /><stop offset="45%" stop-color="#FFC233" /><stop offset="100%" stop-color="#9A6400" /></linearGradient><linearGradient id="m5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF1B8" /><stop offset="45%" stop-color="#FFC233" /><stop offset="100%" stop-color="#9A6400" /></linearGradient><linearGradient id="m6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF1B8" /><stop offset="45%" stop-color="#FFC233" /><stop offset="100%" stop-color="#9A6400" /></linearGradient><linearGradient id="m7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF1B8" /><stop offset="45%" stop-color="#FFC233" /><stop offset="100%" stop-color="#9A6400" /></linearGradient>
+    <clipPath id="cupclip"><path d="M -36 -58 H 36 V -30 C 36 -2 18 12 0 12 C -18 12 -36 -2 -36 -30 Z" /></clipPath>
+  </defs>
+  <style>
+  text { font-family: "JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace; }
+  .kicker { fill:#FF6B57; font-size:15px; font-weight:700; letter-spacing:4px; }
+  .title  { fill:#FFF5F0; font-size:30px; font-weight:800; }
+  .live   { fill:#FFC2B8; font-size:14px; font-weight:700; letter-spacing:2px; }
+  .lbl    { fill:#9A6A64; font-size:15px; font-weight:700; letter-spacing:2px; }
+  .val    { fill:#FFF5F0; font-weight:800; }
+  .foot   { fill:#8a5550; font-size:15px; }
+  .rise   { opacity:0; animation: rise .8s cubic-bezier(.2,.8,.2,1) forwards; }
+  @keyframes rise { from { opacity:0; transform: translateY(14px); } to { opacity:1; transform:none; } }
+  .pulse  { animation: pulse 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pulse { 0%,100% { opacity:1; transform: scale(1); } 50% { opacity:.35; transform: scale(1.8); } }
+  .scan   { animation: scan 6s linear infinite; }
+  @keyframes scan { from { transform: translateX(-200px); } to { transform: translateX(1100px); } }
+
+    .rank  { font-weight:900; }
+    .tname { fill:#FFC2B8; font-size:16px; font-weight:700; }
+    .tval  { fill:#FFF5F0; font-size:16px; font-weight:800; }
+    .tnext { fill:#9A6A64; font-size:13px; font-weight:400; }
+    .float { animation: float 4s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    .shine { animation: shine 4.5s ease-in-out infinite; }
+    @keyframes shine { 0% { transform: skewX(-20deg) translateX(0); } 35%,100% { transform: skewX(-20deg) translateX(190px); } }
+    .halo  { animation: halo 2.4s ease-in-out infinite; }
+    @keyframes halo { 0%,100% { opacity:.12; } 50% { opacity:.32; } }
+  </style>
+  
+  <rect width="900" height="560" rx="18" fill="url(#bg)" />
+  <rect width="900" height="560" rx="18" fill="url(#grid)" />
+  <rect x="0.5" y="0.5" width="899" height="559" rx="18" fill="none" stroke="#F90001" stroke-opacity="0.35" />
+  <rect class="scan" x="0" y="0" width="140" height="560" fill="url(#sweep)" opacity="0.5" />
+  <text x="40" y="50" class="kicker">// TROPHY CABINET</text>
+  <text x="40" y="88" class="title">Ranked from real GitHub data</text>
+  <circle class="pulse" cx="704" cy="45" r="5" fill="#F90001" />
+  <text x="718" y="50" class="live">LIVE</text>
+  <text x="860" y="50" text-anchor="end" class="foot">2026-10-05</text>
+  <g class="rise" style="animation-delay:0.15s">
+      <rect x="10" y="120" width="205" height="200" rx="14" fill="#140A0D" stroke="#F90001" stroke-opacity="0.7" />
+      <g class="float" style="animation-delay:0.00s">
+        <g transform="translate(112.5 198)">
+          <circle r="56" cy="-22" fill="#F90001" opacity="0.18" filter="url(#glow)" class="halo" />
+          <path d="M -36 -48 C -64 -48 -62 -14 -30 -12" fill="none" stroke="url(#m0)" stroke-width="7" stroke-linecap="round" />
+          <path d="M 36 -48 C 64 -48 62 -14 30 -12" fill="none" stroke="url(#m0)" stroke-width="7" stroke-linecap="round" />
+          <path d="M -36 -58 H 36 V -30 C 36 -2 18 12 0 12 C -18 12 -36 -2 -36 -30 Z" fill="url(#m0)" />
+          <rect x="-6" y="11" width="12" height="18" fill="url(#m0)" />
+          <rect x="-26" y="28" width="52" height="10" rx="3" fill="url(#m0)" />
+          <rect x="-34" y="38" width="68" height="12" rx="3" fill="#1d1012" stroke="#B3000A" />
+          <text y="-22" text-anchor="middle" class="rank" font-size="26" fill="#1A0A0C">S</text>
+          <g clip-path="url(#cupclip)"><rect class="shine" style="animation-delay:1.00s" x="-90" y="-70" width="22" height="100" fill="#fff" opacity="0.55" transform="skewX(-20)" /></g>
+        </g>
+      </g>
+      <text x="112.5" y="272" text-anchor="middle" class="tname">Commits</text>
+      <text x="112.5" y="294" text-anchor="middle" class="tval">532 <tspan class="tnext">→ 1.0k</tspan></text>
+      <rect x="42.5" y="304" width="140" height="4" rx="2" fill="#3A1218" />
+      <rect x="42.5" y="304" width="9.0" height="4" rx="2" fill="url(#hot)" />
+    </g><g class="rise" style="animation-delay:0.27s">
+      <rect x="235" y="120" width="205" height="200" rx="14" fill="#140A0D" stroke="#F90001" stroke-opacity="0.7" />
+      <g class="float" style="animation-delay:0.37s">
+        <g transform="translate(337.5 198)">
+          <circle r="56" cy="-22" fill="#F90001" opacity="0.18" filter="url(#glow)" class="halo" />
+          <path d="M -36 -48 C -64 -48 -62 -14 -30 -12" fill="none" stroke="url(#m1)" stroke-width="7" stroke-linecap="round" />
+          <path d="M 36 -48 C 64 -48 62 -14 30 -12" fill="none" stroke="url(#m1)" stroke-width="7" stroke-linecap="round" />
+          <path d="M -36 -58 H 36 V -30 C 36 -2 18 12 0 12 C -18 12 -36 -2 -36 -30 Z" fill="url(#m1)" />
+          <rect x="-6" y="11" width="12" height="18" fill="url(#m1)" />
+          <rect x="-26" y="28" width="52" height="10" rx="3" fill="url(#m1)" />
+          <rect x="-34" y="38" width="68" height="12" rx="3" fill="#1d1012" stroke="#B3000A" />
+          <text y="-22" text-anchor="middle" class="rank" font-size="26" fill="#1A0A0C">S</text>
+          <g clip-path="url(#cupclip)"><rect class="shine" style="animation-delay:1.35s" x="-90" y="-70" width="22" height="100" fill="#fff" opacity="0.55" transform="skewX(-20)" /></g>
+        </g>
+      </g>
+      <text x="337.5" y="272" text-anchor="middle" class="tname">Pull Requests</text>
+      <text x="337.5" y="294" text-anchor="middle" class="tval">131 <tspan class="tnext">→ 200</tspan></text>
+      <rect x="267.5" y="304" width="140" height="4" rx="2" fill="#3A1218" />
+      <rect x="267.5" y="304" width="43.4" height="4" rx="2" fill="url(#hot)" />
+    </g><g class="rise" style="animation-delay:0.39s">
+      <rect x="460" y="120" width="205" height="200" rx="14" fill="#140A0D" stroke="#3A1218" stroke-opacity="1" />
+      <g class="float" style="animation-delay:0.74s">
+        <g transform="translate(562.5 198)">
+          
+          <path d="M -36 -48 C -64 -48 -62 -14 -30 -12" fill="none" stroke="url(#m2)" stroke-width="7" stroke-linecap="round" />
+          <path d="M 36 -48 C 64 -48 62 -14 30 -12" fill="none" stroke="url(#m2)" stroke-width="7" stroke-linecap="round" />
+          <path d="M -36 -58 H 36 V -30 C 36 -2 18 12 0 12 C -18 12 -36 -2 -36 -30 Z" fill="url(#m2)" />
+          <rect x="-6" y="11" width="12" height="18" fill="url(#m2)" />
+          <rect x="-26" y="28" width="52" height="10" rx="3" fill="url(#m2)" />
+          <rect x="-34" y="38" width="68" height="12" rx="3" fill="#1d1012" stroke="#9A6400" />
+          <text y="-22" text-anchor="middle" class="rank" font-size="20" fill="#1A0A0C">AAA</text>
+          <g clip-path="url(#cupclip)"><rect class="shine" style="animation-delay:1.70s" x="-90" y="-70" width="22" height="100" fill="#fff" opacity="0.55" transform="skewX(-20)" /></g>
+        </g>
+      </g>
+      <text x="562.5" y="272" text-anchor="middle" class="tname">Issues</text>
+      <text x="562.5" y="294" text-anchor="middle" class="tval">51 <tspan class="tnext">→ 100</tspan></text>
+      <rect x="492.5" y="304" width="140" height="4" rx="2" fill="#3A1218" />
+      <rect x="492.5" y="304" width="2.8" height="4" rx="2" fill="url(#hot)" />
+    </g><g class="rise" style="animation-delay:0.51s">
+      <rect x="685" y="120" width="205" height="200" rx="14" fill="#140A0D" stroke="#3A1218" stroke-opacity="1" />
+      <g class="float" style="animation-delay:1.11s">
+        <g transform="translate(787.5 198)">
+          
+          <path d="M -36 -48 C -64 -48 -62 -14 -30 -12" fill="none" stroke="url(#m3)" stroke-width="7" stroke-linecap="round" />
+          <path d="M 36 -48 C 64 -48 62 -14 30 -12" fill="none" stroke="url(#m3)" stroke-width="7" stroke-linecap="round" />
+          <path d="M -36 -58 H 36 V -30 C 36 -2 18 12 0 12 C -18 12 -36 -2 -36 -30 Z" fill="url(#m3)" />
+          <rect x="-6" y="11" width="12" height="18" fill="url(#m3)" />
+          <rect x="-26" y="28" width="52" height="10" rx="3" fill="url(#m3)" />
+          <rect x="-34" y="38" width="68" height="12" rx="3" fill="#1d1012" stroke="#9A6400" />
+          <text y="-22" text-anchor="middle" class="rank" font-size="26" fill="#1A0A0C">AA</text>
+          <g clip-path="url(#cupclip)"><rect class="shine" style="animation-delay:2.05s" x="-90" y="-70" width="22" height="100" fill="#fff" opacity="0.55" transform="skewX(-20)" /></g>
+        </g>
+      </g>
+      <text x="787.5" y="272" text-anchor="middle" class="tname">Forks Earned</text>
+      <text x="787.5" y="294" text-anchor="middle" class="tval">24 <tspan class="tnext">→ 50</tspan></text>
+      <rect x="717.5" y="304" width="140" height="4" rx="2" fill="#3A1218" />
+      <rect x="717.5" y="304" width="18.7" height="4" rx="2" fill="url(#hot)" />
+    </g><g class="rise" style="animation-delay:0.63s">
+      <rect x="10" y="335" width="205" height="200" rx="14" fill="#140A0D" stroke="#3A1218" stroke-opacity="1" />
+      <g class="float" style="animation-delay:1.48s">
+        <g transform="translate(112.5 413)">
+          
+          <path d="M -36 -48 C -64 -48 -62 -14 -30 -12" fill="none" stroke="url(#m4)" stroke-width="7" stroke-linecap="round" />
+          <path d="M 36 -48 C 64 -48 62 -14 30 -12" fill="none" stroke="url(#m4)" stroke-width="7" stroke-linecap="round" />
+          <path d="M -36 -58 H 36 V -30 C 36 -2 18 12 0 12 C -18 12 -36 -2 -36 -30 Z" fill="url(#m4)" />
+          <rect x="-6" y="11" width="12" height="18" fill="url(#m4)" />
+          <rect x="-26" y="28" width="52" height="10" rx="3" fill="url(#m4)" />
+          <rect x="-34" y="38" width="68" height="12" rx="3" fill="#1d1012" stroke="#9A6400" />
+          <text y="-22" text-anchor="middle" class="rank" font-size="20" fill="#1A0A0C">AAA</text>
+          <g clip-path="url(#cupclip)"><rect class="shine" style="animation-delay:2.40s" x="-90" y="-70" width="22" height="100" fill="#fff" opacity="0.55" transform="skewX(-20)" /></g>
+        </g>
+      </g>
+      <text x="112.5" y="487" text-anchor="middle" class="tname">Stars</text>
+      <text x="112.5" y="509" text-anchor="middle" class="tval">64 <tspan class="tnext">→ 100</tspan></text>
+      <rect x="42.5" y="519" width="140" height="4" rx="2" fill="#3A1218" />
+      <rect x="42.5" y="519" width="39.2" height="4" rx="2" fill="url(#hot)" />
+    </g><g class="rise" style="animation-delay:0.75s">
+      <rect x="235" y="335" width="205" height="200" rx="14" fill="#140A0D" stroke="#3A1218" stroke-opacity="1" />
+      <g class="float" style="animation-delay:1.85s">
+        <g transform="translate(337.5 413)">
+          
+          <path d="M -36 -48 C -64 -48 -62 -14 -30 -12" fill="none" stroke="url(#m5)" stroke-width="7" stroke-linecap="round" />
+          <path d="M 36 -48 C 64 -48 62 -14 30 -12" fill="none" stroke="url(#m5)" stroke-width="7" stroke-linecap="round" />
+          <path d="M -36 -58 H 36 V -30 C 36 -2 18 12 0 12 C -18 12 -36 -2 -36 -30 Z" fill="url(#m5)" />
+          <rect x="-6" y="11" width="12" height="18" fill="url(#m5)" />
+          <rect x="-26" y="28" width="52" height="10" rx="3" fill="url(#m5)" />
+          <rect x="-34" y="38" width="68" height="12" rx="3" fill="#1d1012" stroke="#9A6400" />
+          <text y="-22" text-anchor="middle" class="rank" font-size="26" fill="#1A0A0C">A</text>
+          <g clip-path="url(#cupclip)"><rect class="shine" style="animation-delay:2.75s" x="-90" y="-70" width="22" height="100" fill="#fff" opacity="0.55" transform="skewX(-20)" /></g>
+        </g>
+      </g>
+      <text x="337.5" y="487" text-anchor="middle" class="tname">Followers</text>
+      <text x="337.5" y="509" text-anchor="middle" class="tval">15 <tspan class="tnext">→ 20</tspan></text>
+      <rect x="267.5" y="519" width="140" height="4" rx="2" fill="#3A1218" />
+      <rect x="267.5" y="519" width="70.0" height="4" rx="2" fill="url(#hot)" />
+    </g><g class="rise" style="animation-delay:0.87s">
+      <rect x="460" y="335" width="205" height="200" rx="14" fill="#140A0D" stroke="#3A1218" stroke-opacity="1" />
+      <g class="float" style="animation-delay:2.22s">
+        <g transform="translate(562.5 413)">
+          
+          <path d="M -36 -48 C -64 -48 -62 -14 -30 -12" fill="none" stroke="url(#m6)" stroke-width="7" stroke-linecap="round" />
+          <path d="M 36 -48 C 64 -48 62 -14 30 -12" fill="none" stroke="url(#m6)" stroke-width="7" stroke-linecap="round" />
+          <path d="M -36 -58 H 36 V -30 C 36 -2 18 12 0 12 C -18 12 -36 -2 -36 -30 Z" fill="url(#m6)" />
+          <rect x="-6" y="11" width="12" height="18" fill="url(#m6)" />
+          <rect x="-26" y="28" width="52" height="10" rx="3" fill="url(#m6)" />
+          <rect x="-34" y="38" width="68" height="12" rx="3" fill="#1d1012" stroke="#9A6400" />
+          <text y="-22" text-anchor="middle" class="rank" font-size="26" fill="#1A0A0C">AA</text>
+          <g clip-path="url(#cupclip)"><rect class="shine" style="animation-delay:3.10s" x="-90" y="-70" width="22" height="100" fill="#fff" opacity="0.55" transform="skewX(-20)" /></g>
+        </g>
+      </g>
+      <text x="562.5" y="487" text-anchor="middle" class="tname">Repositories</text>
+      <text x="562.5" y="509" text-anchor="middle" class="tval">15 <tspan class="tnext">→ 20</tspan></text>
+      <rect x="492.5" y="519" width="140" height="4" rx="2" fill="#3A1218" />
+      <rect x="492.5" y="519" width="70.0" height="4" rx="2" fill="url(#hot)" />
+    </g><g class="rise" style="animation-delay:0.99s">
+      <rect x="685" y="335" width="205" height="200" rx="14" fill="#140A0D" stroke="#3A1218" stroke-opacity="1" />
+      <g class="float" style="animation-delay:2.59s">
+        <g transform="translate(787.5 413)">
+          
+          <path d="M -36 -48 C -64 -48 -62 -14 -30 -12" fill="none" stroke="url(#m7)" stroke-width="7" stroke-linecap="round" />
+          <path d="M 36 -48 C 64 -48 62 -14 30 -12" fill="none" stroke="url(#m7)" stroke-width="7" stroke-linecap="round" />
+          <path d="M -36 -58 H 36 V -30 C 36 -2 18 12 0 12 C -18 12 -36 -2 -36 -30 Z" fill="url(#m7)" />
+          <rect x="-6" y="11" width="12" height="18" fill="url(#m7)" />
+          <rect x="-26" y="28" width="52" height="10" rx="3" fill="url(#m7)" />
+          <rect x="-34" y="38" width="68" height="12" rx="3" fill="#1d1012" stroke="#9A6400" />
+          <text y="-22" text-anchor="middle" class="rank" font-size="26" fill="#1A0A0C">A</text>
+          <g clip-path="url(#cupclip)"><rect class="shine" style="animation-delay:3.45s" x="-90" y="-70" width="22" height="100" fill="#fff" opacity="0.55" transform="skewX(-20)" /></g>
+        </g>
+      </g>
+      <text x="787.5" y="487" text-anchor="middle" class="tname">Best Streak</text>
+      <text x="787.5" y="509" text-anchor="middle" class="tval">10 <tspan class="tnext">→ 14</tspan></text>
+      <rect x="717.5" y="519" width="140" height="4" rx="2" fill="#3A1218" />
+      <rect x="717.5" y="519" width="60.0" height="4" rx="2" fill="url(#hot)" />
+    </g>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 536" width="100%">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1A0B0E" /><stop offset="100%" stop-color="#2A0A10" />
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F90001" stop-opacity="0.8" /><stop offset="100%" stop-color="#FFB000" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: "JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace; }
+    .code { font-size:19px; }
+    .ln   { fill:#4a3033; font-size:16px; }
+    .tab  { fill:#FFF5F0; font-size:15px; font-weight:700; }
+    .path { fill:#8a5550; font-size:14px; }
+    .caret { animation: blink 1s steps(1) infinite; animation-delay:6.51s; opacity:0; }
+    @keyframes blink { 0% { opacity:1; } 50% { opacity:0; } }
+  </style>
+
+  <rect x="1" y="1" width="898" height="534" rx="16" fill="#0F0A0C" stroke="url(#edge)" stroke-width="1.5" />
+  <path d="M1 17 a16 16 0 0 1 16 -16 H 883 a16 16 0 0 1 16 16 V 48 H 1 Z" fill="url(#bar)" />
+  <circle cx="30" cy="25" r="7" fill="#FF5F57" />
+  <circle cx="54" cy="25" r="7" fill="#FEBC2E" />
+  <circle cx="78" cy="25" r="7" fill="#28C840" />
+  <rect x="110" y="10" width="150" height="38" rx="8" fill="#0F0A0C" />
+  <circle cx="128" cy="29" r="5" fill="#FFB000" />
+  <text x="142" y="34" class="tab">parsa.py</text>
+  <text x="876" y="32" text-anchor="end" class="path">~/ParsaVictor · Python 3</text>
+  <line x1="52" y1="62" x2="52" y2="516" stroke="#2a1518" />
+  
+  <text x="42" y="92" text-anchor="end" class="ln">1</text>
+  <text x="64" y="92" class="code" xml:space="preserve"><tspan fill="#FF6B57">class </tspan><tspan fill="#FFB000">ParsaKarkooti</tspan><tspan fill="#8B949E">:</tspan></text>
+  <rect class="cover" x="62" y="71" width="248.0" height="34" fill="#0F0A0C"
+    style="animation: wipe0 0.22s steps(20) 0.60s forwards" />
+  <style>@keyframes wipe0 { to { transform: translateX(248.0px); width: 0; } }</style>
+  <text x="42" y="126" text-anchor="end" class="ln">2</text>
+  <text x="64" y="126" class="code" xml:space="preserve"><tspan fill="#FFC2B8">    role      </tspan><tspan fill="#8B949E">= </tspan><tspan fill="#7EE787">"AI Engineer"</tspan></text>
+  <rect class="cover" x="62" y="105" width="350.6" height="34" fill="#0F0A0C"
+    style="animation: wipe1 0.32s steps(29) 0.87s forwards" />
+  <style>@keyframes wipe1 { to { transform: translateX(350.6px); width: 0; } }</style>
+  <text x="42" y="160" text-anchor="end" class="ln">3</text>
+  <text x="64" y="160" class="code" xml:space="preserve"><tspan fill="#FFC2B8">    focus     </tspan><tspan fill="#8B949E">= [</tspan><tspan fill="#7EE787">"Computer Vision"</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#7EE787">"Deep Learning"</tspan><tspan fill="#8B949E">,</tspan></text>
+  <rect class="cover" x="62" y="139" width="612.8" height="34" fill="#0F0A0C"
+    style="animation: wipe2 0.57s steps(52) 1.24s forwards" />
+  <style>@keyframes wipe2 { to { transform: translateX(612.8px); width: 0; } }</style>
+  <text x="42" y="194" text-anchor="end" class="ln">4</text>
+  <text x="64" y="194" class="code" xml:space="preserve"><tspan fill="#8B949E">                 </tspan><tspan fill="#7EE787">"Video Intelligence"</tspan><tspan fill="#8B949E">]</tspan></text>
+  <rect class="cover" x="62" y="173" width="453.2" height="34" fill="#0F0A0C"
+    style="animation: wipe3 0.42s steps(38) 1.86s forwards" />
+  <style>@keyframes wipe3 { to { transform: translateX(453.2px); width: 0; } }</style>
+  <text x="42" y="228" text-anchor="end" class="ln">5</text>
+  <text x="64" y="228" class="code" xml:space="preserve"><tspan fill="#FFC2B8">    domains   </tspan><tspan fill="#8B949E">= [</tspan><tspan fill="#7EE787">"Industrial AI"</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#7EE787">"Video Analytics"</tspan><tspan fill="#8B949E">,</tspan></text>
+  <rect class="cover" x="62" y="207" width="612.8" height="34" fill="#0F0A0C"
+    style="animation: wipe4 0.57s steps(52) 2.33s forwards" />
+  <style>@keyframes wipe4 { to { transform: translateX(612.8px); width: 0; } }</style>
+  <text x="42" y="262" text-anchor="end" class="ln">6</text>
+  <text x="64" y="262" class="code" xml:space="preserve"><tspan fill="#8B949E">                 </tspan><tspan fill="#7EE787">"Recommenders"</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#7EE787">"Multimodal AI"</tspan><tspan fill="#8B949E">]</tspan></text>
+  <rect class="cover" x="62" y="241" width="578.6" height="34" fill="#0F0A0C"
+    style="animation: wipe5 0.54s steps(49) 2.95s forwards" />
+  <style>@keyframes wipe5 { to { transform: translateX(578.6px); width: 0; } }</style>
+  <text x="42" y="296" text-anchor="end" class="ln">7</text>
+  <text x="64" y="296" class="code" xml:space="preserve"><tspan fill="#FFC2B8">    education </tspan><tspan fill="#8B949E">= </tspan><tspan fill="#7EE787">"B.Sc. Computer Eng. · Razi University"</tspan></text>
+  <rect class="cover" x="62" y="275" width="647.0" height="34" fill="#0F0A0C"
+    style="animation: wipe6 0.60s steps(55) 3.54s forwards" />
+  <style>@keyframes wipe6 { to { transform: translateX(647.0px); width: 0; } }</style>
+  <text x="42" y="330" text-anchor="end" class="ln">8</text>
+  <text x="64" y="330" class="code" xml:space="preserve"><tspan fill="#FFC2B8">    approach  </tspan><tspan fill="#8B949E">= </tspan><tspan fill="#7EE787">"problem → research → build → fast"</tspan></text>
+  <rect class="cover" x="62" y="309" width="601.4" height="34" fill="#0F0A0C"
+    style="animation: wipe7 0.56s steps(51) 4.19s forwards" />
+  <style>@keyframes wipe7 { to { transform: translateX(601.4px); width: 0; } }</style>
+  <text x="42" y="364" text-anchor="end" class="ln">9</text>
+  <text x="64" y="364" class="code" xml:space="preserve"><tspan fill="#FFC2B8">    open_to   </tspan><tspan fill="#8B949E">= [</tspan><tspan fill="#7EE787">"AI roles"</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#7EE787">"Research"</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#7EE787">"Open source"</tspan><tspan fill="#8B949E">]</tspan></text>
+  <rect class="cover" x="62" y="343" width="647.0" height="34" fill="#0F0A0C"
+    style="animation: wipe8 0.60s steps(55) 4.81s forwards" />
+  <style>@keyframes wipe8 { to { transform: translateX(647.0px); width: 0; } }</style>
+  <text x="42" y="398" text-anchor="end" class="ln">10</text>
+  <text x="64" y="398" class="code" xml:space="preserve"></text>
+  
+  <text x="42" y="432" text-anchor="end" class="ln">11</text>
+  <text x="64" y="432" class="code" xml:space="preserve"><tspan fill="#FF6B57">    def </tspan><tspan fill="#79C0FF">say_hi</tspan><tspan fill="#8B949E">(</tspan><tspan fill="#FFC2B8">self</tspan><tspan fill="#8B949E">):</tspan></text>
+  <rect class="cover" x="62" y="411" width="259.4" height="34" fill="#0F0A0C"
+    style="animation: wipe10 0.23s steps(21) 5.63s forwards" />
+  <style>@keyframes wipe10 { to { transform: translateX(259.4px); width: 0; } }</style>
+  <text x="42" y="466" text-anchor="end" class="ln">12</text>
+  <text x="64" y="466" class="code" xml:space="preserve"><tspan fill="#FF6B57">        return </tspan><tspan fill="#7EE787">"Let's build something that ships."</tspan></text>
+  <rect class="cover" x="62" y="445" width="590.0" height="34" fill="#0F0A0C"
+    style="animation: wipe11 0.55s steps(50) 5.91s forwards" />
+  <style>@keyframes wipe11 { to { transform: translateX(590.0px); width: 0; } }</style>
+  <rect class="caret" x="638.0" y="448" width="10" height="23" fill="#F90001" />
+</svg>

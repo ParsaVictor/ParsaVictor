@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202 40" width="202" height="40">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F90001" /><stop offset="100%" stop-color="#FFB000" />
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace; font-size:16px; }
+    .dot { animation: d 2.4s ease-in-out 1.35s infinite; }
+    @keyframes d { 0%,100% { opacity:1; } 50% { opacity:.25; } }
+  </style>
+  <rect x="1" y="1" width="200" height="38" rx="19" fill="#140A0D" stroke="url(#g)" stroke-width="1.5" />
+  <circle class="dot" cx="20" cy="20" r="4.5" fill="#F90001" />
+  <text x="34" y="25.5"><tspan fill="#FF6B57" font-weight="700">06</tspan><tspan fill="#FFF5F0" font-weight="700"> 3D Calendar</tspan></text>
+</svg>

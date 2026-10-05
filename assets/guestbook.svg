@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117" /><stop offset="60%" stop-color="#140709" /><stop offset="100%" stop-color="#22070C" />
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F90001" /><stop offset="100%" stop-color="#FFB000" />
+    </linearGradient>
+    <clipPath id="round"><circle cx="0" cy="0" r="26" /></clipPath>
+  </defs>
+  <style>
+  text { font-family: "JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace; }
+  .kicker { fill:#FF6B57; font-size:15px; font-weight:700; letter-spacing:4px; }
+  .title  { fill:#FFF5F0; font-size:30px; font-weight:800; }
+  .count  { fill:#FFC2B8; font-size:15px; font-weight:700; }
+  .who    { fill:#FFF5F0; font-size:17px; font-weight:800; }
+  .when   { fill:#9A6A64; font-size:13px; }
+  .chip   { fill:#FFB000; font-size:13px; font-weight:700; }
+  .msg    { fill:#FFC2B8; font-size:16px; }
+  .big    { fill:#FFF5F0; font-size:34px; font-weight:800; }
+  .sub    { fill:#FFC2B8; font-size:17px; }
+  .rise   { opacity:0; animation: rise .8s cubic-bezier(.2,.8,.2,1) forwards; }
+  @keyframes rise { from { opacity:0; transform: translateY(14px); } to { opacity:1; transform:none; } }
+  .ink    { stroke-dasharray: 1; stroke-dashoffset: 1; animation: ink 2.6s ease-in-out .6s infinite alternate; }
+  @keyframes ink { to { stroke-dashoffset: 0; } }
+  .float  { animation: float 4s ease-in-out infinite; }
+  @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+</style>
+  <rect width="900" height="330" rx="18" fill="url(#bg)" />
+  <rect x="0.5" y="0.5" width="899" height="329" rx="18" fill="none" stroke="#F90001" stroke-opacity="0.35" />
+  <text x="40" y="50" class="kicker">// GUESTBOOK</text>
+  <text x="40" y="88" class="title">Notes from visitors</text>
+  <text x="860" y="50" text-anchor="end" class="count">0 signatures</text>
+  
+  <g transform="translate(450 150)"><g class="float">
+    <rect x="-90" y="-50" width="180" height="110" rx="10" fill="#140A0D" stroke="#F90001" stroke-opacity=".6" />
+    <line x1="0" y1="-50" x2="0" y2="60" stroke="#F90001" stroke-opacity=".4" />
+    <path class="ink" pathLength="1" d="M -72 -20 C -55 -34, -40 -6, -24 -20 S 0 -10, -14 6 M -72 14 H -24 M 16 -20 H 72 M 16 0 H 60 M 16 20 H 68"
+      fill="none" stroke="url(#hot)" stroke-width="3" stroke-linecap="round" />
+  </g></g>
+  <text x="450" y="262" text-anchor="middle" class="big rise" style="animation-delay:.3s">The first page is still blank.</text>
+  <text x="450" y="296" text-anchor="middle" class="sub rise" style="animation-delay:.5s">Sign it and your avatar and note show up here.</text>
+</svg>

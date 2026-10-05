@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" width="100%">
+  
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="60%" stop-color="#140709" />
+      <stop offset="100%" stop-color="#22070C" />
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F90001" />
+      <stop offset="100%" stop-color="#FFB000" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#F90001" stroke-opacity="0.05" />
+    </pattern>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F90001" stop-opacity="0" />
+      <stop offset="50%" stop-color="#F90001" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#F90001" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F90001" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#F90001" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="hotV" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#F90001" />
+      <stop offset="100%" stop-color="#FFB000" />
+    </linearGradient>
+    <clipPath id="reveal"><rect x="0" y="0" width="0" height="640">
+      <animate attributeName="width" from="0" to="900" dur="2.4s" begin=".2s" fill="freeze" calcMode="spline" keySplines=".4 0 .2 1" keyTimes="0;1" />
+    </rect></clipPath>
+  </defs>
+  <style>
+  text { font-family: "JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace; }
+  .kicker { fill:#FF6B57; font-size:15px; font-weight:700; letter-spacing:4px; }
+  .title  { fill:#FFF5F0; font-size:30px; font-weight:800; }
+  .live   { fill:#FFC2B8; font-size:14px; font-weight:700; letter-spacing:2px; }
+  .lbl    { fill:#9A6A64; font-size:15px; font-weight:700; letter-spacing:2px; }
+  .val    { fill:#FFF5F0; font-weight:800; }
+  .foot   { fill:#8a5550; font-size:15px; }
+  .rise   { opacity:0; animation: rise .8s cubic-bezier(.2,.8,.2,1) forwards; }
+  @keyframes rise { from { opacity:0; transform: translateY(14px); } to { opacity:1; transform:none; } }
+  .pulse  { animation: pulse 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pulse { 0%,100% { opacity:1; transform: scale(1); } 50% { opacity:.35; transform: scale(1.8); } }
+  .scan   { animation: scan 6s linear infinite; }
+  @keyframes scan { from { transform: translateX(-200px); } to { transform: translateX(1100px); } }
+
+    .axis { fill:#9A6A64; font-size:13px; }
+    .leg  { fill:#FFC2B8; font-size:15px; }
+    .legN { fill:#FFF5F0; font-size:15px; font-weight:700; }
+    .bar  { transform-box: fill-box; transform-origin: bottom; transform: scaleY(0); animation: grow .9s cubic-bezier(.2,.8,.2,1) forwards; }
+    @keyframes grow { to { transform: scaleY(1); } }
+  </style>
+  
+  <rect width="900" height="640" rx="18" fill="url(#bg)" />
+  <rect width="900" height="640" rx="18" fill="url(#grid)" />
+  <rect x="0.5" y="0.5" width="899" height="639" rx="18" fill="none" stroke="#F90001" stroke-opacity="0.35" />
+  <rect class="scan" x="0" y="0" width="140" height="640" fill="url(#sweep)" opacity="0.5" />
+  <text x="40" y="50" class="kicker">// CONTRIBUTION PULSE</text>
+  <text x="40" y="88" class="title">52 weeks, week by week</text>
+  <circle class="pulse" cx="704" cy="45" r="5" fill="#F90001" />
+  <text x="718" y="50" class="live">LIVE</text>
+  <text x="860" y="50" text-anchor="end" class="foot">2026-10-05</text>
+
+  <line x1="60" x2="850" y1="330" y2="330" stroke="#F90001" stroke-opacity="0.35" stroke-dasharray="" />
+      <text x="48" y="335" text-anchor="end" class="axis">0</text><line x1="60" x2="850" y1="263.33333333333337" y2="263.33333333333337" stroke="#F90001" stroke-opacity="0.1" stroke-dasharray="4 6" />
+      <text x="48" y="268.33333333333337" text-anchor="end" class="axis">63</text><line x1="60" x2="850" y1="196.66666666666669" y2="196.66666666666669" stroke="#F90001" stroke-opacity="0.1" stroke-dasharray="4 6" />
+      <text x="48" y="201.66666666666669" text-anchor="end" class="axis">126</text><line x1="60" x2="850" y1="130" y2="130" stroke="#F90001" stroke-opacity="0.1" stroke-dasharray="4 6" />
+      <text x="48" y="135" text-anchor="end" class="axis">189</text>
+  <text x="120.8" y="356" text-anchor="middle" class="axis">Nov</text><text x="196.7" y="356" text-anchor="middle" class="axis">Dec</text><text x="257.5" y="356" text-anchor="middle" class="axis">Jan</text><text x="318.3" y="356" text-anchor="middle" class="axis">Feb</text><text x="379.0" y="356" text-anchor="middle" class="axis">Mar</text><text x="455.0" y="356" text-anchor="middle" class="axis">Apr</text><text x="515.8" y="356" text-anchor="middle" class="axis">May</text><text x="591.7" y="356" text-anchor="middle" class="axis">Jun</text><text x="652.5" y="356" text-anchor="middle" class="axis">Jul</text><text x="713.3" y="356" text-anchor="middle" class="axis">Aug</text><text x="789.2" y="356" text-anchor="middle" class="axis">Sep</text><text x="850.0" y="356" text-anchor="middle" class="axis">Oct</text>
+  <g clip-path="url(#reveal)">
+    <path d="M 60.0 330.0 C 62.5 330.0, 70.1 330.0, 75.2 330.0 C 80.3 330.0, 85.3 330.0, 90.4 330.0 C 95.4 330.0, 100.5 330.0, 105.6 330.0 C 110.6 330.0, 115.7 330.0, 120.8 330.0 C 125.8 330.0, 130.9 330.0, 136.0 330.0 C 141.0 330.0, 146.1 330.0, 151.2 330.0 C 156.2 330.0, 161.3 330.0, 166.3 330.0 C 171.4 330.0, 176.5 330.0, 181.5 330.0 C 186.6 330.0, 191.7 330.0, 196.7 330.0 C 201.8 330.0, 206.9 330.0, 211.9 330.0 C 217.0 330.0, 222.1 330.0, 227.1 330.0 C 232.2 330.0, 237.2 330.0, 242.3 330.0 C 247.4 330.0, 252.4 330.0, 257.5 330.0 C 262.6 330.0, 267.6 330.0, 272.7 330.0 C 277.8 330.0, 282.8 330.0, 287.9 330.0 C 292.9 330.0, 298.0 330.0, 303.1 330.0 C 308.1 330.0, 313.2 330.0, 318.3 330.0 C 323.3 330.0, 328.4 330.0, 333.5 330.0 C 338.5 330.0, 343.6 330.0, 348.7 330.0 C 353.7 330.0, 358.8 330.0, 363.8 330.0 C 368.9 330.0, 374.0 330.0, 379.0 330.0 C 384.1 330.0, 389.2 330.0, 394.2 330.0 C 399.3 330.0, 404.4 330.0, 409.4 330.0 C 414.5 330.0, 419.6 330.0, 424.6 330.0 C 429.7 330.0, 434.7 330.0, 439.8 330.0 C 444.9 330.0, 449.9 330.0, 455.0 330.0 C 460.1 330.0, 465.1 330.0, 470.2 330.0 C 475.3 330.0, 480.3 330.0, 485.4 330.0 C 490.4 330.0, 495.5 330.0, 500.6 330.0 C 505.6 330.0, 510.7 330.0, 515.8 330.0 C 520.8 330.0, 525.9 330.0, 531.0 330.0 C 536.0 330.0, 541.1 330.0, 546.2 330.0 C 551.2 330.0, 556.3 330.0, 561.3 330.0 C 566.4 330.0, 571.5 330.0, 576.5 330.0 C 581.6 330.0, 586.7 330.0, 591.7 330.0 C 596.8 330.0, 601.9 330.0, 606.9 330.0 C 612.0 330.0, 617.1 330.0, 622.1 330.0 C 627.2 330.0, 632.2 330.0, 637.3 330.0 C 642.4 329.1, 647.4 324.7, 652.5 324.7 C 657.6 324.7, 662.6 329.1, 667.7 330.0 C 672.8 330.0, 677.8 330.0, 682.9 330.0 C 687.9 317.5, 693.0 263.9, 698.1 254.9 C 703.1 245.9, 708.2 274.8, 713.3 276.0 C 718.3 277.3, 723.4 273.4, 728.5 262.3 C 733.5 251.2, 738.6 203.4, 743.7 209.4 C 748.7 215.4, 753.8 284.3, 758.8 298.3 C 763.9 312.2, 769.0 310.8, 774.0 293.0 C 779.1 275.1, 784.2 218.5, 789.2 191.4 C 794.3 164.2, 799.4 126.5, 804.4 130.0 C 809.5 133.5, 814.6 186.1, 819.6 212.5 C 824.7 239.0, 829.7 270.0, 834.8 288.7 C 839.9 307.4, 847.5 318.7, 850.0 324.7 L 850 330 L 60 330 Z" fill="url(#fill)" />
+    <path d="M 60.0 330.0 C 62.5 330.0, 70.1 330.0, 75.2 330.0 C 80.3 330.0, 85.3 330.0, 90.4 330.0 C 95.4 330.0, 100.5 330.0, 105.6 330.0 C 110.6 330.0, 115.7 330.0, 120.8 330.0 C 125.8 330.0, 130.9 330.0, 136.0 330.0 C 141.0 330.0, 146.1 330.0, 151.2 330.0 C 156.2 330.0, 161.3 330.0, 166.3 330.0 C 171.4 330.0, 176.5 330.0, 181.5 330.0 C 186.6 330.0, 191.7 330.0, 196.7 330.0 C 201.8 330.0, 206.9 330.0, 211.9 330.0 C 217.0 330.0, 222.1 330.0, 227.1 330.0 C 232.2 330.0, 237.2 330.0, 242.3 330.0 C 247.4 330.0, 252.4 330.0, 257.5 330.0 C 262.6 330.0, 267.6 330.0, 272.7 330.0 C 277.8 330.0, 282.8 330.0, 287.9 330.0 C 292.9 330.0, 298.0 330.0, 303.1 330.0 C 308.1 330.0, 313.2 330.0, 318.3 330.0 C 323.3 330.0, 328.4 330.0, 333.5 330.0 C 338.5 330.0, 343.6 330.0, 348.7 330.0 C 353.7 330.0, 358.8 330.0, 363.8 330.0 C 368.9 330.0, 374.0 330.0, 379.0 330.0 C 384.1 330.0, 389.2 330.0, 394.2 330.0 C 399.3 330.0, 404.4 330.0, 409.4 330.0 C 414.5 330.0, 419.6 330.0, 424.6 330.0 C 429.7 330.0, 434.7 330.0, 439.8 330.0 C 444.9 330.0, 449.9 330.0, 455.0 330.0 C 460.1 330.0, 465.1 330.0, 470.2 330.0 C 475.3 330.0, 480.3 330.0, 485.4 330.0 C 490.4 330.0, 495.5 330.0, 500.6 330.0 C 505.6 330.0, 510.7 330.0, 515.8 330.0 C 520.8 330.0, 525.9 330.0, 531.0 330.0 C 536.0 330.0, 541.1 330.0, 546.2 330.0 C 551.2 330.0, 556.3 330.0, 561.3 330.0 C 566.4 330.0, 571.5 330.0, 576.5 330.0 C 581.6 330.0, 586.7 330.0, 591.7 330.0 C 596.8 330.0, 601.9 330.0, 606.9 330.0 C 612.0 330.0, 617.1 330.0, 622.1 330.0 C 627.2 330.0, 632.2 330.0, 637.3 330.0 C 642.4 329.1, 647.4 324.7, 652.5 324.7 C 657.6 324.7, 662.6 329.1, 667.7 330.0 C 672.8 330.0, 677.8 330.0, 682.9 330.0 C 687.9 317.5, 693.0 263.9, 698.1 254.9 C 703.1 245.9, 708.2 274.8, 713.3 276.0 C 718.3 277.3, 723.4 273.4, 728.5 262.3 C 733.5 251.2, 738.6 203.4, 743.7 209.4 C 748.7 215.4, 753.8 284.3, 758.8 298.3 C 763.9 312.2, 769.0 310.8, 774.0 293.0 C 779.1 275.1, 784.2 218.5, 789.2 191.4 C 794.3 164.2, 799.4 126.5, 804.4 130.0 C 809.5 133.5, 814.6 186.1, 819.6 212.5 C 824.7 239.0, 829.7 270.0, 834.8 288.7 C 839.9 307.4, 847.5 318.7, 850.0 324.7" fill="none" stroke="url(#hot)" stroke-width="3.5" stroke-linejoin="round" filter="url(#glow)" />
+    <circle cx="804.4" cy="130.0" r="6" fill="#FFB000" />
+    <text x="790.0" y="114.0" text-anchor="middle" class="legN" fill="#FFB000">peak · 189/wk</text>
+  </g>
+  <circle class="pulse" cx="850.0" cy="324.7" r="7" fill="#F90001" style="animation-delay:2.6s" />
+  <circle cx="850.0" cy="324.7" r="4" fill="#fff" />
+
+  <rect x="30" y="360" width="420" height="260" rx="14" fill="#140A0D" stroke="#3A1218" />
+  <text x="52" y="392" class="lbl">WEEKLY RHYTHM</text>
+  <g>
+        <rect class="bar" style="animation-delay:0.8s" x="72.0" y="460.0" width="38" height="120.0" rx="6" fill="url(#hotV)" filter="url(#glow)" />
+        <text x="91.0" y="452.0" text-anchor="middle" class="axis" fill="#FFF5F0">232</text>
+        <text x="91.0" y="604" text-anchor="middle" class="axis">SUN</text>
+      </g><g>
+        <rect class="bar" style="animation-delay:0.88s" x="121.1" y="469.8" width="38" height="110.2" rx="6" fill="#5c0f16"  />
+        <text x="140.1" y="461.8" text-anchor="middle" class="axis" >213</text>
+        <text x="140.1" y="604" text-anchor="middle" class="axis">MON</text>
+      </g><g>
+        <rect class="bar" style="animation-delay:0.9600000000000001s" x="170.3" y="532.9" width="38" height="47.1" rx="6" fill="#5c0f16"  />
+        <text x="189.3" y="524.9" text-anchor="middle" class="axis" >91</text>
+        <text x="189.3" y="604" text-anchor="middle" class="axis">TUE</text>
+      </g><g>
+        <rect class="bar" style="animation-delay:1.04s" x="219.4" y="528.3" width="38" height="51.7" rx="6" fill="#5c0f16"  />
+        <text x="238.4" y="520.3" text-anchor="middle" class="axis" >100</text>
+        <text x="238.4" y="604" text-anchor="middle" class="axis">WED</text>
+      </g><g>
+        <rect class="bar" style="animation-delay:1.12s" x="268.6" y="533.4" width="38" height="46.6" rx="6" fill="#5c0f16"  />
+        <text x="287.6" y="525.4" text-anchor="middle" class="axis" >90</text>
+        <text x="287.6" y="604" text-anchor="middle" class="axis">THU</text>
+      </g><g>
+        <rect class="bar" style="animation-delay:1.2000000000000002s" x="317.7" y="548.4" width="38" height="31.6" rx="6" fill="#5c0f16"  />
+        <text x="336.7" y="540.4" text-anchor="middle" class="axis" >61</text>
+        <text x="336.7" y="604" text-anchor="middle" class="axis">FRI</text>
+      </g><g>
+        <rect class="bar" style="animation-delay:1.28s" x="366.9" y="550.0" width="38" height="30.0" rx="6" fill="#5c0f16"  />
+        <text x="385.9" y="542.0" text-anchor="middle" class="axis" >58</text>
+        <text x="385.9" y="604" text-anchor="middle" class="axis">SAT</text>
+      </g>
+
+  <rect x="470" y="360" width="400" height="260" rx="14" fill="#140A0D" stroke="#3A1218" />
+  <text x="492" y="392" class="lbl">LANGUAGES · 15 REPOS</text>
+  <circle cx="590" cy="505" r="72" fill="none" stroke="#3A1218" stroke-width="22" />
+  <circle cx="590" cy="505" r="72" fill="none" stroke="#DA5B0B" stroke-width="22"
+        stroke-dasharray="0 452.4" transform="rotate(-90.00 590 505)">
+        <animate attributeName="stroke-dasharray" from="0 452.4" to="238.3 452.4" dur="1s" begin="0.90s" fill="freeze" calcMode="spline" keySplines=".3 .7 .2 1" keyTimes="0;1" />
+      </circle><circle cx="590" cy="505" r="72" fill="none" stroke="#3178c6" stroke-width="22"
+        stroke-dasharray="0 452.4" transform="rotate(102.00 590 505)">
+        <animate attributeName="stroke-dasharray" from="0 452.4" to="87.5 452.4" dur="1s" begin="1.08s" fill="freeze" calcMode="spline" keySplines=".3 .7 .2 1" keyTimes="0;1" />
+      </circle><circle cx="590" cy="505" r="72" fill="none" stroke="#e34c26" stroke-width="22"
+        stroke-dasharray="0 452.4" transform="rotate(174.00 590 505)">
+        <animate attributeName="stroke-dasharray" from="0 452.4" to="27.2 452.4" dur="1s" begin="1.26s" fill="freeze" calcMode="spline" keySplines=".3 .7 .2 1" keyTimes="0;1" />
+      </circle><circle cx="590" cy="505" r="72" fill="none" stroke="#f1e05a" stroke-width="22"
+        stroke-dasharray="0 452.4" transform="rotate(198.00 590 505)">
+        <animate attributeName="stroke-dasharray" from="0 452.4" to="27.2 452.4" dur="1s" begin="1.44s" fill="freeze" calcMode="spline" keySplines=".3 .7 .2 1" keyTimes="0;1" />
+      </circle><circle cx="590" cy="505" r="72" fill="none" stroke="#3572A5" stroke-width="22"
+        stroke-dasharray="0 452.4" transform="rotate(222.00 590 505)">
+        <animate attributeName="stroke-dasharray" from="0 452.4" to="27.2 452.4" dur="1s" begin="1.62s" fill="freeze" calcMode="spline" keySplines=".3 .7 .2 1" keyTimes="0;1" />
+      </circle><circle cx="590" cy="505" r="72" fill="none" stroke="#6e3a36" stroke-width="22"
+        stroke-dasharray="0 452.4" transform="rotate(246.00 590 505)">
+        <animate attributeName="stroke-dasharray" from="0 452.4" to="27.2 452.4" dur="1s" begin="1.80s" fill="freeze" calcMode="spline" keySplines=".3 .7 .2 1" keyTimes="0;1" />
+      </circle>
+  <text x="590" y="515" text-anchor="middle" class="val" font-size="30">6</text>
+  <text x="590" y="535" text-anchor="middle" class="axis">langs</text>
+  <g class="rise" style="animation-delay:1s">
+        <rect x="700" y="436" width="14" height="14" rx="3" fill="#DA5B0B" />
+        <text x="722" y="448" class="leg">Jupyter</text>
+        <text x="850" y="448" text-anchor="end" class="legN">53%</text>
+      </g><g class="rise" style="animation-delay:1.12s">
+        <rect x="700" y="462" width="14" height="14" rx="3" fill="#3178c6" />
+        <text x="722" y="474" class="leg">TypeScript</text>
+        <text x="850" y="474" text-anchor="end" class="legN">20%</text>
+      </g><g class="rise" style="animation-delay:1.24s">
+        <rect x="700" y="488" width="14" height="14" rx="3" fill="#e34c26" />
+        <text x="722" y="500" class="leg">HTML</text>
+        <text x="850" y="500" text-anchor="end" class="legN">7%</text>
+      </g><g class="rise" style="animation-delay:1.3599999999999999s">
+        <rect x="700" y="514" width="14" height="14" rx="3" fill="#f1e05a" />
+        <text x="722" y="526" class="leg">JavaScript</text>
+        <text x="850" y="526" text-anchor="end" class="legN">7%</text>
+      </g><g class="rise" style="animation-delay:1.48s">
+        <rect x="700" y="540" width="14" height="14" rx="3" fill="#3572A5" />
+        <text x="722" y="552" class="leg">Python</text>
+        <text x="850" y="552" text-anchor="end" class="legN">7%</text>
+      </g><g class="rise" style="animation-delay:1.6s">
+        <rect x="700" y="566" width="14" height="14" rx="3" fill="#6e3a36" />
+        <text x="722" y="578" class="leg">Other</text>
+        <text x="850" y="578" text-anchor="end" class="legN">7%</text>
+      </g>
+</svg>
