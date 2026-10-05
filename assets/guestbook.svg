@@ -1,17 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" width="100%">
+  
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0D1117" /><stop offset="60%" stop-color="#140709" /><stop offset="100%" stop-color="#22070C" />
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="60%" stop-color="#140709" />
+      <stop offset="100%" stop-color="#22070C" />
     </linearGradient>
     <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#F90001" /><stop offset="100%" stop-color="#FFB000" />
+      <stop offset="0%" stop-color="#F90001" />
+      <stop offset="100%" stop-color="#FFB000" />
     </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F90001" stop-opacity="0" />
+      <stop offset="50%" stop-color="#F90001" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#F90001" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#F90001" stroke-opacity="0.05" />
+    </pattern>
     <clipPath id="round"><circle cx="0" cy="0" r="26" /></clipPath>
   </defs>
   <style>
   text { font-family: "JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace; }
   .kicker { fill:#FF6B57; font-size:15px; font-weight:700; letter-spacing:4px; }
   .title  { fill:#FFF5F0; font-size:30px; font-weight:800; }
+  .live   { fill:#FFC2B8; font-size:14px; font-weight:700; letter-spacing:2px; }
+  .lbl    { fill:#9A6A64; font-size:15px; font-weight:700; letter-spacing:2px; }
+  .val    { fill:#FFF5F0; font-weight:800; }
+  .foot   { fill:#8a5550; font-size:15px; }
+  .rise   { opacity:0; animation: rise .8s cubic-bezier(.2,.8,.2,1) forwards; }
+  @keyframes rise { from { opacity:0; transform: translateY(14px); } to { opacity:1; transform:none; } }
+  .pulse  { animation: pulse 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pulse { 0%,100% { opacity:1; transform: scale(1); } 50% { opacity:.35; transform: scale(1.8); } }
+  .scan   { animation: scan 6s linear infinite; }
+  @keyframes scan { from { transform: translateX(-200px); } to { transform: translateX(1100px); } }
+
   .count  { fill:#FFC2B8; font-size:15px; font-weight:700; }
   .who    { fill:#FFF5F0; font-size:17px; font-weight:800; }
   .when   { fill:#9A6A64; font-size:13px; }
@@ -19,15 +46,16 @@
   .msg    { fill:#FFC2B8; font-size:16px; }
   .big    { fill:#FFF5F0; font-size:34px; font-weight:800; }
   .sub    { fill:#FFC2B8; font-size:17px; }
-  .rise   { opacity:0; animation: rise .8s cubic-bezier(.2,.8,.2,1) forwards; }
-  @keyframes rise { from { opacity:0; transform: translateY(14px); } to { opacity:1; transform:none; } }
   .ink    { stroke-dasharray: 1; stroke-dashoffset: 1; animation: ink 2.6s ease-in-out .6s infinite alternate; }
   @keyframes ink { to { stroke-dashoffset: 0; } }
   .float  { animation: float 4s ease-in-out infinite; }
   @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
 </style>
+  
   <rect width="900" height="330" rx="18" fill="url(#bg)" />
+  <rect width="900" height="330" rx="18" fill="url(#grid)" />
   <rect x="0.5" y="0.5" width="899" height="329" rx="18" fill="none" stroke="#F90001" stroke-opacity="0.35" />
+  <rect class="scan" x="0" y="0" width="140" height="330" fill="url(#sweep)" opacity="0.5" />
   <text x="40" y="50" class="kicker">// GUESTBOOK</text>
   <text x="40" y="88" class="title">Notes from visitors</text>
   <text x="860" y="50" text-anchor="end" class="count">0 signatures</text>

@@ -50,7 +50,7 @@ to a working, optimized system running under real-world constraints.
 
 <div align="center">
 
-<img alt="Snake eating my contribution graph, in the profile's red palette" src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/snake-red.svg" width="100%" />
+<img alt="Arcade-style snake eating my contribution graph — green blocks are days I shipped code" src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/output/snake-arcade.svg" width="100%" />
 
 </div>
 
@@ -186,21 +186,21 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 **🤖 AI & Computer Vision** · 11 repos
 
 - **[`code-context-engine`](https://github.com/ParsaVictor/code-context-engine)** · ⭐ 5 · <sub>Rust</sub><br><sub>MCP context engine for AI coding agents</sub>
-- **[`PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel)** · ⭐ 0 · <sub>Jupyter Notebook</sub><br><sub>Real-time PPE compliance monitoring for construction CCTV</sub>
-- **[`FireGuuard_Fire_detection_smoke`](https://github.com/ParsaVictor/FireGuuard_Fire_detection_smoke)** · ⭐ 6 · <sub>Jupyter Notebook</sub><br><sub>Real-time fire & smoke detection for indoor CCTV</sub>
+- **[`PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel)** · ⭐ 0 · <sub>Jupyter Notebook</sub><br><sub>Real-time PPE compliance monitoring for construction CCTV — person-grounded two-stage pipeline (COCO person +…</sub>
+- **[`FireGuuard_Fire_detection_smoke`](https://github.com/ParsaVictor/FireGuuard_Fire_detection_smoke)** · ⭐ 6 · <sub>Jupyter Notebook</sub><br><sub>Real-time fire & smoke detection for indoor CCTV — YOLO26 detector, hazard-state alerting, and instant email…</sub>
 - **[`pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection)** · ⭐ 4 · <sub>Jupyter Notebook</sub><br><sub>Open-source multilingual ALPR / car license plate recognition</sub>
-- **[`thief-face-detection`](https://github.com/ParsaVictor/thief-face-detection)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>Tells a robber in a balaclava from a customer in a surgical mask</sub>
-- **[`melkai-realestate-platform`](https://github.com/ParsaVictor/melkai-realestate-platform)** · ⭐ 4 · <sub>TypeScript</sub><br><sub>AI-powered Persian real estate platform</sub>
+- **[`thief-face-detection`](https://github.com/ParsaVictor/thief-face-detection)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>Tells a robber in a balaclava from a customer in a surgical mask — real-time concealed-face detection for…</sub>
+- **[`melkai-realestate-platform`](https://github.com/ParsaVictor/melkai-realestate-platform)** · ⭐ 4 · <sub>TypeScript</sub><br><sub>AI-powered Persian real estate platform — Next.js 16 demo (private preview)</sub>
 - **[`point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>Five peer-reviewed algorithms for 3D point cloud denoising and curve reconstruction, benchmarked on industrial…</sub>
-- **[`pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier)** · ⭐ 4 · <sub>Jupyter Notebook</sub><br><sub>Explainable classification of electronic components from images</sub>
-- **[`pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>YOLOv8 detection of electronic components on populated PCBs</sub>
-- **[`visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine)** · ⭐ 4 · <sub>Jupyter Notebook</sub><br><sub>Multimodal search over an image archive</sub>
-- **[`ai-project-template`](https://github.com/ParsaVictor/ai-project-template)** · ⭐ 4 · <sub>Python</sub><br><sub>Clean, reproducible project template for Computer Vision & Machine Learning</sub>
+- **[`pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier)** · ⭐ 4 · <sub>Jupyter Notebook</sub><br><sub>Explainable classification of electronic components from images - Random Forest over 33 hand-engineered CV…</sub>
+- **[`pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>YOLOv8 detection of electronic components on populated PCBs - 50 classes, 675k annotations, with dataset…</sub>
+- **[`visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine)** · ⭐ 4 · <sub>Jupyter Notebook</sub><br><sub>Multimodal search over an image archive - face recognition, species detection, food recognition and…</sub>
+- **[`ai-project-template`](https://github.com/ParsaVictor/ai-project-template)** · ⭐ 4 · <sub>Python</sub><br><sub>Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded…</sub>
 
 **🌐 Web & Full-Stack** · 3 repos
 
-- **[`ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io)** · ⭐ 3 · <sub>HTML</sub><br><sub>Mohammad Parsa Karkooti</sub>
-- **[`portfolio`](https://github.com/ParsaVictor/portfolio)** · ⭐ 4 · <sub>TypeScript</sub><br><sub>Motion-led personal portfolio</sub>
+- **[`ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io)** · ⭐ 3 · <sub>HTML</sub><br><sub>Mohammad Parsa Karkooti — AI Engineer portfolio (GitHub Pages mirror)</sub>
+- **[`portfolio`](https://github.com/ParsaVictor/portfolio)** · ⭐ 4 · <sub>TypeScript</sub><br><sub>Motion-led personal portfolio — a WebGL particle instrument that morphs through the work as you scroll</sub>
 - **[`b2b-marketplace`](https://github.com/ParsaVictor/b2b-marketplace)** · ⭐ 5 · <sub>TypeScript</sub><br><sub>B2B International Marketplace</sub>
 
 <!-- REPO_INDEX:END -->
@@ -210,11 +210,6 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 </details>
 
 ## 📊 GitHub Activity
-
-<details>
-<summary><b>📈 Open the live dashboard — scorecard, 52-week pulse and the trophy cabinet</b></summary>
-
-<br>
 
 <div align="center">
 
@@ -231,8 +226,6 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 <sub>Self-hosted and drawn from the GitHub API by my own <a href="https://github.com/ParsaVictor/ParsaVictor/actions">Actions</a> every day — no third-party stat cards.</sub>
 
 </div>
-
-</details>
 
 ## 🧊 Isometric 3D Calendar
 
@@ -253,7 +246,7 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 <br><br>
 
 <!-- CITY_SNAPSHOT:START -->
-<a href="https://honzaap.github.io/GithubCity?name=ParsaVictor"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/city-flyover.gif" width="100%" alt="A camera flying around my GithubCity — every building grown from real contributions" /></a>
+<a href="https://honzaap.github.io/GithubCity?name=ParsaVictor"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/city-output/city-flyover.gif" width="100%" alt="A camera flying around my GithubCity — every building grown from real contributions" /></a>
 <!-- CITY_SNAPSHOT:END -->
 
 <sub>My <a href="https://honzaap.github.io/GithubCity/">GithubCity</a> by honzaap — every commit grows a building. Recorded weekly.</sub>
@@ -294,6 +287,7 @@ gh skyline --user ParsaVictor --year 2026
 - ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-01</sub>
 - 🔀 Opened a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-01</sub>
 - 🔀 Merged a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-01</sub>
+- ⬆️ Pushed 8 commits to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-01</sub>
 - ⬆️ Pushed 1 commit to [`ParsaVictor/PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel) <sub>· 2026-09-27</sub>
 - ⬆️ Pushed 1 commit to [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio) <sub>· 2026-09-25</sub>
 <!-- ACTIVITY:END -->

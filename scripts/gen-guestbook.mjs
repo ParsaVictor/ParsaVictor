@@ -8,7 +8,8 @@
 //   GITHUB_TOKEN=... node scripts/gen-guestbook.mjs
 
 import { writeFileSync } from "node:fs";
-import { rest, USERNAME, esc, C, MONO } from "./lib/gh.mjs";
+import { rest, USERNAME, esc, C } from "./lib/gh.mjs";
+import { W, defs, baseStyle, frame } from "./lib/card.mjs";
 
 const SHOW = 6;
 const issues = (
@@ -49,14 +50,17 @@ function wrap(text, width, maxLines) {
 async function avatar(url) {
   try {
     const res = await fetch(`${url}${url.includes("?") ? "&" : "?"}s=96`);
+    // A deleted account or a rate-limit page must fall back to the plain
+    // circle, not get embedded as a broken "image".
+    const type = res.headers.get("content-type") || "";
+    if (!res.ok || !type.startsWith("image/")) return null;
     const buf = Buffer.from(await res.arrayBuffer());
-    return `data:${res.headers.get("content-type") || "image/png"};base64,${buf.toString("base64")}`;
+    return `data:${type};base64,${buf.toString("base64")}`;
   } catch {
     return null;
   }
 }
 
-const W = 900;
 const entries = await Promise.all(
   issues.slice(0, SHOW).map(async (i) => ({
     login: i.user.login,
@@ -67,9 +71,6 @@ const entries = await Promise.all(
 );
 
 const style = `
-  text { font-family: ${MONO}; }
-  .kicker { fill:${C.coral}; font-size:15px; font-weight:700; letter-spacing:4px; }
-  .title  { fill:${C.text}; font-size:30px; font-weight:800; }
   .count  { fill:${C.peach}; font-size:15px; font-weight:700; }
   .who    { fill:${C.text}; font-size:17px; font-weight:800; }
   .when   { fill:${C.dim}; font-size:13px; }
@@ -77,23 +78,11 @@ const style = `
   .msg    { fill:${C.peach}; font-size:16px; }
   .big    { fill:${C.text}; font-size:34px; font-weight:800; }
   .sub    { fill:${C.peach}; font-size:17px; }
-  .rise   { opacity:0; animation: rise .8s cubic-bezier(.2,.8,.2,1) forwards; }
-  @keyframes rise { from { opacity:0; transform: translateY(14px); } to { opacity:1; transform:none; } }
   .ink    { stroke-dasharray: 1; stroke-dashoffset: 1; animation: ink 2.6s ease-in-out .6s infinite alternate; }
   @keyframes ink { to { stroke-dashoffset: 0; } }
   .float  { animation: float 4s ease-in-out infinite; }
   @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
 `;
-
-const defs = `<defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0D1117" /><stop offset="60%" stop-color="#140709" /><stop offset="100%" stop-color="#22070C" />
-    </linearGradient>
-    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#F90001" /><stop offset="100%" stop-color="#FFB000" />
-    </linearGradient>
-    <clipPath id="round"><circle cx="0" cy="0" r="26" /></clipPath>
-  </defs>`;
 
 let body, H;
 if (entries.length === 0) {
@@ -137,13 +126,10 @@ if (entries.length === 0) {
 }
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%">
-  ${defs}
-  <style>${style}</style>
-  <rect width="${W}" height="${H}" rx="18" fill="url(#bg)" />
-  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="18" fill="none" stroke="${C.red}" stroke-opacity="0.35" />
-  <text x="40" y="50" class="kicker">// GUESTBOOK</text>
-  <text x="40" y="88" class="title">Notes from visitors</text>
-  <text x="${W - 40}" y="50" text-anchor="end" class="count">${issues.length} signature${issues.length === 1 ? "" : "s"}</text>
+  ${defs('<clipPath id="round"><circle cx="0" cy="0" r="26" /></clipPath>')}
+  <style>${baseStyle}${style}</style>
+  ${frame(H, "// GUESTBOOK", "Notes from visitors",
+    `<text x="${W - 40}" y="50" text-anchor="end" class="count">${issues.length} signature${issues.length === 1 ? "" : "s"}</text>`)}
   ${body}
 </svg>
 `;

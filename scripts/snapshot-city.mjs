@@ -15,11 +15,15 @@ import path from "node:path";
 const USERNAME = "ParsaVictor";
 const YEAR = new Date().getUTCFullYear();
 const PAGE_URL = `https://honzaap.github.io/GithubCity/?name=${USERNAME}&year=${YEAR}`;
-const OUT_DIR = path.resolve(process.cwd(), "assets");
+// Published to the `city-output` branch by the workflow (force-pushed, one
+// commit) so weekly multi-MB GIFs don't pile up in main's history.
+const OUT_DIR = path.resolve(process.cwd(), process.argv[2] || "dist-city");
 const FRAMES = 60; // 5 s at 12 fps
+const VIEW_W = 640;
+const VIEW_H = 360;
 // OrbitControls turns 2π per viewport-height of horizontal drag, so this
-// step makes the 60 frames one full, seamlessly looping revolution.
-const STEP = 405 / FRAMES;
+// step makes the frames one full, seamlessly looping revolution.
+const STEP = VIEW_H / FRAMES;
 
 mkdirSync(OUT_DIR, { recursive: true });
 const tmp = mkdtempSync(path.join(tmpdir(), "city-"));
@@ -27,7 +31,7 @@ const tmp = mkdtempSync(path.join(tmpdir(), "city-"));
 // Software WebGL on CI renders a frame every few seconds — small viewport,
 // generous timeouts.
 const browser = await chromium.launch({ args: ["--ignore-gpu-blocklist", "--enable-unsafe-swiftshader"] });
-const page = await browser.newPage({ viewport: { width: 720, height: 405 } });
+const page = await browser.newPage({ viewport: { width: VIEW_W, height: VIEW_H } });
 page.setDefaultTimeout(180_000);
 page.on("console", (msg) => {
   if (msg.type() === "error") console.log("[page error]", msg.text());
@@ -44,13 +48,14 @@ await page.addStyleTag({
 });
 
 // Ease in a little closer, then orbit by dragging the orbit controls.
-await page.mouse.move(560, 220);
+const X0 = VIEW_W * 0.78;
+const Y0 = VIEW_H * 0.55;
+await page.mouse.move(X0, Y0);
 await page.mouse.wheel(0, -200);
 await page.waitForTimeout(1_000);
 await page.mouse.down();
 for (let i = 0; i < FRAMES; i++) {
-  await page.mouse.move(560 - i * STEP, 220, { steps: 2 });
-  await page.waitForTimeout(60);
+  await page.mouse.move(X0 - i * STEP, Y0, { steps: 2 });
   await page.screenshot({ path: path.join(tmp, `f${String(i).padStart(3, "0")}.png`) });
   if (i % 10 === 0) console.log(`frame ${i}/${FRAMES}`);
 }
@@ -67,7 +72,7 @@ execFileSync("ffmpeg", [
   "-framerate", "12",
   "-i", path.join(tmp, "f%03d.png"),
   "-vf",
-  "scale=640:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=128:stats_mode=diff[p];[b][p]paletteuse=dither=none:diff_mode=rectangle",
+  "split[a][b];[a]palettegen=max_colors=128:stats_mode=diff[p];[b][p]paletteuse=dither=none:diff_mode=rectangle",
   "-loop", "0",
   gif,
 ]);

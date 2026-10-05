@@ -10,6 +10,11 @@
       <stop offset="0%" stop-color="#F90001" />
       <stop offset="100%" stop-color="#FFB000" />
     </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F90001" stop-opacity="0" />
+      <stop offset="50%" stop-color="#F90001" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#F90001" stop-opacity="0" />
+    </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="4" result="b" />
       <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
@@ -17,11 +22,7 @@
     <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M30 0H0V30" fill="none" stroke="#F90001" stroke-opacity="0.05" />
     </pattern>
-    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#F90001" stop-opacity="0" />
-      <stop offset="50%" stop-color="#F90001" stop-opacity="0.10" />
-      <stop offset="100%" stop-color="#F90001" stop-opacity="0" />
-    </linearGradient><linearGradient id="m0" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="m0" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#FFE08A" /><stop offset="45%" stop-color="#FF6B57" /><stop offset="100%" stop-color="#B3000A" /></linearGradient><linearGradient id="m1" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#FFE08A" /><stop offset="45%" stop-color="#FF6B57" /><stop offset="100%" stop-color="#B3000A" /></linearGradient><linearGradient id="m2" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#FFF1B8" /><stop offset="45%" stop-color="#FFC233" /><stop offset="100%" stop-color="#9A6400" /></linearGradient><linearGradient id="m3" x1="0" y1="0" x2="1" y2="1">
@@ -65,6 +66,7 @@
   <rect class="scan" x="0" y="0" width="140" height="560" fill="url(#sweep)" opacity="0.5" />
   <text x="40" y="50" class="kicker">// TROPHY CABINET</text>
   <text x="40" y="88" class="title">Ranked from real GitHub data</text>
+  
   <circle class="pulse" cx="704" cy="45" r="5" fill="#F90001" />
   <text x="718" y="50" class="live">LIVE</text>
   <text x="860" y="50" text-anchor="end" class="foot">2026-10-05</text>

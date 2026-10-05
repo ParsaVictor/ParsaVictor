@@ -1,0 +1,38 @@
+name: Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    name: Scripts, SVGs, README links
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # Playwright is only needed for the city recording; skip its browser
+      # download here.
+      - name: Install dependencies
+        run: npm ci
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+
+      - name: Run checks
+        run: npm run check
+
+      - name: Code card and nav chips rebuild identically
+        # Both are generated without the API, so a hand-edited SVG that drifts
+        # from its generator shows up as a diff here.
+        run: |
+          node scripts/gen-code-card.mjs
+          node scripts/gen-nav.mjs
+          git diff --exit-code -- assets/about-code.svg assets/nav

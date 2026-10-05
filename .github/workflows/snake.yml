@@ -32,7 +32,7 @@ jobs:
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
-            dist/snake-red.svg?palette=github-dark&color_snake=#FFB000&color_dots=#2a0d13,#5c0f16,#a3141c,#e0201f,#FF6B57
+            dist/snake-green.svg?palette=github-dark&color_snake=#F90001&color_dots=#0f1d15,#0e4429,#006d32,#26a641,#39d353
 
       - name: Render the contribution grid as an isometric 3D calendar
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
@@ -46,6 +46,10 @@ jobs:
         run: |
           sudo chown -R "$(id -u):$(id -g)" dist
           cp profile-3d-contrib/*.svg dist/
+
+      - name: Frame the snake as an arcade cabinet
+        run: |
+          node scripts/frame-snake.mjs dist/snake-green.svg dist/snake-arcade.svg
           ls -la dist/
 
       - name: Publish to the output branch

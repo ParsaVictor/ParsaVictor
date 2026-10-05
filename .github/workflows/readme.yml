@@ -17,7 +17,9 @@ jobs:
     name: Refresh live-data blocks and generated graphics
     runs-on: ubuntu-latest
     # Issue events from anything other than the guestbook don't touch the page.
-    if: github.event_name != 'issues' || contains(github.event.issue.labels.*.name, 'guestbook') || github.event.action == 'unlabeled'
+    # (On unlabeled the label is already gone from the issue, so check the
+    # label the event is about instead.)
+    if: github.event_name != 'issues' || contains(github.event.issue.labels.*.name, 'guestbook') || github.event.label.name == 'guestbook'
     permissions:
       contents: write
     # Nightly refresh and manual pushes can overlap with the snake build on

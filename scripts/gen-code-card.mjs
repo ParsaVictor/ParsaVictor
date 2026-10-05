@@ -6,8 +6,7 @@
 
 import { writeFileSync } from "node:fs";
 
-const MONO = `"JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace`;
-const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+import { MONO, esc } from "./lib/gh.mjs";
 
 // [kind, text] tokens per line. Kinds map to the palette below.
 const L = [

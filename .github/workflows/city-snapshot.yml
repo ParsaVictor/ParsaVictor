@@ -2,15 +2,17 @@ name: Record GitHub City fly-around
 
 on:
   schedule:
-    # Weekly is plenty for a screenshot of a city that only grows commit by
-    # commit, and it saves a Playwright + Chromium install every single day.
+    # Weekly is plenty for a city that only grows commit by commit, and it
+    # saves a slow software-WebGL recording every single day.
     - cron: "0 4 * * 1"
   workflow_dispatch:
 
 jobs:
-  snapshot:
+  record:
     name: Record the live GithubCity page as a GIF
     runs-on: ubuntu-latest
+    # Software WebGL renders each frame in seconds; give the whole run room.
+    timeout-minutes: 75
     permissions:
       contents: write
 
@@ -31,14 +33,16 @@ jobs:
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
 
       - name: Record the city
-        run: node scripts/snapshot-city.mjs
-        timeout-minutes: 30
+        run: node scripts/snapshot-city.mjs dist-city
+        timeout-minutes: 60
 
-      - name: Commit and push if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/city-snapshot.png assets/city-flyover.gif
-          git diff --staged --quiet || git commit -m "chore: refresh city fly-around [skip ci]"
-          git pull --rebase origin main
-          git push
+      # Force-published as a single commit: the GIF is several MB, and keeping
+      # every weekly version in main's history would bloat every clone.
+      # A failed recording never reaches this step, so the last good GIF stays.
+      - name: Publish to the city-output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: city-output
+          build_dir: dist-city
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

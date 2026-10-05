@@ -10,7 +10,8 @@
 //   GITHUB_TOKEN=... node scripts/gen-activity.mjs
 
 import { writeFileSync } from "node:fs";
-import { gql, USERNAME, esc, C, MONO } from "./lib/gh.mjs";
+import { gql, USERNAME, esc, C } from "./lib/gh.mjs";
+import { W, defs, baseStyle, frame, liveTag } from "./lib/card.mjs";
 
 const out = (name, svg) =>
   writeFileSync(new URL(`../assets/${name}`, import.meta.url), svg, "utf8");
@@ -121,64 +122,6 @@ const langs = [...langCount.entries()].sort((a, b) => b[1].n - a[1].n || a[0].lo
 const fmt = (n) => (n >= 10000 ? `${(n / 1000).toFixed(0)}k` : n >= 1000 ? `${(n / 1000).toFixed(1)}k` : String(n));
 const STAMP = now.toISOString().slice(0, 10);
 
-/* ── shared chrome ─────────────────────────────────────────────── */
-
-const W = 900;
-
-const defs = (extra = "") => `
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0D1117" />
-      <stop offset="60%" stop-color="#140709" />
-      <stop offset="100%" stop-color="#22070C" />
-    </linearGradient>
-    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#F90001" />
-      <stop offset="100%" stop-color="#FFB000" />
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="b" />
-      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
-    </filter>
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M30 0H0V30" fill="none" stroke="#F90001" stroke-opacity="0.05" />
-    </pattern>
-    ${extra}
-  </defs>`;
-
-const baseStyle = `
-  text { font-family: ${MONO}; }
-  .kicker { fill:${C.coral}; font-size:15px; font-weight:700; letter-spacing:4px; }
-  .title  { fill:${C.text}; font-size:30px; font-weight:800; }
-  .live   { fill:${C.peach}; font-size:14px; font-weight:700; letter-spacing:2px; }
-  .lbl    { fill:${C.dim}; font-size:15px; font-weight:700; letter-spacing:2px; }
-  .val    { fill:${C.text}; font-weight:800; }
-  .foot   { fill:#8a5550; font-size:15px; }
-  .rise   { opacity:0; animation: rise .8s cubic-bezier(.2,.8,.2,1) forwards; }
-  @keyframes rise { from { opacity:0; transform: translateY(14px); } to { opacity:1; transform:none; } }
-  .pulse  { animation: pulse 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-  @keyframes pulse { 0%,100% { opacity:1; transform: scale(1); } 50% { opacity:.35; transform: scale(1.8); } }
-  .scan   { animation: scan 6s linear infinite; }
-  @keyframes scan { from { transform: translateX(-200px); } to { transform: translateX(${W + 200}px); } }
-`;
-
-const frame = (H, kicker, title) => `
-  <rect width="${W}" height="${H}" rx="18" fill="url(#bg)" />
-  <rect width="${W}" height="${H}" rx="18" fill="url(#grid)" />
-  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="18" fill="none" stroke="${C.red}" stroke-opacity="0.35" />
-  <rect class="scan" x="0" y="0" width="140" height="${H}" fill="url(#sweep)" opacity="0.5" />
-  <text x="40" y="50" class="kicker">${kicker}</text>
-  <text x="40" y="88" class="title">${title}</text>
-  <circle class="pulse" cx="${W - 196}" cy="45" r="5" fill="${C.red}" />
-  <text x="${W - 182}" y="50" class="live">LIVE</text>
-  <text x="${W - 40}" y="50" text-anchor="end" class="foot">${STAMP}</text>`;
-
-const sweepDef = `<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#F90001" stop-opacity="0" />
-      <stop offset="50%" stop-color="#F90001" stop-opacity="0.10" />
-      <stop offset="100%" stop-color="#F90001" stop-opacity="0" />
-    </linearGradient>`;
-
 /* ── 1. overview ───────────────────────────────────────────────── */
 {
   const H = 470;
@@ -234,7 +177,7 @@ const sweepDef = `<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
     .join("");
 
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%">
-  ${defs(sweepDef)}
+  ${defs()}
   <style>${baseStyle}
     .arc { opacity:0; animation: pop .5s ease-out forwards; }
     @keyframes pop { to { opacity:1; } }
@@ -242,7 +185,7 @@ const sweepDef = `<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
     .spin { animation: spin 24s linear infinite; transform-origin: ${cx}px ${cy}px; }
     @keyframes spin { to { transform: rotate(360deg); } }
   </style>
-  ${frame(H, "// GITHUB ACTIVITY", "Lifetime scorecard")}
+  ${frame(H, "// GITHUB ACTIVITY", "Lifetime scorecard", liveTag(STAMP))}
 
   <g class="spin">${ticks}</g>
   ${arcs}
@@ -312,7 +255,7 @@ const sweepDef = `<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
       const best = v === wdMax;
       return `<g>
         <rect class="bar" style="animation-delay:${0.8 + i * 0.08}s" x="${x.toFixed(1)}" y="${(BY + BH - h).toFixed(1)}" width="${barW}" height="${h.toFixed(1)}" rx="6" fill="${best ? "url(#hotV)" : "#5c0f16"}" ${best ? 'filter="url(#glow)"' : ""} />
-        <text x="${(x + barW / 2).toFixed(1)}" y="${(BY + BH - h - 8).toFixed(1)}" text-anchor="middle" class="axis" ${best ? `fill="${C.text}"` : ""}>${v}</text>
+        <text x="${(x + barW / 2).toFixed(1)}" y="${(BY + BH - h - 8).toFixed(1)}" text-anchor="middle" class="axis" ${best ? `style="fill:${C.text}"` : ""}>${v}</text>
         <text x="${(x + barW / 2).toFixed(1)}" y="${BY + BH + 24}" text-anchor="middle" class="axis">${names[i]}</text>
       </g>`;
     })
@@ -349,7 +292,7 @@ const sweepDef = `<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
     .join("");
 
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%">
-  ${defs(`${sweepDef}
+  ${defs(`
     <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#F90001" stop-opacity="0.55" />
       <stop offset="100%" stop-color="#F90001" stop-opacity="0" />
@@ -368,7 +311,7 @@ const sweepDef = `<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
     .bar  { transform-box: fill-box; transform-origin: bottom; transform: scaleY(0); animation: grow .9s cubic-bezier(.2,.8,.2,1) forwards; }
     @keyframes grow { to { transform: scaleY(1); } }
   </style>
-  ${frame(H, "// CONTRIBUTION PULSE", "52 weeks, week by week")}
+  ${frame(H, "// CONTRIBUTION PULSE", "52 weeks, week by week", liveTag(STAMP))}
 
   ${grid}
   ${months}
@@ -376,7 +319,7 @@ const sweepDef = `<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
     <path d="${area}" fill="url(#fill)" />
     <path d="${line}" fill="none" stroke="url(#hot)" stroke-width="3.5" stroke-linejoin="round" filter="url(#glow)" />
     <circle cx="${pk[0].toFixed(1)}" cy="${pk[1].toFixed(1)}" r="6" fill="${C.gold}" />
-    <text x="${Math.min(X1 - 60, Math.max(X0 + 60, pk[0])).toFixed(1)}" y="${(pk[1] - 16).toFixed(1)}" text-anchor="middle" class="legN" fill="${C.gold}">peak · ${peak}/wk</text>
+    <text x="${Math.min(X1 - 60, Math.max(X0 + 60, pk[0])).toFixed(1)}" y="${(pk[1] - 16).toFixed(1)}" text-anchor="middle" class="legN" style="fill:${C.gold}">peak · ${peak}/wk</text>
   </g>
   <circle class="pulse" cx="${last[0].toFixed(1)}" cy="${last[1].toFixed(1)}" r="7" fill="${C.red}" style="animation-delay:2.6s" />
   <circle cx="${last[0].toFixed(1)}" cy="${last[1].toFixed(1)}" r="4" fill="#fff" />
@@ -463,7 +406,7 @@ const sweepDef = `<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
   }).join("");
 
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%">
-  ${defs(`${sweepDef}${gradDefs}
+  ${defs(`${gradDefs}
     <clipPath id="cupclip"><path d="M -36 -58 H 36 V -30 C 36 -2 18 12 0 12 C -18 12 -36 -2 -36 -30 Z" /></clipPath>`)}
   <style>${baseStyle}
     .rank  { font-weight:900; }
@@ -477,7 +420,7 @@ const sweepDef = `<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
     .halo  { animation: halo 2.4s ease-in-out infinite; }
     @keyframes halo { 0%,100% { opacity:.12; } 50% { opacity:.32; } }
   </style>
-  ${frame(H, "// TROPHY CABINET", "Ranked from real GitHub data")}
+  ${frame(H, "// TROPHY CABINET", "Ranked from real GitHub data", liveTag(STAMP))}
   ${cells}
 </svg>
 `;

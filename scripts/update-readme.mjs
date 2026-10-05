@@ -57,7 +57,8 @@ const tidy = (s) =>
 
 // One line on a phone: the first sentence, capped at a word boundary.
 function short(s, max = 110) {
-  const first = s.split(/(?<=[.!?])\s|\s[—–-]\s|:\s/)[0];
+  // Dashes aren't boundaries: "Name — what it is" must keep the "what".
+  const first = s.split(/(?<=[.!?])\s|:\s/)[0];
   if (first.length <= max) return first.replace(/[.\s]+$/, "");
   return first.slice(0, first.lastIndexOf(" ", max)).replace(/[,;\s]+$/, "") + "…";
 }
@@ -92,12 +93,26 @@ function buildRepoIndex(repos) {
 // ---------------------------------------------------------------------
 // 2. Recent Activity — real public events, denoised, last 8
 // ---------------------------------------------------------------------
-function describeEvent(e) {
+// The public Events API stopped listing a push's commits (the payload is
+// now just before/head/ref), so the count comes from comparing the two SHAs.
+// A brand-new branch has no "before" to compare against — say no number then.
+async function pushCount(e) {
+  if (Array.isArray(e.payload.commits)) return e.payload.commits.length;
+  const { before, head } = e.payload;
+  if (!before || !head || /^0+$/.test(before)) return null;
+  try {
+    return (await rest(`repos/${e.repo.name}/compare/${before}...${head}`)).total_commits;
+  } catch {
+    return null;
+  }
+}
+
+async function describeEvent(e) {
   const repo = `[\`${e.repo.name}\`](https://github.com/${e.repo.name})`;
   switch (e.type) {
     case "PushEvent": {
-      const n = e.payload.commits?.length ?? 1;
-      return `⬆️ Pushed ${n} commit${n === 1 ? "" : "s"} to ${repo}`;
+      const n = await pushCount(e);
+      return n == null ? `⬆️ Pushed to ${repo}` : `⬆️ Pushed ${n} commit${n === 1 ? "" : "s"} to ${repo}`;
     }
     case "WatchEvent":
       return `⭐ Starred ${repo}`;
@@ -135,7 +150,7 @@ async function buildActivity() {
     if (e.type === "CreateEvent" && e.payload.ref_type !== "repository" && pushedTo.has(e.repo.name)) continue;
     // The profile repo's own bot commits are housekeeping, not work.
     if (e.type === "PushEvent" && e.repo.name === `${USERNAME}/${USERNAME}`) continue;
-    const line = describeEvent(e);
+    const line = await describeEvent(e);
     if (!line || seen.has(line)) continue;
     seen.add(line);
     kept.push(`${line} <sub>· ${e.created_at.slice(0, 10)}</sub>`);

@@ -5,7 +5,7 @@
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const MONO = `"JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace`;
+import { MONO, esc } from "./lib/gh.mjs";
 
 export const NAV = [
   ["about", "01", "About"],
@@ -37,7 +37,7 @@ NAV.forEach(([id, num, label], i) => {
   </style>
   <rect x="1" y="1" width="${(W - 2).toFixed(0)}" height="${H - 2}" rx="${(H - 2) / 2}" fill="#140A0D" stroke="url(#g)" stroke-width="1.5" />
   <circle class="dot" cx="20" cy="${H / 2}" r="4.5" fill="#F90001" />
-  <text x="34" y="${H / 2 + 5.5}"><tspan fill="#FF6B57" font-weight="700">${num}</tspan><tspan fill="#FFF5F0" font-weight="700"> ${label.replace(/&/g, "&amp;")}</tspan></text>
+  <text x="34" y="${H / 2 + 5.5}"><tspan fill="#FF6B57" font-weight="700">${num}</tspan><tspan fill="#FFF5F0" font-weight="700"> ${esc(label)}</tspan></text>
 </svg>
 `;
   writeFileSync(new URL(`../assets/nav/${id}.svg`, import.meta.url), svg, "utf8");

@@ -6,10 +6,14 @@
   "type": "module",
   "scripts": {
     "update-readme": "node scripts/update-readme.mjs",
-    "snapshot-city": "node scripts/snapshot-city.mjs"
+    "snapshot-city": "node scripts/snapshot-city.mjs",
+    "check": "node scripts/check.mjs"
   },
   "license": "MIT",
   "dependencies": {
     "playwright": "^1.62.1"
+  },
+  "devDependencies": {
+    "fast-xml-parser": "^5.11.2"
   }
 }
