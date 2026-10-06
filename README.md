@@ -289,7 +289,6 @@ gh skyline --user ParsaVictor --year 2026
 - 🔀 Merged a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-01</sub>
 - ⬆️ Pushed 8 commits to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-01</sub>
 - ⬆️ Pushed 1 commit to [`ParsaVictor/PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel) <sub>· 2026-09-27</sub>
-- ⬆️ Pushed 1 commit to [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio) <sub>· 2026-09-25</sub>
 <!-- ACTIVITY:END -->
 
 **Latest releases**
