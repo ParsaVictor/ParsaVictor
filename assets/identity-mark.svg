@@ -1,41 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
   <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#11161d" /><stop offset="100%" stop-color="#1c0a0e" />
+    </linearGradient>
     <radialGradient id="halo" cx="50%" cy="50%" r="50%">
-      <stop offset="55%" stop-color="#F90001" stop-opacity="0.55" />
+      <stop offset="60%" stop-color="#F90001" stop-opacity="0.32" />
       <stop offset="100%" stop-color="#F90001" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="disc" cx="38%" cy="32%" r="72%">
-      <stop offset="0%" stop-color="#FF7A66" />
-      <stop offset="55%" stop-color="#F90001" />
-      <stop offset="100%" stop-color="#8E0F0C" />
+      <stop offset="0%" stop-color="#FF7A66" /><stop offset="55%" stop-color="#F90001" /><stop offset="100%" stop-color="#8E0F0C" />
     </radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFB000" stop-opacity="0" />
+      <stop offset="80%" stop-color="#FFB000" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#FFE08A" stop-opacity="0.95" />
+    </linearGradient>
+    <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M16 0H0V16" fill="none" stroke="#F90001" stroke-opacity="0.07" />
+    </pattern>
+    <clipPath id="tileClip"><rect width="320" height="320" rx="28" /></clipPath>
+    <clipPath id="boxClip"><rect x="64" y="64" width="192" height="192" /></clipPath>
     <filter id="bloom" x="-70%" y="-70%" width="240%" height="240%">
       <feGaussianBlur stdDeviation="3.5" result="b" />
       <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
     </filter>
   </defs>
+  <style>
+    text { font-family: "JetBrains Mono",ui-monospace,SFMono-Regular,Consolas,monospace; font-weight: 700; }
+    .hud  { fill:#FF8A7A; font-size:11px; letter-spacing:1.5px; }
+    .dim  { fill:#7a4a46; font-size:11px; letter-spacing:1.5px; }
+    .tag  { fill:#0D1117; font-size:12px; }
+    /* detector cycle (4 s): hunt wide → lock on → hold → release */
+    .lock { transform-box: view-box; transform-origin: 160px 160px; animation: lock 4s cubic-bezier(.3,.7,.2,1) infinite; }
+    @keyframes lock {
+      0%   { transform: scale(1.32) rotate(8deg); stroke:#FFF5F0; opacity:.25; }
+      30%  { transform: scale(.97); stroke:#FFB000; opacity:1; }
+      38%,88% { transform: scale(1); stroke:#F90001; opacity:1; }
+      100% { transform: scale(1.32) rotate(8deg); stroke:#FFF5F0; opacity:.25; }
+    }
+    .label { animation: label 4s steps(1) infinite; }
+    @keyframes label { 0%,37% { opacity:0; } 38%,88% { opacity:1; } 89%,100% { opacity:0; } }
+    .sweep { animation: sweep 2s linear infinite; }
+    @keyframes sweep { from { transform: translateY(0); } to { transform: translateY(232px); } }
+    .spin  { transform-box: view-box; transform-origin: 160px 160px; animation: spin 30s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .rec   { animation: rec 1.2s steps(1) infinite; }
+    @keyframes rec { 50% { opacity:0; } }
+    .breathe { transform-box: fill-box; transform-origin: center; animation: breathe 3s ease-in-out infinite; }
+    @keyframes breathe { 0%,100% { transform: scale(.96); } 50% { transform: scale(1.03); } }
+  </style>
 
-  <!-- outer breathing halo -->
-  <circle cx="120" cy="120" r="104" fill="url(#halo)">
-    <animate attributeName="r" values="94;108;94" dur="3s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0.55;1;0.55" dur="3s" repeatCount="indefinite" />
-  </circle>
+  <g clip-path="url(#tileClip)">
+    <rect width="320" height="320" fill="url(#tile)" />
+    <rect width="320" height="320" fill="url(#grid)" />
 
-  <!-- expanding ping ring -->
-  <circle cx="120" cy="120" r="82" fill="none" stroke="#FF6B57" stroke-width="2">
-    <animate attributeName="r" values="80;112;80" dur="3s" repeatCount="indefinite" />
-    <animate attributeName="stroke-opacity" values="0.8;0;0.8" dur="3s" repeatCount="indefinite" />
-  </circle>
+    <g class="spin"><line x1="294.0" y1="160.0" x2="304.0" y2="160.0" stroke="#F90001" stroke-opacity="0.7" stroke-width="1.5" /><line x1="293.5" y1="171.7" x2="298.5" y2="172.1" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="292.0" y1="183.3" x2="296.9" y2="184.1" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="289.4" y1="194.7" x2="294.3" y2="196.0" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="285.9" y1="205.8" x2="290.6" y2="207.5" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="281.4" y1="216.6" x2="286.0" y2="218.7" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="276.0" y1="227.0" x2="284.7" y2="232.0" stroke="#F90001" stroke-opacity="0.7" stroke-width="1.5" /><line x1="269.8" y1="236.9" x2="273.9" y2="239.7" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="262.6" y1="246.1" x2="266.5" y2="249.3" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="254.8" y1="254.8" x2="258.3" y2="258.3" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="246.1" y1="262.6" x2="249.3" y2="266.5" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="236.9" y1="269.8" x2="239.7" y2="273.9" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="227.0" y1="276.0" x2="232.0" y2="284.7" stroke="#F90001" stroke-opacity="0.7" stroke-width="1.5" /><line x1="216.6" y1="281.4" x2="218.7" y2="286.0" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="205.8" y1="285.9" x2="207.5" y2="290.6" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="194.7" y1="289.4" x2="196.0" y2="294.3" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="183.3" y1="292.0" x2="184.1" y2="296.9" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="171.7" y1="293.5" x2="172.1" y2="298.5" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="160.0" y1="294.0" x2="160.0" y2="304.0" stroke="#F90001" stroke-opacity="0.7" stroke-width="1.5" /><line x1="148.3" y1="293.5" x2="147.9" y2="298.5" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="136.7" y1="292.0" x2="135.9" y2="296.9" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="125.3" y1="289.4" x2="124.0" y2="294.3" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="114.2" y1="285.9" x2="112.5" y2="290.6" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="103.4" y1="281.4" x2="101.3" y2="286.0" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="93.0" y1="276.0" x2="88.0" y2="284.7" stroke="#F90001" stroke-opacity="0.7" stroke-width="1.5" /><line x1="83.1" y1="269.8" x2="80.3" y2="273.9" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="73.9" y1="262.6" x2="70.7" y2="266.5" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="65.2" y1="254.8" x2="61.7" y2="258.3" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="57.4" y1="246.1" x2="53.5" y2="249.3" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="50.2" y1="236.9" x2="46.1" y2="239.7" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="44.0" y1="227.0" x2="35.3" y2="232.0" stroke="#F90001" stroke-opacity="0.7" stroke-width="1.5" /><line x1="38.6" y1="216.6" x2="34.0" y2="218.7" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="34.1" y1="205.8" x2="29.4" y2="207.5" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="30.6" y1="194.7" x2="25.7" y2="196.0" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="28.0" y1="183.3" x2="23.1" y2="184.1" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="26.5" y1="171.7" x2="21.5" y2="172.1" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="26.0" y1="160.0" x2="16.0" y2="160.0" stroke="#F90001" stroke-opacity="0.7" stroke-width="1.5" /><line x1="26.5" y1="148.3" x2="21.5" y2="147.9" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="28.0" y1="136.7" x2="23.1" y2="135.9" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="30.6" y1="125.3" x2="25.7" y2="124.0" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="34.1" y1="114.2" x2="29.4" y2="112.5" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="38.6" y1="103.4" x2="34.0" y2="101.3" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="44.0" y1="93.0" x2="35.3" y2="88.0" stroke="#F90001" stroke-opacity="0.7" stroke-width="1.5" /><line x1="50.2" y1="83.1" x2="46.1" y2="80.3" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="57.4" y1="73.9" x2="53.5" y2="70.7" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="65.2" y1="65.2" x2="61.7" y2="61.7" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="73.9" y1="57.4" x2="70.7" y2="53.5" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="83.1" y1="50.2" x2="80.3" y2="46.1" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="93.0" y1="44.0" x2="88.0" y2="35.3" stroke="#F90001" stroke-opacity="0.7" stroke-width="1.5" /><line x1="103.4" y1="38.6" x2="101.3" y2="34.0" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="114.2" y1="34.1" x2="112.5" y2="29.4" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="125.3" y1="30.6" x2="124.0" y2="25.7" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="136.7" y1="28.0" x2="135.9" y2="23.1" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="148.3" y1="26.5" x2="147.9" y2="21.5" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="160.0" y1="26.0" x2="160.0" y2="16.0" stroke="#F90001" stroke-opacity="0.7" stroke-width="1.5" /><line x1="171.7" y1="26.5" x2="172.1" y2="21.5" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="183.3" y1="28.0" x2="184.1" y2="23.1" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="194.7" y1="30.6" x2="196.0" y2="25.7" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="205.8" y1="34.1" x2="207.5" y2="29.4" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="216.6" y1="38.6" x2="218.7" y2="34.0" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="227.0" y1="44.0" x2="232.0" y2="35.3" stroke="#F90001" stroke-opacity="0.7" stroke-width="1.5" /><line x1="236.9" y1="50.2" x2="239.7" y2="46.1" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="246.1" y1="57.4" x2="249.3" y2="53.5" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="254.8" y1="65.2" x2="258.3" y2="61.7" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="262.6" y1="73.9" x2="266.5" y2="70.7" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="269.8" y1="83.1" x2="273.9" y2="80.3" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="276.0" y1="93.0" x2="284.7" y2="88.0" stroke="#F90001" stroke-opacity="0.7" stroke-width="1.5" /><line x1="281.4" y1="103.4" x2="286.0" y2="101.3" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="285.9" y1="114.2" x2="290.6" y2="112.5" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="289.4" y1="125.3" x2="294.3" y2="124.0" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="292.0" y1="136.7" x2="296.9" y2="135.9" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /><line x1="293.5" y1="148.3" x2="298.5" y2="147.9" stroke="#F90001" stroke-opacity="0.3" stroke-width="1.5" /></g>
+    <circle cx="160" cy="160" r="112" fill="url(#halo)" class="breathe" />
 
-  <!-- the disc the mark sits on -->
-  <g filter="url(#bloom)">
-    <circle cx="120" cy="120" r="80" fill="url(#disc)">
-      <animate attributeName="r" values="77;83;77" dur="3s" repeatCount="indefinite" />
-    </circle>
+    <g filter="url(#bloom)"><circle cx="160" cy="160" r="74" fill="url(#disc)" class="breathe" /></g>
+    <g transform="translate(160 160)"><g transform="translate(-52 -52) scale(4.3333)"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" fill="#0D1117" /></g></g>
+
+    <g clip-path="url(#boxClip)">
+      <rect class="sweep" x="64" y="24" width="192" height="40" fill="url(#scan)" />
+    </g>
+
+    <g class="lock" fill="none" stroke-width="4" stroke-linecap="square"><path d="M64 90 V64 H90" /><path d="M230 64 H256 V90" /><path d="M256 230 V256 H230" /><path d="M90 256 H64 V230" /></g>
+
+    <g class="label">
+      <rect x="62" y="40" width="134" height="20" fill="#F90001" />
+      <text x="69" y="55" class="tag">ai_engineer 0.99</text>
+    </g>
+
+    <text x="16" y="24" class="hud">CV-01 ▸ TRACK</text>
+    <g class="rec"><circle cx="268" cy="20" r="4" fill="#F90001" /></g>
+    <text x="304" y="24" text-anchor="end" class="hud">REC</text>
+    <text x="16" y="306" class="dim">ID ParsaVictor</text>
+    <text x="304" y="306" text-anchor="end" class="dim">60 FPS</text>
   </g>
-
-  <!-- Octocat glyph (simple-icons, CC0-1.0) -->
-  <g transform="translate(61.0 61.0) scale(4.9167)">
-    <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" fill="#0D1117" />
-  </g>
+  <rect x="0.75" y="0.75" width="318.5" height="318.5" rx="28" fill="none" stroke="#F90001" stroke-opacity="0.45" stroke-width="1.5" />
 </svg>

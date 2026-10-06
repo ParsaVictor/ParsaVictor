@@ -29,10 +29,13 @@ jobs:
       - name: Run checks
         run: npm run check
 
-      - name: Code card and nav chips rebuild identically
-        # Both are generated without the API, so a hand-edited SVG that drifts
+      - name: API-free graphics rebuild identically
+        # These are generated without the API, so a hand-edited SVG that drifts
         # from its generator shows up as a diff here.
         run: |
           node scripts/gen-code-card.mjs
           node scripts/gen-nav.mjs
-          git diff --exit-code -- assets/about-code.svg assets/nav
+          node scripts/gen-orbit.mjs
+          node scripts/gen-identity-mark.mjs
+          node scripts/gen-contact.mjs
+          git diff --exit-code -- assets/about-code.svg assets/nav assets/orbit.svg assets/identity-mark.svg assets/contact

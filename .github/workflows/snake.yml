@@ -35,7 +35,7 @@ jobs:
             dist/snake-green.svg?palette=github-dark&color_snake=#F90001&color_dots=#0f1d15,#0e4429,#006d32,#26a641,#39d353
 
       - name: Render the contribution grid as an isometric 3D calendar
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}

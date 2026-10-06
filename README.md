@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:F90001&height=200&section=header&text=Mohammad%20Parsa%20Karkooti&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=AI%20Engineer%20%C2%B7%20Computer%20Vision%20%C2%B7%20Deep%20Learning&descAlignY=54&descSize=18" alt="banner" width="100%" />
 
 <a href="https://github.com/ParsaVictor">
-<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/identity-mark.svg" width="160" height="160" alt="Octocat identity mark with a pulsing red halo" />
+<img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/identity-mark.svg" width="210" alt="The Octocat as an object detector sees it — a detection box locks on, labelled ai_engineer 0.99" />
 </a>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=F90001&center=true&vCenter=true&width=720&height=45&lines=AI+Engineer+%7C+Computer+Vision+%7C+Deep+Learning;I+build+systems+that+run+in+production;From+research+paper+to+deployed+code" alt="Typing SVG" width="100%" />
@@ -320,10 +320,10 @@ Passing through? Leave a note — I read every one, and it shows up on the wall 
 
 I'm open to **AI Engineering roles**, research collaboration, and interesting computer-vision problems.
 
-<a href="https://www.linkedin.com/in/parsa-karkooti" aria-label="LinkedIn"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/social-linkedin.svg" width="76" alt="LinkedIn" /></a>
-<a href="https://t.me/Parsa_Karkooti" aria-label="Telegram"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/social-telegram.svg" width="76" alt="Telegram" /></a>
-<a href="mailto:1.parsa.karkooti@gmail.com" aria-label="Email"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/social-email.svg" width="76" alt="Email" /></a>
-<a href="https://github.com/ParsaVictor" aria-label="GitHub"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/social-github.svg" width="76" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/parsa-karkooti"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/contact/linkedin.svg" width="48%" alt="LinkedIn — in/parsa-karkooti — Connect" /></a>
+<a href="https://t.me/Parsa_Karkooti"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/contact/telegram.svg" width="48%" alt="Telegram — @Parsa_Karkooti — Message" /></a>
+<a href="mailto:1.parsa.karkooti@gmail.com"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/contact/email.svg" width="48%" alt="Email — 1.parsa.karkooti@gmail.com — Write" /></a>
+<a href="https://github.com/ParsaVictor"><img src="https://raw.githubusercontent.com/ParsaVictor/ParsaVictor/main/assets/contact/github.svg" width="48%" alt="GitHub — @ParsaVictor — Follow" /></a>
 
 <br><br>
 
