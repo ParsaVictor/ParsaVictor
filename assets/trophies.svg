@@ -69,7 +69,7 @@
   
   <circle class="pulse" cx="704" cy="45" r="5" fill="#F90001" />
   <text x="718" y="50" class="live">LIVE</text>
-  <text x="860" y="50" text-anchor="end" class="foot">2026-10-06</text>
+  <text x="860" y="50" text-anchor="end" class="foot">2026-10-07</text>
   <g class="rise" style="animation-delay:0.15s">
       <rect x="10" y="120" width="205" height="200" rx="14" fill="#140A0D" stroke="#F90001" stroke-opacity="0.7" />
       <g class="float" style="animation-delay:0.00s">
