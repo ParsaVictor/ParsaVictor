@@ -66,7 +66,7 @@
   
   <circle class="pulse" cx="704" cy="45" r="5" fill="#F90001" />
   <text x="718" y="50" class="live">LIVE</text>
-  <text x="860" y="50" text-anchor="end" class="foot">2026-10-07</text>
+  <text x="860" y="50" text-anchor="end" class="foot">2026-10-08</text>
 
   <line x1="60" x2="850" y1="330" y2="330" stroke="#F90001" stroke-opacity="0.35" stroke-dasharray="" />
       <text x="48" y="335" text-anchor="end" class="axis">0</text><line x1="60" x2="850" y1="263.33333333333337" y2="263.33333333333337" stroke="#F90001" stroke-opacity="0.1" stroke-dasharray="4 6" />
