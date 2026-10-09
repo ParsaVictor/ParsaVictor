@@ -284,16 +284,16 @@ gh skyline --user ParsaVictor --year 2026
 **Recent activity**
 
 <!-- ACTIVITY:START -->
-- ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-01</sub>
-- 🔀 Opened a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-01</sub>
-- 🔀 Merged a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-01</sub>
+- 🔀 Merged a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-09</sub>
+- 🔀 Opened a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-09</sub>
+- ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-08</sub>
 - ⬆️ Pushed 8 commits to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-01</sub>
-- ⬆️ Pushed 1 commit to [`ParsaVictor/PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel) <sub>· 2026-09-27</sub>
 <!-- ACTIVITY:END -->
 
 **Latest releases**
 
 <!-- LATEST_RELEASES:START -->
+- 📦 [`code-context-engine` `v1.2.0`](https://github.com/ParsaVictor/code-context-engine/releases/tag/v1.2.0) <sub>· 2026-10-09</sub>
 - 📦 [`code-context-engine` `v1.1.0`](https://github.com/ParsaVictor/code-context-engine/releases/tag/v1.1.0) <sub>· 2026-10-01</sub>
 - 📦 [`code-context-engine` `v1.0.0`](https://github.com/ParsaVictor/code-context-engine/releases/tag/v1.0.0) — v1.0.0 — the right files, measured on repositories it never saw <sub>· 2026-09-22</sub>
 <!-- LATEST_RELEASES:END -->
