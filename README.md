@@ -186,6 +186,7 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 **🤖 AI & Computer Vision** · 11 repos
 
 - **[`code-context-engine`](https://github.com/ParsaVictor/code-context-engine)** · ⭐ 5 · <sub>Rust</sub><br><sub>MCP context engine for AI coding agents</sub>
+- **[`pcb-component-detection-yolo26`](https://github.com/ParsaVictor/pcb-component-detection-yolo26)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>PCB component detection with YOLO26 on full-resolution tiled boards — locator (mAP50 0.81) + 13-class typer…</sub>
 - **[`PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel)** · ⭐ 0 · <sub>Jupyter Notebook</sub><br><sub>Real-time PPE compliance monitoring for construction CCTV — person-grounded two-stage pipeline (COCO person +…</sub>
 - **[`FireGuuard_Fire_detection_smoke`](https://github.com/ParsaVictor/FireGuuard_Fire_detection_smoke)** · ⭐ 6 · <sub>Jupyter Notebook</sub><br><sub>Real-time fire & smoke detection for indoor CCTV — YOLO26 detector, hazard-state alerting, and instant email…</sub>
 - **[`pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection)** · ⭐ 4 · <sub>Jupyter Notebook</sub><br><sub>Open-source multilingual ALPR / car license plate recognition</sub>
@@ -193,7 +194,6 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 - **[`melkai-realestate-platform`](https://github.com/ParsaVictor/melkai-realestate-platform)** · ⭐ 4 · <sub>TypeScript</sub><br><sub>AI-powered Persian real estate platform — Next.js 16 demo (private preview)</sub>
 - **[`point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>Five peer-reviewed algorithms for 3D point cloud denoising and curve reconstruction, benchmarked on industrial…</sub>
 - **[`pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier)** · ⭐ 4 · <sub>Jupyter Notebook</sub><br><sub>Explainable classification of electronic components from images - Random Forest over 33 hand-engineered CV…</sub>
-- **[`pcb-component-detection-yolov8`](https://github.com/ParsaVictor/pcb-component-detection-yolov8)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>YOLOv8 detection of electronic components on populated PCBs - 50 classes, 675k annotations, with dataset…</sub>
 - **[`visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine)** · ⭐ 4 · <sub>Jupyter Notebook</sub><br><sub>Multimodal search over an image archive - face recognition, species detection, food recognition and…</sub>
 - **[`ai-project-template`](https://github.com/ParsaVictor/ai-project-template)** · ⭐ 4 · <sub>Python</sub><br><sub>Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded…</sub>
 
@@ -284,10 +284,12 @@ gh skyline --user ParsaVictor --year 2026
 **Recent activity**
 
 <!-- ACTIVITY:START -->
+- 🔀 Merged a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
+- 🔀 Opened a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
+- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io) <sub>· 2026-10-16</sub>
+- ⬆️ Pushed 1 commit to [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio) <sub>· 2026-10-16</sub>
 - ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-09</sub>
 - ⬆️ Pushed 6 commits to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-09</sub>
-- 🔀 Merged a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-09</sub>
-- 🔀 Opened a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-09</sub>
 <!-- ACTIVITY:END -->
 
 **Latest releases**
