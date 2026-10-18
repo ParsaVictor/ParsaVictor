@@ -284,12 +284,14 @@ gh skyline --user ParsaVictor --year 2026
 **Recent activity**
 
 <!-- ACTIVITY:START -->
+- ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
+- ⬆️ Pushed 3 commits to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
+- ⬆️ Pushed 7 commits to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
+- ⬆️ Pushed 9 commits to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
 - 🔀 Merged a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
 - 🔀 Opened a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
-- ⬆️ Pushed 1 commit to [`ParsaVictor/ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io) <sub>· 2026-10-16</sub>
 - ⬆️ Pushed 1 commit to [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio) <sub>· 2026-10-16</sub>
-- ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-09</sub>
-- ⬆️ Pushed 6 commits to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-09</sub>
+- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-detection-yolo26`](https://github.com/ParsaVictor/pcb-component-detection-yolo26) <sub>· 2026-10-16</sub>
 <!-- ACTIVITY:END -->
 
 **Latest releases**
