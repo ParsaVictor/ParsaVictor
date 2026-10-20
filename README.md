@@ -183,9 +183,11 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 <br>
 
 <!-- REPO_INDEX:START -->
-**🤖 AI & Computer Vision** · 11 repos
+**🤖 AI & Computer Vision** · 13 repos
 
 - **[`code-context-engine`](https://github.com/ParsaVictor/code-context-engine)** · ⭐ 5 · <sub>Rust</sub><br><sub>MCP context engine for AI coding agents</sub>
+- **[`pcb-bare-board-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-bare-board-defect-detection-yolo26)** · ⭐ 0 · <sub>Python</sub><br><sub>Bare PCB defect detection with YOLO26s — missing hole, mouse bite, open circuit, short, spur, spurious copper…</sub>
+- **[`pcb-solder-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-solder-defect-detection-yolo26)** · ⭐ 0 · <sub>Python</sub><br><sub>PCB solder & assembly defect detection with YOLO26m — solder bridge, insufficient/excess solder, void…</sub>
 - **[`pcb-component-detection-yolo26`](https://github.com/ParsaVictor/pcb-component-detection-yolo26)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>PCB component detection with YOLO26 on full-resolution tiled boards — locator (mAP50 0.81) + 13-class typer…</sub>
 - **[`PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel)** · ⭐ 0 · <sub>Jupyter Notebook</sub><br><sub>Real-time PPE compliance monitoring for construction CCTV — person-grounded two-stage pipeline (COCO person +…</sub>
 - **[`FireGuuard_Fire_detection_smoke`](https://github.com/ParsaVictor/FireGuuard_Fire_detection_smoke)** · ⭐ 6 · <sub>Jupyter Notebook</sub><br><sub>Real-time fire & smoke detection for indoor CCTV — YOLO26 detector, hazard-state alerting, and instant email…</sub>
