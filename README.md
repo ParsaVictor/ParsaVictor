@@ -186,10 +186,10 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 **🤖 AI & Computer Vision** · 13 repos
 
 - **[`code-context-engine`](https://github.com/ParsaVictor/code-context-engine)** · ⭐ 5 · <sub>Rust</sub><br><sub>MCP context engine for AI coding agents</sub>
-- **[`pcb-bare-board-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-bare-board-defect-detection-yolo26)** · ⭐ 0 · <sub>Python</sub><br><sub>Bare PCB defect detection with YOLO26s — missing hole, mouse bite, open circuit, short, spur, spurious copper…</sub>
-- **[`pcb-solder-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-solder-defect-detection-yolo26)** · ⭐ 0 · <sub>Python</sub><br><sub>PCB solder & assembly defect detection with YOLO26m — solder bridge, insufficient/excess solder, void…</sub>
+- **[`pcb-bare-board-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-bare-board-defect-detection-yolo26)** · ⭐ 1 · <sub>Python</sub><br><sub>Bare PCB defect detection with YOLO26s — missing hole, mouse bite, open circuit, short, spur, spurious copper…</sub>
+- **[`pcb-solder-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-solder-defect-detection-yolo26)** · ⭐ 1 · <sub>Python</sub><br><sub>PCB solder & assembly defect detection with YOLO26m — solder bridge, insufficient/excess solder, void…</sub>
 - **[`pcb-component-detection-yolo26`](https://github.com/ParsaVictor/pcb-component-detection-yolo26)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>PCB component detection with YOLO26 on full-resolution tiled boards — locator (mAP50 0.81) + 13-class typer…</sub>
-- **[`PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel)** · ⭐ 0 · <sub>Jupyter Notebook</sub><br><sub>Real-time PPE compliance monitoring for construction CCTV — person-grounded two-stage pipeline (COCO person +…</sub>
+- **[`PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel)** · ⭐ 1 · <sub>Jupyter Notebook</sub><br><sub>Real-time PPE compliance monitoring for construction CCTV — person-grounded two-stage pipeline (COCO person +…</sub>
 - **[`FireGuuard_Fire_detection_smoke`](https://github.com/ParsaVictor/FireGuuard_Fire_detection_smoke)** · ⭐ 6 · <sub>Jupyter Notebook</sub><br><sub>Real-time fire & smoke detection for indoor CCTV — YOLO26 detector, hazard-state alerting, and instant email…</sub>
 - **[`pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection)** · ⭐ 4 · <sub>Jupyter Notebook</sub><br><sub>Open-source multilingual ALPR / car license plate recognition</sub>
 - **[`thief-face-detection`](https://github.com/ParsaVictor/thief-face-detection)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>Tells a robber in a balaclava from a customer in a surgical mask — real-time concealed-face detection for…</sub>
@@ -201,7 +201,7 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 
 **🌐 Web & Full-Stack** · 3 repos
 
-- **[`ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io)** · ⭐ 3 · <sub>HTML</sub><br><sub>Mohammad Parsa Karkooti — AI Engineer portfolio (GitHub Pages mirror)</sub>
+- **[`ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io)** · ⭐ 4 · <sub>HTML</sub><br><sub>Mohammad Parsa Karkooti — AI Engineer portfolio (GitHub Pages mirror)</sub>
 - **[`portfolio`](https://github.com/ParsaVictor/portfolio)** · ⭐ 4 · <sub>TypeScript</sub><br><sub>Motion-led personal portfolio — a WebGL particle instrument that morphs through the work as you scroll</sub>
 - **[`b2b-marketplace`](https://github.com/ParsaVictor/b2b-marketplace)** · ⭐ 5 · <sub>TypeScript</sub><br><sub>B2B International Marketplace</sub>
 

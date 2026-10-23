@@ -69,7 +69,7 @@
   
   <circle class="pulse" cx="704" cy="45" r="5" fill="#F90001" />
   <text x="718" y="50" class="live">LIVE</text>
-  <text x="860" y="50" text-anchor="end" class="foot">2026-10-22</text>
+  <text x="860" y="50" text-anchor="end" class="foot">2026-10-23</text>
   <g class="rise" style="animation-delay:0.15s">
       <rect x="10" y="120" width="205" height="200" rx="14" fill="#140A0D" stroke="#F90001" stroke-opacity="0.7" />
       <g class="float" style="animation-delay:0.00s">
@@ -143,9 +143,9 @@
         </g>
       </g>
       <text x="787.5" y="272" text-anchor="middle" class="tname">Forks Earned</text>
-      <text x="787.5" y="294" text-anchor="middle" class="tval">25 <tspan class="tnext">→ 50</tspan></text>
+      <text x="787.5" y="294" text-anchor="middle" class="tval">30 <tspan class="tnext">→ 50</tspan></text>
       <rect x="717.5" y="304" width="140" height="4" rx="2" fill="#3A1218" />
-      <rect x="717.5" y="304" width="23.3" height="4" rx="2" fill="url(#hot)" />
+      <rect x="717.5" y="304" width="46.7" height="4" rx="2" fill="url(#hot)" />
     </g><g class="rise" style="animation-delay:0.63s">
       <rect x="10" y="335" width="205" height="200" rx="14" fill="#140A0D" stroke="#3A1218" stroke-opacity="1" />
       <g class="float" style="animation-delay:1.48s">
@@ -162,9 +162,9 @@
         </g>
       </g>
       <text x="112.5" y="487" text-anchor="middle" class="tname">Stars</text>
-      <text x="112.5" y="509" text-anchor="middle" class="tval">65 <tspan class="tnext">→ 100</tspan></text>
+      <text x="112.5" y="509" text-anchor="middle" class="tval">69 <tspan class="tnext">→ 100</tspan></text>
       <rect x="42.5" y="519" width="140" height="4" rx="2" fill="#3A1218" />
-      <rect x="42.5" y="519" width="42.0" height="4" rx="2" fill="url(#hot)" />
+      <rect x="42.5" y="519" width="53.2" height="4" rx="2" fill="url(#hot)" />
     </g><g class="rise" style="animation-delay:0.75s">
       <rect x="235" y="335" width="205" height="200" rx="14" fill="#140A0D" stroke="#3A1218" stroke-opacity="1" />
       <g class="float" style="animation-delay:1.85s">
