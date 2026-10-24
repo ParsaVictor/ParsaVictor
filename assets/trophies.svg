@@ -69,7 +69,7 @@
   
   <circle class="pulse" cx="704" cy="45" r="5" fill="#F90001" />
   <text x="718" y="50" class="live">LIVE</text>
-  <text x="860" y="50" text-anchor="end" class="foot">2026-10-23</text>
+  <text x="860" y="50" text-anchor="end" class="foot">2026-10-24</text>
   <g class="rise" style="animation-delay:0.15s">
       <rect x="10" y="120" width="205" height="200" rx="14" fill="#140A0D" stroke="#F90001" stroke-opacity="0.7" />
       <g class="float" style="animation-delay:0.00s">
@@ -176,14 +176,14 @@
           <rect x="-6" y="11" width="12" height="18" fill="url(#m5)" />
           <rect x="-26" y="28" width="52" height="10" rx="3" fill="url(#m5)" />
           <rect x="-34" y="38" width="68" height="12" rx="3" fill="#1d1012" stroke="#9A6400" />
-          <text y="-22" text-anchor="middle" class="rank" font-size="26" fill="#1A0A0C">A</text>
+          <text y="-22" text-anchor="middle" class="rank" font-size="26" fill="#1A0A0C">AA</text>
           <g clip-path="url(#cupclip)"><rect class="shine" style="animation-delay:2.75s" x="-90" y="-70" width="22" height="100" fill="#fff" opacity="0.55" transform="skewX(-20)" /></g>
         </g>
       </g>
       <text x="337.5" y="487" text-anchor="middle" class="tname">Followers</text>
-      <text x="337.5" y="509" text-anchor="middle" class="tval">18 <tspan class="tnext">→ 20</tspan></text>
+      <text x="337.5" y="509" text-anchor="middle" class="tval">22 <tspan class="tnext">→ 50</tspan></text>
       <rect x="267.5" y="519" width="140" height="4" rx="2" fill="#3A1218" />
-      <rect x="267.5" y="519" width="112.0" height="4" rx="2" fill="url(#hot)" />
+      <rect x="267.5" y="519" width="9.3" height="4" rx="2" fill="url(#hot)" />
     </g><g class="rise" style="animation-delay:0.87s">
       <rect x="460" y="335" width="205" height="200" rx="14" fill="#140A0D" stroke="#3A1218" stroke-opacity="1" />
       <g class="float" style="animation-delay:2.22s">
