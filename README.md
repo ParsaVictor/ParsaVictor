@@ -185,12 +185,12 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 <!-- REPO_INDEX:START -->
 **🤖 AI & Computer Vision** · 14 repos
 
+- **[`tomato-ripeness-detection`](https://github.com/ParsaVictor/tomato-ripeness-detection)** · ⭐ 0 · <sub>Jupyter Notebook</sub><br><sub>Tomato detection, ripeness grading (unripe/half-ripe/ripe/rotten) and conveyor-belt counting with YOLO26 +…</sub>
 - **[`pcb-solder-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-solder-defect-detection-yolo26)** · ⭐ 1 · <sub>Python</sub><br><sub>PCB solder & assembly defect detection with YOLO26m — solder bridge, insufficient/excess solder, void…</sub>
 - **[`pcb-bare-board-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-bare-board-defect-detection-yolo26)** · ⭐ 1 · <sub>Python</sub><br><sub>Bare PCB defect detection with YOLO26s — missing hole, mouse bite, open circuit, short, spur, spurious copper…</sub>
 - **[`pcb-component-detection-yolo26`](https://github.com/ParsaVictor/pcb-component-detection-yolo26)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>PCB component detection with YOLO26 on full-resolution tiled boards — locator (mAP50 0.81) + 13-class typer…</sub>
-- **[`tomato-ripeness-detection`](https://github.com/ParsaVictor/tomato-ripeness-detection)** · ⭐ 0 · <sub>Jupyter Notebook</sub><br><sub>Tomato detection, ripeness grading (unripe/half-ripe/ripe/rotten) and conveyor-belt counting with YOLO26 +…</sub>
 - **[`code-context-engine`](https://github.com/ParsaVictor/code-context-engine)** · ⭐ 5 · <sub>Rust</sub><br><sub>MCP context engine for AI coding agents</sub>
-- **[`PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel)** · ⭐ 1 · <sub>Jupyter Notebook</sub><br><sub>Real-time PPE compliance monitoring for construction CCTV — person-grounded two-stage pipeline (COCO person +…</sub>
+- **[`PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel)** · ⭐ 2 · <sub>Jupyter Notebook</sub><br><sub>Real-time PPE compliance monitoring for construction CCTV — person-grounded two-stage pipeline (COCO person +…</sub>
 - **[`FireGuuard_Fire_detection_smoke`](https://github.com/ParsaVictor/FireGuuard_Fire_detection_smoke)** · ⭐ 6 · <sub>Jupyter Notebook</sub><br><sub>Real-time fire & smoke detection for indoor CCTV — YOLO26 detector, hazard-state alerting, and instant email…</sub>
 - **[`pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection)** · ⭐ 4 · <sub>Jupyter Notebook</sub><br><sub>Open-source multilingual ALPR / car license plate recognition</sub>
 - **[`thief-face-detection`](https://github.com/ParsaVictor/thief-face-detection)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>Tells a robber in a balaclava from a customer in a surgical mask — real-time concealed-face detection for…</sub>
@@ -287,19 +287,20 @@ gh skyline --user ParsaVictor --year 2026
 **Recent activity**
 
 <!-- ACTIVITY:START -->
-- ⬆️ Pushed 1 commit to [`ParsaVictor/tomato-ripeness-detection`](https://github.com/ParsaVictor/tomato-ripeness-detection) <sub>· 2026-10-26</sub>
+- ⬆️ Pushed 1 commit to [`ParsaVictor/tomato-ripeness-detection`](https://github.com/ParsaVictor/tomato-ripeness-detection) <sub>· 2026-10-27</sub>
+- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-bare-board-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-bare-board-defect-detection-yolo26) <sub>· 2026-10-27</sub>
+- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-detection-yolo26`](https://github.com/ParsaVictor/pcb-component-detection-yolo26) <sub>· 2026-10-27</sub>
+- 📦 Released [`v1.0.0`](https://github.com/ParsaVictor/tomato-ripeness-detection/releases/tag/v1.0.0) of [`ParsaVictor/tomato-ripeness-detection`](https://github.com/ParsaVictor/tomato-ripeness-detection) <sub>· 2026-10-27</sub>
 - ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
 - ⬆️ Pushed 3 commits to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
 - ⬆️ Pushed 7 commits to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
 - ⬆️ Pushed 9 commits to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
-- 🔀 Merged a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
-- 🔀 Opened a PR in [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
-- ⬆️ Pushed 1 commit to [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio) <sub>· 2026-10-16</sub>
 <!-- ACTIVITY:END -->
 
 **Latest releases**
 
 <!-- LATEST_RELEASES:START -->
+- 📦 [`tomato-ripeness-detection` `v1.0.0`](https://github.com/ParsaVictor/tomato-ripeness-detection/releases/tag/v1.0.0) — v1.0.0 — Tomato detection, ripeness & counting <sub>· 2026-10-27</sub>
 - 📦 [`code-context-engine` `v1.2.0`](https://github.com/ParsaVictor/code-context-engine/releases/tag/v1.2.0) <sub>· 2026-10-09</sub>
 - 📦 [`code-context-engine` `v1.3.0`](https://github.com/ParsaVictor/code-context-engine/releases/tag/v1.3.0) <sub>· 2026-10-09</sub>
 - 📦 [`code-context-engine` `v1.4.0`](https://github.com/ParsaVictor/code-context-engine/releases/tag/v1.4.0) <sub>· 2026-10-09</sub>
