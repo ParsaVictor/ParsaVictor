@@ -287,6 +287,7 @@ gh skyline --user ParsaVictor --year 2026
 **Recent activity**
 
 <!-- ACTIVITY:START -->
+- ⬆️ Pushed 2 commits to [`ParsaVictor/pcb-component-detection-yolo26`](https://github.com/ParsaVictor/pcb-component-detection-yolo26) <sub>· 2026-10-28</sub>
 - ⬆️ Pushed 1 commit to [`ParsaVictor/tomato-ripeness-detection`](https://github.com/ParsaVictor/tomato-ripeness-detection) <sub>· 2026-10-27</sub>
 - ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-solder-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-solder-defect-detection-yolo26) <sub>· 2026-10-27</sub>
 - ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-bare-board-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-bare-board-defect-detection-yolo26) <sub>· 2026-10-27</sub>
@@ -294,7 +295,6 @@ gh skyline --user ParsaVictor --year 2026
 - 📦 Released [`v1.0.0`](https://github.com/ParsaVictor/tomato-ripeness-detection/releases/tag/v1.0.0) of [`ParsaVictor/tomato-ripeness-detection`](https://github.com/ParsaVictor/tomato-ripeness-detection) <sub>· 2026-10-27</sub>
 - ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
 - ⬆️ Pushed 3 commits to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
-- ⬆️ Pushed 7 commits to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
 <!-- ACTIVITY:END -->
 
 **Latest releases**
