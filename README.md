@@ -185,7 +185,7 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 <!-- REPO_INDEX:START -->
 **🤖 AI & Computer Vision** · 14 repos
 
-- **[`pcb-component-detection-yolo26`](https://github.com/ParsaVictor/pcb-component-detection-yolo26)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>PCB component detection with YOLO26 on full-resolution tiled boards — locator (mAP50 0.81) + 13-class typer…</sub>
+- **[`pcb-component-detection-yolo26`](https://github.com/ParsaVictor/pcb-component-detection-yolo26)** · ⭐ 6 · <sub>Jupyter Notebook</sub><br><sub>PCB component detection with YOLO26 on full-resolution tiled boards — locator (mAP50 0.81) + 13-class typer…</sub>
 - **[`tomato-ripeness-detection`](https://github.com/ParsaVictor/tomato-ripeness-detection)** · ⭐ 0 · <sub>Jupyter Notebook</sub><br><sub>Tomato detection, ripeness grading (unripe/half-ripe/ripe/rotten) and conveyor-belt counting with YOLO26 +…</sub>
 - **[`pcb-solder-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-solder-defect-detection-yolo26)** · ⭐ 1 · <sub>Python</sub><br><sub>PCB solder & assembly defect detection with YOLO26m — solder bridge, insufficient/excess solder, void…</sub>
 - **[`pcb-bare-board-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-bare-board-defect-detection-yolo26)** · ⭐ 1 · <sub>Python</sub><br><sub>Bare PCB defect detection with YOLO26s — missing hole, mouse bite, open circuit, short, spur, spurious copper…</sub>
