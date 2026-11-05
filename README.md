@@ -183,8 +183,10 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 <br>
 
 <!-- REPO_INDEX:START -->
-**🤖 AI & Computer Vision** · 14 repos
+**🤖 AI & Computer Vision** · 15 repos
 
+- **[`mardani`](https://github.com/ParsaVictor/mardani)** · ⭐ 0 · <sub>Python</sub><br><sub>Self-learning outreach and opportunity desk</sub>
+- **[`visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine)** · ⭐ 4 · <sub>Python</sub><br><sub>Search photos and videos by what is in them</sub>
 - **[`pcb-component-detection-yolo26`](https://github.com/ParsaVictor/pcb-component-detection-yolo26)** · ⭐ 6 · <sub>Jupyter Notebook</sub><br><sub>PCB component detection with YOLO26 on full-resolution tiled boards — locator (mAP50 0.81) + 13-class typer…</sub>
 - **[`tomato-ripeness-detection`](https://github.com/ParsaVictor/tomato-ripeness-detection)** · ⭐ 0 · <sub>Jupyter Notebook</sub><br><sub>Tomato detection, ripeness grading (unripe/half-ripe/ripe/rotten) and conveyor-belt counting with YOLO26 +…</sub>
 - **[`pcb-solder-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-solder-defect-detection-yolo26)** · ⭐ 1 · <sub>Python</sub><br><sub>PCB solder & assembly defect detection with YOLO26m — solder bridge, insufficient/excess solder, void…</sub>
@@ -197,7 +199,6 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 - **[`melkai-realestate-platform`](https://github.com/ParsaVictor/melkai-realestate-platform)** · ⭐ 4 · <sub>TypeScript</sub><br><sub>AI-powered Persian real estate platform — Next.js 16 demo (private preview)</sub>
 - **[`point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>Five peer-reviewed algorithms for 3D point cloud denoising and curve reconstruction, benchmarked on industrial…</sub>
 - **[`pcb-component-classifier`](https://github.com/ParsaVictor/pcb-component-classifier)** · ⭐ 4 · <sub>Jupyter Notebook</sub><br><sub>Explainable classification of electronic components from images - Random Forest over 33 hand-engineered CV…</sub>
-- **[`visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine)** · ⭐ 4 · <sub>Jupyter Notebook</sub><br><sub>Multimodal search over an image archive - face recognition, species detection, food recognition and…</sub>
 - **[`ai-project-template`](https://github.com/ParsaVictor/ai-project-template)** · ⭐ 4 · <sub>Python</sub><br><sub>Clean, reproducible project template for Computer Vision & Machine Learning - config-driven training, seeded…</sub>
 
 **🌐 Web & Full-Stack** · 3 repos
@@ -287,25 +288,25 @@ gh skyline --user ParsaVictor --year 2026
 **Recent activity**
 
 <!-- ACTIVITY:START -->
-- ⬆️ Pushed 2 commits to [`ParsaVictor/pcb-component-detection-yolo26`](https://github.com/ParsaVictor/pcb-component-detection-yolo26) <sub>· 2026-10-28</sub>
-- ⬆️ Pushed 1 commit to [`ParsaVictor/tomato-ripeness-detection`](https://github.com/ParsaVictor/tomato-ripeness-detection) <sub>· 2026-10-27</sub>
-- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-solder-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-solder-defect-detection-yolo26) <sub>· 2026-10-27</sub>
-- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-bare-board-defect-detection-yolo26`](https://github.com/ParsaVictor/pcb-bare-board-defect-detection-yolo26) <sub>· 2026-10-27</sub>
-- ⬆️ Pushed 1 commit to [`ParsaVictor/pcb-component-detection-yolo26`](https://github.com/ParsaVictor/pcb-component-detection-yolo26) <sub>· 2026-10-27</sub>
-- 📦 Released [`v1.0.0`](https://github.com/ParsaVictor/tomato-ripeness-detection/releases/tag/v1.0.0) of [`ParsaVictor/tomato-ripeness-detection`](https://github.com/ParsaVictor/tomato-ripeness-detection) <sub>· 2026-10-27</sub>
-- ⬆️ Pushed 1 commit to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
-- ⬆️ Pushed 3 commits to [`ParsaVictor/code-context-engine`](https://github.com/ParsaVictor/code-context-engine) <sub>· 2026-10-17</sub>
+- ⬆️ Pushed 1 commit to [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-05</sub>
+- 📦 Released [`v0.1.0`](https://github.com/ParsaVictor/mardani/releases/tag/v0.1.0) of [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-05</sub>
+- 🔀 Merged a PR in [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-05</sub>
+- 🔀 Opened a PR in [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-05</sub>
+- 📦 Released [`v0.1.0`](https://github.com/ParsaVictor/visual-intelligence-engine/releases/tag/v0.1.0) of [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-05</sub>
+- 📋 Closed an issue in [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-05</sub>
+- 📦 Released [`v0.4.0`](https://github.com/ParsaVictor/visual-intelligence-engine/releases/tag/v0.4.0) of [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-05</sub>
+- 📦 Released [`v0.3.0`](https://github.com/ParsaVictor/visual-intelligence-engine/releases/tag/v0.3.0) of [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-05</sub>
 <!-- ACTIVITY:END -->
 
 **Latest releases**
 
 <!-- LATEST_RELEASES:START -->
-- 📦 [`tomato-ripeness-detection` `v1.0.0`](https://github.com/ParsaVictor/tomato-ripeness-detection/releases/tag/v1.0.0) — v1.0.0 — Tomato detection, ripeness & counting <sub>· 2026-10-27</sub>
-- 📦 [`code-context-engine` `v1.2.0`](https://github.com/ParsaVictor/code-context-engine/releases/tag/v1.2.0) <sub>· 2026-10-09</sub>
-- 📦 [`code-context-engine` `v1.3.0`](https://github.com/ParsaVictor/code-context-engine/releases/tag/v1.3.0) <sub>· 2026-10-09</sub>
-- 📦 [`code-context-engine` `v1.4.0`](https://github.com/ParsaVictor/code-context-engine/releases/tag/v1.4.0) <sub>· 2026-10-09</sub>
-- 📦 [`code-context-engine` `v1.1.0`](https://github.com/ParsaVictor/code-context-engine/releases/tag/v1.1.0) <sub>· 2026-10-01</sub>
-- 📦 [`code-context-engine` `v1.0.0`](https://github.com/ParsaVictor/code-context-engine/releases/tag/v1.0.0) — v1.0.0 — the right files, measured on repositories it never saw <sub>· 2026-09-22</sub>
+- 📦 [`visual-intelligence-engine` `v0.0.1`](https://github.com/ParsaVictor/visual-intelligence-engine/releases/tag/v0.0.1) — v0.0.1: original artefacts <sub>· 2026-11-05</sub>
+- 📦 [`visual-intelligence-engine` `v0.1.0`](https://github.com/ParsaVictor/visual-intelligence-engine/releases/tag/v0.1.0) — v0.1.0: first complete package <sub>· 2026-11-05</sub>
+- 📦 [`visual-intelligence-engine` `v0.2.0`](https://github.com/ParsaVictor/visual-intelligence-engine/releases/tag/v0.2.0) — v0.2.0: SigLIP <sub>· 2026-11-05</sub>
+- 📦 [`visual-intelligence-engine` `v0.3.0`](https://github.com/ParsaVictor/visual-intelligence-engine/releases/tag/v0.3.0) — v0.3.0: everything connected and measured <sub>· 2026-11-05</sub>
+- 📦 [`visual-intelligence-engine` `v0.4.0`](https://github.com/ParsaVictor/visual-intelligence-engine/releases/tag/v0.4.0) — v0.4.0: video understanding <sub>· 2026-11-05</sub>
+- 📦 [`mardani` `v0.1.0`](https://github.com/ParsaVictor/mardani/releases/tag/v0.1.0) — ReachDesk v0.1.0 <sub>· 2026-11-05</sub>
 <!-- LATEST_RELEASES:END -->
 
 </details>
