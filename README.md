@@ -194,7 +194,7 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 - **[`code-context-engine`](https://github.com/ParsaVictor/code-context-engine)** · ⭐ 5 · <sub>Rust</sub><br><sub>MCP context engine for AI coding agents</sub>
 - **[`PPE_detection-Sentinel`](https://github.com/ParsaVictor/PPE_detection-Sentinel)** · ⭐ 2 · <sub>Jupyter Notebook</sub><br><sub>Real-time PPE compliance monitoring for construction CCTV — person-grounded two-stage pipeline (COCO person +…</sub>
 - **[`FireGuuard_Fire_detection_smoke`](https://github.com/ParsaVictor/FireGuuard_Fire_detection_smoke)** · ⭐ 7 · <sub>Jupyter Notebook</sub><br><sub>Real-time fire & smoke detection for indoor CCTV — YOLO26 detector, hazard-state alerting, and instant email…</sub>
-- **[`pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection)** · ⭐ 4 · <sub>Jupyter Notebook</sub><br><sub>Open-source multilingual ALPR / car license plate recognition</sub>
+- **[`pelakx-license-plate-detection`](https://github.com/ParsaVictor/pelakx-license-plate-detection)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>Open-source multilingual ALPR / car license plate recognition</sub>
 - **[`thief-face-detection`](https://github.com/ParsaVictor/thief-face-detection)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>Tells a robber in a balaclava from a customer in a surgical mask — real-time concealed-face detection for…</sub>
 - **[`melkai-realestate-platform`](https://github.com/ParsaVictor/melkai-realestate-platform)** · ⭐ 4 · <sub>TypeScript</sub><br><sub>AI-powered Persian real estate platform — Next.js 16 demo (private preview)</sub>
 - **[`point-cloud-curve-reconstruction`](https://github.com/ParsaVictor/point-cloud-curve-reconstruction)** · ⭐ 5 · <sub>Jupyter Notebook</sub><br><sub>Five peer-reviewed algorithms for 3D point cloud denoising and curve reconstruction, benchmarked on industrial…</sub>
@@ -288,14 +288,14 @@ gh skyline --user ParsaVictor --year 2026
 **Recent activity**
 
 <!-- ACTIVITY:START -->
+- ⬆️ Pushed to [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-05</sub>
+- ⬆️ Pushed 1 commit to [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-05</sub>
+- ⬆️ Pushed 2 commits to [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-05</sub>
 - ⬆️ Pushed 1 commit to [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-05</sub>
 - 📦 Released [`v0.1.0`](https://github.com/ParsaVictor/mardani/releases/tag/v0.1.0) of [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-05</sub>
 - 🔀 Merged a PR in [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-05</sub>
 - 🔀 Opened a PR in [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-05</sub>
 - 📦 Released [`v0.1.0`](https://github.com/ParsaVictor/visual-intelligence-engine/releases/tag/v0.1.0) of [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-05</sub>
-- 📋 Closed an issue in [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-05</sub>
-- 📦 Released [`v0.4.0`](https://github.com/ParsaVictor/visual-intelligence-engine/releases/tag/v0.4.0) of [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-05</sub>
-- 📦 Released [`v0.3.0`](https://github.com/ParsaVictor/visual-intelligence-engine/releases/tag/v0.3.0) of [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-05</sub>
 <!-- ACTIVITY:END -->
 
 **Latest releases**
