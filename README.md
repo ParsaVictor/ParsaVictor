@@ -288,6 +288,7 @@ gh skyline --user ParsaVictor --year 2026
 **Recent activity**
 
 <!-- ACTIVITY:START -->
+- ⬆️ Pushed 4 commits to [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-11</sub>
 - 🔀 Merged a PR in [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-11</sub>
 - 🔀 Opened a PR in [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-10</sub>
 - ⬆️ Pushed 1 commit to [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-06</sub>
@@ -295,7 +296,6 @@ gh skyline --user ParsaVictor --year 2026
 - ⬆️ Pushed 4 commits to [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-06</sub>
 - 🔀 Opened a PR in [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-06</sub>
 - ⬆️ Pushed to [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-05</sub>
-- ⬆️ Pushed 1 commit to [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-05</sub>
 <!-- ACTIVITY:END -->
 
 **Latest releases**
