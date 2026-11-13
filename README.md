@@ -203,8 +203,8 @@ Benchmark of **5 peer-reviewed algorithms** for denoising and curve reconstructi
 
 **🌐 Web & Full-Stack** · 3 repos
 
-- **[`ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io)** · ⭐ 4 · <sub>HTML</sub><br><sub>Mohammad Parsa Karkooti — AI Engineer portfolio (GitHub Pages mirror)</sub>
 - **[`portfolio`](https://github.com/ParsaVictor/portfolio)** · ⭐ 4 · <sub>TypeScript</sub><br><sub>Motion-led personal portfolio — a WebGL particle instrument that morphs through the work as you scroll</sub>
+- **[`ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io)** · ⭐ 4 · <sub>HTML</sub><br><sub>Mohammad Parsa Karkooti — AI Engineer portfolio (GitHub Pages mirror)</sub>
 - **[`b2b-marketplace`](https://github.com/ParsaVictor/b2b-marketplace)** · ⭐ 5 · <sub>TypeScript</sub><br><sub>B2B International Marketplace</sub>
 
 <!-- REPO_INDEX:END -->
@@ -288,14 +288,14 @@ gh skyline --user ParsaVictor --year 2026
 **Recent activity**
 
 <!-- ACTIVITY:START -->
+- ⬆️ Pushed 2 commits to [`ParsaVictor/ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io) <sub>· 2026-11-12</sub>
+- 🔀 Merged a PR in [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio) <sub>· 2026-11-12</sub>
+- 🔀 Merged a PR in [`ParsaVictor/ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io) <sub>· 2026-11-12</sub>
+- 🔀 Opened a PR in [`ParsaVictor/ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io) <sub>· 2026-11-12</sub>
+- 🔀 Opened a PR in [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio) <sub>· 2026-11-12</sub>
+- ⬆️ Pushed 1 commit to [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-11</sub>
 - ⬆️ Pushed 4 commits to [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-11</sub>
 - 🔀 Merged a PR in [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-11</sub>
-- 🔀 Opened a PR in [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-10</sub>
-- ⬆️ Pushed 1 commit to [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-06</sub>
-- ⬆️ Pushed 2 commits to [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-07</sub>
-- ⬆️ Pushed 4 commits to [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-06</sub>
-- 🔀 Opened a PR in [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-06</sub>
-- ⬆️ Pushed to [`ParsaVictor/visual-intelligence-engine`](https://github.com/ParsaVictor/visual-intelligence-engine) <sub>· 2026-11-05</sub>
 <!-- ACTIVITY:END -->
 
 **Latest releases**
