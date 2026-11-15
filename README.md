@@ -288,6 +288,7 @@ gh skyline --user ParsaVictor --year 2026
 **Recent activity**
 
 <!-- ACTIVITY:START -->
+- ⬆️ Pushed 2 commits to [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio) <sub>· 2026-11-12</sub>
 - ⬆️ Pushed 2 commits to [`ParsaVictor/ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io) <sub>· 2026-11-12</sub>
 - 🔀 Merged a PR in [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio) <sub>· 2026-11-12</sub>
 - 🔀 Merged a PR in [`ParsaVictor/ParsaVictor.github.io`](https://github.com/ParsaVictor/ParsaVictor.github.io) <sub>· 2026-11-12</sub>
@@ -295,7 +296,6 @@ gh skyline --user ParsaVictor --year 2026
 - 🔀 Opened a PR in [`ParsaVictor/portfolio`](https://github.com/ParsaVictor/portfolio) <sub>· 2026-11-12</sub>
 - ⬆️ Pushed 1 commit to [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-11</sub>
 - ⬆️ Pushed 4 commits to [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-11</sub>
-- 🔀 Merged a PR in [`ParsaVictor/mardani`](https://github.com/ParsaVictor/mardani) <sub>· 2026-11-11</sub>
 <!-- ACTIVITY:END -->
 
 **Latest releases**
